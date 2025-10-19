@@ -5,6 +5,235 @@
 	(uuid "ce36a1c2-88cc-4cba-88a9-6235c3ec0ad6")
 	(paper "A0")
 	(lib_symbols
+		(symbol "DTS-3:DTS-3"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "S"
+				(at -6.3526 -1.9058 90)
+				(effects
+					(font
+						(size 1.7787 1.5118)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at -3.811 3.1758 90)
+				(effects
+					(font
+						(size 1.7784 1.5116)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "DTS-3:DTS-3"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "https://pricing.snapeda.com/parts/DTS-3/APEM%20Inc./view-part?ref=eda Check availability"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "DTS-3_1_0"
+				(polyline
+					(pts
+						(xy -4.445 1.905) (xy -4.445 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.445 1.905) (xy -3.175 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.445 0) (xy -4.445 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.445 0) (xy -3.175 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.445 -1.905) (xy -3.175 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -1.905 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -0.635 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 0) (xy -1.27 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 3.175)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy -0.635 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -3.175) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "LQM2MPN3R3NG0L:LQM2MPN3R3NG0L"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2014,12 +2243,13 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "Schottky Diodes & Rectifiers 20V Vr 5A IR Schottky Br Diode"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 					(hide yes)
 				)
 			)
@@ -2054,16 +2284,6 @@
 				)
 			)
 			(property "MOUSER_PRICE-STOCK" "https://www.mouser.co.uk/ProductDetail/ROHM-Semiconductor/RSX501LAM20TR/?qs=gt1LBUVyoHmI1j7Jcf5%252B1g%3D%3D"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "DESCRIPTION" "Schottky Diodes & Rectifiers 20V Vr 5A IR Schottky Br Diode"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3191,6 +3411,259 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "W25Q32JVSSIQ:W25Q32JVSSIQ"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -12.4723 10.945 0)
+				(effects
+					(font
+						(size 1.2726 1.0817)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at -12.4744 -12.2198 0)
+				(effects
+					(font
+						(size 1.2729 1.0819)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "W25Q32JVSSIQ:SOIC127P790X216-8N"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "NOR Flash Serial-SPI 3V/3.3V 32M-bit 4M x 8 8.5ns 8-Pin SOIC https://pricing.snapeda.com/parts/W25Q32JVSSIQ/Winbond/view-part?ref=eda Check availability"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "W25Q32JVSSIQ_1_0"
+				(polyline
+					(pts
+						(xy -12.7 10.16) (xy -12.7 -10.16)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -12.7 -10.16) (xy 12.7 -10.16)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 10.16) (xy -12.7 10.16)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 -10.16) (xy 12.7 10.16)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -17.78 7.62 0)
+					(length 5.08)
+					(name "~{CS}"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin input clock
+					(at -17.78 5.08 0)
+					(length 5.08)
+					(name "CLK"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 0 0)
+					(length 5.08)
+					(name "~{HOLD}/~{RESET}(IO3)"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 -2.54 0)
+					(length 5.08)
+					(name "DI(IO0)"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 -5.08 0)
+					(length 5.08)
+					(name "DO(IO1)"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 -7.62 0)
+					(length 5.08)
+					(name "~{WP}(IO2)"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 17.78 7.62 180)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 17.78 -7.62 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "XT60-M:XT60-M"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3995,6 +4468,163 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "microbuilder:RESISTOR0603"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at -2.54 2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at -2.54 -3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "microbuilder:0603"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistors\n\n0402 - 0402 Surface Mount Package\n\n• 22 Ohm 1% 1/16W [Digikey: 311-22.0LRTR-ND]\n• 33 Ohm 5% 1/16W\n• 1.0K 5% 1/16W\n• 1.5K 5% 1/16W\n• 2.0K 1% 1/16W\n• 10.0K 1% 1/16W [Digikey: 311-10.0KLRTR-ND]\n• 10.0K 5% 1/16W [Digikey: RMCF0402JT10K0TR-ND]\n• 12.1K 1% 1/16W [Digikey: 311-22.0LRTR-ND]\n• 100.0K 5% 1/16W\n\n0603 - 0603 Surface Mount Package\n\n• 0 Ohm 1/10 Watt 1% Resistor\n• 15 Ohm 1/10 Watt 1% Resistor\n• 33 Ohm 1/10 Watt 1% Resistor\n• 49.9 Ohm 1/10 Watt 1% Resistor\n• 100 Ohm 1/10 Watt 1% Resistor\n• 150 Ohm 1/10 Watt 1% Resistor\n• 240 Ohm 1/10 Watt 1% Resistor\n• 390 Ohm 1/10 Watt 1% Resistor\n• 560 Ohm 1/10 Watt 1% Resistor\n• 680 Ohm 1/10 Watt 1% Resistor\n• 750 Ohm 1/10 Watt 1% Resistor\n• 1.0K Ohm 1/10 Watt 1% Resistor\n• 1.5K Ohm 1/10 Watt 1% Resistor\n• 2.0K Ohm 1/10 Watt 1% Resistor\n• 2.2K Ohm 1/10 Watt 1% Resistor\n• 3.3K Ohm 1/10 Watt 1% Resistor\n• 4.7K Ohm 1/10 Watt 1% Resistor\n• 10.0K Ohm 1/10 Watt 1% Resistor\n• 12.0K Ohm 1/10 Watt 1% Resistor\n• 12.1K Ohm 1/10 Watt 1% Resistor\n• 20.0K Ohm 1/10 Watt 1% Resistor\n• 33.0K Ohm 1/10 Watt 1% Resistor\n• 100.0K Ohm 1/10 Watt 1% Resistor\n\n0805 - 0805 Surface Mount Package\n\n• 0 Ohm 1/8 Watt 1% Resistor\n• 33 Ohm 1/8 Watt 1% Resistor\n• 100 Ohm 1/8 Watt 1% Resistor\n• 150 Ohm 1/8 Watt 1% Resistor\n• 200 Ohm 1/8 Watt 1% Resistor\n• 240 Ohm 1/8 Watt 1% Resistor\n• 330 Ohm 1/8 Watt 1% Resistor\n• 390 Ohm 1/8 Watt 1% Resistor\n• 470 Ohm 1/8 Watt 1% Resistor\n• 1.0K Ohm 1/8 Watt 1% Resistor\n• 1.5K Ohm 1/8 Watt 1% Resistor\n• 2.0K Ohm 1/8 Watt 1% Resistor\n• 4.7K Ohm 1/8 Watt 1% Resistor\n• 5.1K Ohm 1/8 Watt 1% Resistor\n• 5.6K Ohm 1/8 Watt 1% Resistor\n• 10.0K Ohm 1/8 Watt 1% Resistor\n• 22.0K Ohm 1/8 Watt 1% Resistor\n• 33.0K Ohm 1/8 Watt 1% Resistor\n• 100K Ohm 1/8 Watt 1% Resistor\n\n1206 - 1206 Surface Mount Package  2012 - 2010 Surface Mount Package\n\n• 0.11 Ohm 1/2 Watt 1% Resistor - Digikey: RHM.11UCT-ND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "RESISTOR0603_1_0"
+				(polyline
+					(pts
+						(xy -2.54 1.27) (xy 2.54 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy 2.54 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -1.27) (xy -2.54 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(rectangle
+		(start 21.59 528.955)
+		(end 271.78 625.475)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 1a148b76-3318-4c77-aa1a-437fb820e1e2)
 	)
 	(rectangle
 		(start 17.526 389.636)
@@ -4008,6 +4638,16 @@
 		)
 		(uuid 69bd3217-4772-4b54-8403-46d7b4b16c1c)
 	)
+	(text "External Flash\n"
+		(exclude_from_sim no)
+		(at 123.444 597.916 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+			)
+		)
+		(uuid "299ae257-3555-4044-bafb-f60f2ea34742")
+	)
 	(text "Power Supply"
 		(exclude_from_sim no)
 		(at 125.222 499.618 0)
@@ -4017,6 +4657,26 @@
 			)
 		)
 		(uuid "8a159b62-5565-4711-b7b1-9392f2b3f384")
+	)
+	(text "Internal Flash Bootsel\n"
+		(exclude_from_sim no)
+		(at 221.488 589.28 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+			)
+		)
+		(uuid "8b26d87a-2e11-42b7-83d8-117265e466f4")
+	)
+	(text "FLASH"
+		(exclude_from_sim no)
+		(at 149.352 614.68 0)
+		(effects
+			(font
+				(size 4.318 4.318)
+			)
+		)
+		(uuid "fd62eaf0-aea4-4fb1-876c-eac070ac3482")
 	)
 	(junction
 		(at 109.22 443.23)
@@ -4181,6 +4841,18 @@
 		(uuid "d571b4ac-023e-4654-8fb7-e68dd3500d51")
 	)
 	(junction
+		(at 146.05 563.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "db64aa89-86c3-41a9-ba10-28b4cd375bce")
+	)
+	(junction
+		(at 88.9 563.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dfc638e3-9ed2-4d3b-ae15-b1d97a647a72")
+	)
+	(junction
 		(at 431.8 349.25)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4209,6 +4881,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f7873c17-69c4-4c74-af24-13b6cc2fc8f1")
+	)
+	(junction
+		(at 146.05 579.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f99f71b5-a257-4dcf-82b7-4551212ae56b")
 	)
 	(wire
 		(pts
@@ -4239,6 +4917,26 @@
 			(type default)
 		)
 		(uuid "0578ee78-7096-415e-b88a-0dd7ec84894c")
+	)
+	(wire
+		(pts
+			(xy 90.17 566.42) (xy 99.06 566.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07361a1b-6249-400e-bcec-13cb0bcbd97c")
+	)
+	(wire
+		(pts
+			(xy 88.9 563.88) (xy 99.06 563.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08215124-d0b9-413b-84b1-7068d212a970")
 	)
 	(wire
 		(pts
@@ -4289,6 +4987,16 @@
 			(type default)
 		)
 		(uuid "1525e84f-9704-4e70-bd14-2de670e41350")
+	)
+	(wire
+		(pts
+			(xy 90.17 579.12) (xy 99.06 579.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "182e65fc-56dd-4dff-8529-2848583165c3")
 	)
 	(wire
 		(pts
@@ -4352,6 +5060,16 @@
 	)
 	(wire
 		(pts
+			(xy 134.62 563.88) (xy 146.05 563.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "227b50a4-d53c-414b-92d4-4adf389efcc2")
+	)
+	(wire
+		(pts
 			(xy 109.22 429.26) (xy 109.22 443.23)
 		)
 		(stroke
@@ -4369,6 +5087,16 @@
 			(type default)
 		)
 		(uuid "24906cad-b925-4cba-9a9c-9aacad3cc7b4")
+	)
+	(wire
+		(pts
+			(xy 146.05 556.26) (xy 146.05 563.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24f8dd1f-5622-4291-8df0-3c7fb48891f2")
 	)
 	(wire
 		(pts
@@ -4399,6 +5127,16 @@
 			(type default)
 		)
 		(uuid "263a72a5-bf38-4890-a32b-80e639076d52")
+	)
+	(wire
+		(pts
+			(xy 217.17 541.02) (xy 217.17 546.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "290e1b94-7ca0-433c-bc35-10e6e5029ad3")
 	)
 	(wire
 		(pts
@@ -4502,6 +5240,16 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 579.12) (xy 146.05 584.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cbf53a2-e97c-4c9b-b877-a64d624c2690")
+	)
+	(wire
+		(pts
 			(xy 502.92 382.27) (xy 502.92 379.73)
 		)
 		(stroke
@@ -4572,6 +5320,16 @@
 	)
 	(wire
 		(pts
+			(xy 474.98 375.92) (xy 474.98 382.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ac04710-48f8-40c7-8fc5-a65ca11511eb")
+	)
+	(wire
+		(pts
 			(xy 431.8 349.25) (xy 438.15 349.25)
 		)
 		(stroke
@@ -4619,6 +5377,26 @@
 			(type default)
 		)
 		(uuid "4ca7a5f7-c63a-49cd-b572-2865cb0c592d")
+	)
+	(wire
+		(pts
+			(xy 146.05 575.31) (xy 146.05 579.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ea2154b-7e36-4dd5-a418-1dbff00236b3")
+	)
+	(wire
+		(pts
+			(xy 217.17 570.23) (xy 217.17 575.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ff63442-3e2c-4cd8-84d5-c52df1d17ddd")
 	)
 	(wire
 		(pts
@@ -4672,6 +5450,16 @@
 	)
 	(wire
 		(pts
+			(xy 469.9 372.11) (xy 469.9 382.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a95e2a4-5811-4483-bcac-3360158db3d4")
+	)
+	(wire
+		(pts
 			(xy 88.47 457.2) (xy 88.9 457.2)
 		)
 		(stroke
@@ -4679,6 +5467,16 @@
 			(type default)
 		)
 		(uuid "5b3c114b-eb4d-4537-9bb1-5c3f4410c326")
+	)
+	(wire
+		(pts
+			(xy 477.52 375.92) (xy 477.52 382.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b60eb2f-2734-4ef9-b646-0aaa56707ba7")
 	)
 	(wire
 		(pts
@@ -4712,6 +5510,26 @@
 	)
 	(wire
 		(pts
+			(xy 83.82 563.88) (xy 88.9 563.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62426885-b6d9-408c-8b3c-71f606de2ce3")
+	)
+	(wire
+		(pts
+			(xy 464.82 375.92) (xy 464.82 382.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64229020-b215-476e-adf7-63ec946e6d0a")
+	)
+	(wire
+		(pts
 			(xy 115.57 412.75) (xy 118.11 412.75)
 		)
 		(stroke
@@ -4719,6 +5537,16 @@
 			(type default)
 		)
 		(uuid "6813a37f-1d6d-4443-a68b-0c7cf80db8fd")
+	)
+	(wire
+		(pts
+			(xy 480.06 375.92) (xy 480.06 382.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69c4a567-7047-4a83-9b08-0d7d38b1f62c")
 	)
 	(wire
 		(pts
@@ -4952,6 +5780,16 @@
 	)
 	(wire
 		(pts
+			(xy 134.62 579.12) (xy 146.05 579.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97f1aec7-719c-4dd1-b8a8-080e4613a62e")
+	)
+	(wire
+		(pts
 			(xy 181.61 439.42) (xy 184.15 439.42)
 		)
 		(stroke
@@ -4979,6 +5817,26 @@
 			(type default)
 		)
 		(uuid "99b2c36b-b89c-4a62-afcc-2ec1763cadfc")
+	)
+	(wire
+		(pts
+			(xy 146.05 563.88) (xy 146.05 567.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b065c22-f2e0-48a0-8505-fd3ec2855ae2")
+	)
+	(wire
+		(pts
+			(xy 64.77 563.88) (xy 73.66 563.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b46ff6a-182d-4275-a050-dea9ece5ae49")
 	)
 	(wire
 		(pts
@@ -5039,6 +5897,16 @@
 			(type default)
 		)
 		(uuid "9fd725d2-dbd9-4a70-9398-12ecd8ad440a")
+	)
+	(wire
+		(pts
+			(xy 482.6 375.92) (xy 482.6 382.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0389985-3a34-4d22-ad3e-4d8697bd7fe6")
 	)
 	(wire
 		(pts
@@ -5162,6 +6030,16 @@
 	)
 	(wire
 		(pts
+			(xy 90.17 571.5) (xy 99.06 571.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6a53888-1850-4aaa-a4f2-ae0fba6d3bcf")
+	)
+	(wire
+		(pts
 			(xy 109.22 443.23) (xy 109.22 457.2)
 		)
 		(stroke
@@ -5169,6 +6047,16 @@
 			(type default)
 		)
 		(uuid "b923ae08-3487-465a-8bbf-3c4dbd3d2f3c")
+	)
+	(wire
+		(pts
+			(xy 88.9 538.48) (xy 88.9 547.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba2670af-f08e-4d5c-87bd-102b041f02c4")
 	)
 	(wire
 		(pts
@@ -5219,6 +6107,16 @@
 			(type default)
 		)
 		(uuid "befd08a2-1d04-4a11-91d6-fc422ae4ebbf")
+	)
+	(wire
+		(pts
+			(xy 88.9 557.53) (xy 88.9 563.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c044afb4-be44-4e8c-b74d-4d8487e58391")
 	)
 	(wire
 		(pts
@@ -5329,6 +6227,16 @@
 			(type default)
 		)
 		(uuid "d254d95d-0466-40cf-ac55-0df8f6019f61")
+	)
+	(wire
+		(pts
+			(xy 472.44 375.92) (xy 472.44 382.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4847761-e0d4-4800-802b-35ac5e2aca28")
 	)
 	(wire
 		(pts
@@ -5472,6 +6380,16 @@
 	)
 	(wire
 		(pts
+			(xy 217.17 556.26) (xy 217.17 560.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3375cc0-7ca3-4201-acb6-bba7d724df7d")
+	)
+	(wire
+		(pts
 			(xy 505.46 382.27) (xy 523.24 382.27)
 		)
 		(stroke
@@ -5489,6 +6407,16 @@
 			(type default)
 		)
 		(uuid "ec5760ad-251a-41b2-a4c1-9003797265aa")
+	)
+	(wire
+		(pts
+			(xy 90.17 574.04) (xy 99.06 574.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec926fd5-3d70-4a76-b81d-58a15d53bebb")
 	)
 	(wire
 		(pts
@@ -5529,6 +6457,16 @@
 			(type default)
 		)
 		(uuid "f281f71a-1b3d-49b2-95f4-dca45ba43ee7")
+	)
+	(wire
+		(pts
+			(xy 90.17 576.58) (xy 99.06 576.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4e802a8-f3f8-4330-91fb-7406d33a4b83")
 	)
 	(wire
 		(pts
@@ -5610,6 +6548,26 @@
 		)
 		(uuid "ff3908e9-2c37-4342-b5dd-d0b6b0e3c27e")
 	)
+	(label "QSPI_SCLK"
+		(at 480.06 375.92 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0beaeb8c-4a17-4d1b-b7b0-3b2f506b7aba")
+	)
+	(label "QSPI_SS"
+		(at 469.9 372.11 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "11421f23-8536-4550-a5ec-e5f55152a355")
+	)
 	(label "V_BATT"
 		(at 83.82 429.26 180)
 		(effects
@@ -5620,6 +6578,26 @@
 		)
 		(uuid "13c53340-903a-4707-8016-8b0e63575340")
 	)
+	(label "FLASH_EXT_CS"
+		(at 464.82 375.92 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "158f19ca-22b6-4296-9d5e-e0f2eb50109f")
+	)
+	(label "QSPI_SD0"
+		(at 90.17 574.04 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "15a5f4ba-c5b4-4e65-95ff-d758b01949c7")
+	)
 	(label "GND"
 		(at 454.66 382.27 180)
 		(effects
@@ -5629,6 +6607,16 @@
 			(justify right bottom)
 		)
 		(uuid "16d564ee-7d01-485d-9578-0f9554ba383b")
+	)
+	(label "3v3"
+		(at 88.9 538.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "173e4315-6904-470b-8db5-bc56d94c814e")
 	)
 	(label "GND"
 		(at 153.67 452.12 0)
@@ -5680,6 +6668,16 @@
 		)
 		(uuid "2925992f-e484-4b04-8bbf-1d8a813f23bc")
 	)
+	(label "QSPI_SS"
+		(at 217.17 541.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "295edb73-53dd-4a86-8c94-2b141f3a0904")
+	)
 	(label "1v1"
 		(at 482.6 481.33 0)
 		(effects
@@ -5700,6 +6698,16 @@
 		)
 		(uuid "2f2569aa-a9bf-4b43-b397-ff1db36424ce")
 	)
+	(label "QSPI_SD1"
+		(at 472.44 375.92 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "30a04100-4e07-4fc2-ad8e-f107326e41f0")
+	)
 	(label "3v3"
 		(at 543.56 351.79 0)
 		(effects
@@ -5709,6 +6717,16 @@
 			(justify left bottom)
 		)
 		(uuid "33d635aa-8458-4ef3-9668-15663c1b52bd")
+	)
+	(label "QSPI_SD2"
+		(at 474.98 375.92 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "349e7ade-57a3-49f5-93e3-df7ea69e62b6")
 	)
 	(label "GND"
 		(at 161.29 433.07 0)
@@ -5840,6 +6858,16 @@
 		)
 		(uuid "692663a9-2971-4831-8e89-e7e1172ee11d")
 	)
+	(label "QSPI_SD0"
+		(at 477.52 375.92 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7849bf3f-483c-4a3f-b8d5-8d1688cea3ea")
+	)
 	(label "3v3"
 		(at 516.89 433.07 0)
 		(effects
@@ -5859,6 +6887,16 @@
 			(justify left bottom)
 		)
 		(uuid "7d5e7395-c748-4129-b1df-7fa023043cf9")
+	)
+	(label "QSPI_SD3"
+		(at 482.6 375.92 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "82d8dea2-294a-4490-af98-c7237a0071c4")
 	)
 	(label "D_M"
 		(at 44.45 487.68 0)
@@ -5880,6 +6918,16 @@
 		)
 		(uuid "8473b96c-4740-4c20-b10e-5c0f2234e24d")
 	)
+	(label "QSPI_SD3"
+		(at 90.17 571.5 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "85f4d3fb-ecad-456d-bac9-478022e5fc5f")
+	)
 	(label "V_BATT"
 		(at 59.69 403.86 0)
 		(effects
@@ -5899,6 +6947,16 @@
 			(justify left bottom)
 		)
 		(uuid "8eac434b-4c19-406a-9f6a-069ddcbb9c6a")
+	)
+	(label "QSPI_SD1"
+		(at 90.17 576.58 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "986b6a43-542a-4149-94d3-60c9ce8f0d99")
 	)
 	(label "V_CC_AAM"
 		(at 187.96 405.13 0)
@@ -5951,6 +7009,16 @@
 		(uuid "b2745607-6187-4bde-a6ac-fae2ba146228")
 	)
 	(label "GND"
+		(at 217.17 575.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bf5b96e9-90c1-462d-b5e5-2c6d50dec4cf")
+	)
+	(label "GND"
 		(at 544.83 379.73 0)
 		(effects
 			(font
@@ -5981,6 +7049,16 @@
 		(uuid "c6fdb133-fdf1-4d63-8953-4bd74a4165a7")
 	)
 	(label "3v3"
+		(at 146.05 556.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cb08db53-3808-4034-b332-3aef6410b006")
+	)
+	(label "3v3"
 		(at 474.98 481.33 0)
 		(effects
 			(font
@@ -5999,6 +7077,26 @@
 			(justify left bottom)
 		)
 		(uuid "cec6e6cb-6651-4633-bc2f-b75f93e076a9")
+	)
+	(label "GND"
+		(at 146.05 584.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d669b022-f07c-4370-92ad-e900e3d60fac")
+	)
+	(label "FLASH_EXT_CS"
+		(at 64.77 563.88 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d8942b2c-4e3e-4657-8e2d-c5a2b25495d6")
 	)
 	(label "3v3"
 		(at 490.22 481.33 0)
@@ -6039,6 +7137,16 @@
 			(justify left bottom)
 		)
 		(uuid "e0cbc215-0b24-4671-bd89-54e8c834385a")
+	)
+	(label "QSPI_SD2"
+		(at 90.17 579.12 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e3007310-0793-4463-b053-530841f57a91")
 	)
 	(label "BST"
 		(at 208.28 431.8 0)
@@ -6149,6 +7257,16 @@
 			(justify right bottom)
 		)
 		(uuid "fece3559-7843-47ee-acdb-13c445464b3e")
+	)
+	(label "QSPI_SCLK"
+		(at 90.17 566.42 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ffa822d4-3d73-43f8-9353-3813c2a7484f")
 	)
 	(symbol
 		(lib_id "LQM2MPN3R3NG0L:LQM2MPN3R3NG0L")
@@ -6898,10 +8016,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "a9772158-7b11-48f0-9d83-b525de8531da")
+			(uuid "a9772158-7b11-48f0-9d83-b525de8531db")
 		)
 		(pin "2"
-			(uuid "1265649a-939c-48c4-9cac-e8bff4288c41")
+			(uuid "1265649a-939c-48c4-9cac-e8bff4288c42")
 		)
 		(instances
 			(project ""
@@ -6968,10 +8086,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "63c3f4a9-00f7-483a-8c7e-1b8e2dbb306f")
+			(uuid "63c3f4a9-00f7-483a-8c7e-1b8e2dbb3070")
 		)
 		(pin "1"
-			(uuid "b7b0c7b5-4891-4775-b0dd-bdc40f049648")
+			(uuid "b7b0c7b5-4891-4775-b0dd-bdc40f049649")
 		)
 		(instances
 			(project ""
@@ -7053,6 +8171,146 @@
 		)
 	)
 	(symbol
+		(lib_id "microbuilder:CAP_CERAMIC0603")
+		(at 146.05 572.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "52385aac-0a72-4119-bd4f-a31d1128b618")
+		(property "Reference" "C10"
+			(at 148.59 570.2299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 148.59 572.7699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "microbuilder:0603"
+			(at 146.05 572.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 572.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ceramic Capacitors\n\n0402 - 0402 Surface Mount Capacitors\n\n• 16pF 50V 5% [Digikey: 445-4899-2-ND]\n• 18pF 50V 5% [Digikey: 490-1281-2-ND]\n• 22pF 50V 5% [Digikey: 490-1283-2-ND]\n• 68pF 50V 5% [Digikey: 490-1289-2-ND]\n• 0.1uF 10V 10% [Digikey: 490-1318-2-ND]\n• 1.0uF 6.3V 10% [Digikey: 490-1320-2-ND]\n\n0603 - 0603 Surface Mount Capacitors\n\n• 16 pF 50V 5% [Digikey: 445-5051-2-ND]\n• 22 pF 50V [Digikey: PCC220ACVTR-ND]\n• 33 pF 50V 5% [Digikey: 490-1415-1-ND]\n• 56pF 50V 5% [Digikey: 490-1421-1-ND]\n• 220pF 50V 5% [Digikey: 445-1285-1-ND]\n• 680 pF 50V\n• 2200 pF 50V 5% C0G [Digikey: 445-1297-1-ND]\n• 5600 pF 100V 5% X7R [Digikey: 478-3711-1-ND]\n• 0.1 µF 25V 10% [Digikey: PCC2277TR-ND]\n• 0.22 µF 16V 10% X7R [Digikey: 445-1318-1-ND]\n• 1.0 µF 25V 10% [Digikey: 445-5146-2-ND]\n\n0603 - RF Specific\n\n• 3pF 250V +/-0.1pF RF [Digikey: 712-1347-1-ND]\n• 18 pF 250V 5%  [Digikey: 478-3505-1-ND or 712-1322-1-ND]\n• 56 pF 250V 5% C0G RF [Digikey: 490-4867-1-ND]\n• 68 pF 250V RF [Digikey: 490-4868-1-ND]\n\n0805 - 0805 Surface Mount Capacitors\n\n• 220 pF 250V 2% RF Ceramic Capacitor [Digikey: 712-1398-1-ND]\n• 1000 pF 50V 2% NP0 Ceramic Capacitor [Digikey: 478-3760-1-ND]\n• 0.1 µF 25V 10% Ceramic Capacitor [Digikey: PCC1828TR-ND]\n• 1.0 µF 16V 10% Ceramic Capacitor[Digikey: 490-1691-2-ND]\n• 10.0 µF 10V 10% Ceramic Capacitor[Digikey: 709-1228-1-ND]\n• 10.0 uF 16V 10% Ceramic Capacitor [Digikey: 478-5165-2-ND]\n• 47 uF 6.3V 20% Ceramic Capacitor [Digikey: 587-1779-1-ND or 399-5506-1-ND]\n\n1206 - 1206 Surface Mount Capacitors\n\n• 47uF 10V 20% Ceramic Capacitor [Digikey: 490-5528-1-ND or 399-5508-1-ND or 445-6010-1-ND]\n• 100uF 6.3V -20%, +80% Y5V Ceramic Capacitor (Digikey: 490-4512-1-ND, Mouser: 81-GRM31CF50J107ZE1L)"
+			(at 146.05 572.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "33ba8c39-a2cf-4cd5-9665-6e32d7c04e1b")
+		)
+		(pin "2"
+			(uuid "a39d28b5-167b-4db6-8933-2cffd2b6565d")
+		)
+		(instances
+			(project ""
+				(path "/ce36a1c2-88cc-4cba-88a9-6235c3ec0ad6"
+					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DTS-3:DTS-3")
+		(at 217.17 565.15 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5466cd8d-3546-43d8-8dc9-5f378dd4d2f4")
+		(property "Reference" "S1"
+			(at 223.52 563.2449 0)
+			(effects
+				(font
+					(size 1.7787 1.5118)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "~"
+			(at 223.52 567.0549 0)
+			(effects
+				(font
+					(size 1.7784 1.5116)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "DTS-3:DTS-3"
+			(at 217.17 565.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 217.17 565.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "https://pricing.snapeda.com/parts/DTS-3/APEM%20Inc./view-part?ref=eda Check availability"
+			(at 217.17 565.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5f63426c-a766-4b14-9ded-4560f9aa4dff")
+		)
+		(pin "1"
+			(uuid "7226c27a-7d34-45d7-aaa2-99b94d0e0c14")
+		)
+		(instances
+			(project ""
+				(path "/ce36a1c2-88cc-4cba-88a9-6235c3ec0ad6"
+					(reference "S1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "adafruit:R-US_R0603")
 		(at 44.45 478.79 90)
 		(unit 1)
@@ -7117,6 +8375,76 @@
 			(project ""
 				(path "/ce36a1c2-88cc-4cba-88a9-6235c3ec0ad6"
 					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "microbuilder:RESISTOR0603")
+		(at 217.17 551.18 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "585a43ab-890c-48b4-a7a8-7efcfdc87a6f")
+		(property "Reference" "R17"
+			(at 219.71 549.9099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "~"
+			(at 219.71 552.4499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "microbuilder:0603"
+			(at 217.17 551.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 217.17 551.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistors\n\n0402 - 0402 Surface Mount Package\n\n• 22 Ohm 1% 1/16W [Digikey: 311-22.0LRTR-ND]\n• 33 Ohm 5% 1/16W\n• 1.0K 5% 1/16W\n• 1.5K 5% 1/16W\n• 2.0K 1% 1/16W\n• 10.0K 1% 1/16W [Digikey: 311-10.0KLRTR-ND]\n• 10.0K 5% 1/16W [Digikey: RMCF0402JT10K0TR-ND]\n• 12.1K 1% 1/16W [Digikey: 311-22.0LRTR-ND]\n• 100.0K 5% 1/16W\n\n0603 - 0603 Surface Mount Package\n\n• 0 Ohm 1/10 Watt 1% Resistor\n• 15 Ohm 1/10 Watt 1% Resistor\n• 33 Ohm 1/10 Watt 1% Resistor\n• 49.9 Ohm 1/10 Watt 1% Resistor\n• 100 Ohm 1/10 Watt 1% Resistor\n• 150 Ohm 1/10 Watt 1% Resistor\n• 240 Ohm 1/10 Watt 1% Resistor\n• 390 Ohm 1/10 Watt 1% Resistor\n• 560 Ohm 1/10 Watt 1% Resistor\n• 680 Ohm 1/10 Watt 1% Resistor\n• 750 Ohm 1/10 Watt 1% Resistor\n• 1.0K Ohm 1/10 Watt 1% Resistor\n• 1.5K Ohm 1/10 Watt 1% Resistor\n• 2.0K Ohm 1/10 Watt 1% Resistor\n• 2.2K Ohm 1/10 Watt 1% Resistor\n• 3.3K Ohm 1/10 Watt 1% Resistor\n• 4.7K Ohm 1/10 Watt 1% Resistor\n• 10.0K Ohm 1/10 Watt 1% Resistor\n• 12.0K Ohm 1/10 Watt 1% Resistor\n• 12.1K Ohm 1/10 Watt 1% Resistor\n• 20.0K Ohm 1/10 Watt 1% Resistor\n• 33.0K Ohm 1/10 Watt 1% Resistor\n• 100.0K Ohm 1/10 Watt 1% Resistor\n\n0805 - 0805 Surface Mount Package\n\n• 0 Ohm 1/8 Watt 1% Resistor\n• 33 Ohm 1/8 Watt 1% Resistor\n• 100 Ohm 1/8 Watt 1% Resistor\n• 150 Ohm 1/8 Watt 1% Resistor\n• 200 Ohm 1/8 Watt 1% Resistor\n• 240 Ohm 1/8 Watt 1% Resistor\n• 330 Ohm 1/8 Watt 1% Resistor\n• 390 Ohm 1/8 Watt 1% Resistor\n• 470 Ohm 1/8 Watt 1% Resistor\n• 1.0K Ohm 1/8 Watt 1% Resistor\n• 1.5K Ohm 1/8 Watt 1% Resistor\n• 2.0K Ohm 1/8 Watt 1% Resistor\n• 4.7K Ohm 1/8 Watt 1% Resistor\n• 5.1K Ohm 1/8 Watt 1% Resistor\n• 5.6K Ohm 1/8 Watt 1% Resistor\n• 10.0K Ohm 1/8 Watt 1% Resistor\n• 22.0K Ohm 1/8 Watt 1% Resistor\n• 33.0K Ohm 1/8 Watt 1% Resistor\n• 100K Ohm 1/8 Watt 1% Resistor\n\n1206 - 1206 Surface Mount Package  2012 - 2010 Surface Mount Package\n\n• 0.11 Ohm 1/2 Watt 1% Resistor - Digikey: RHM.11UCT-ND"
+			(at 217.17 551.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5a9432cb-4157-4628-9fd0-7ce0a5c470be")
+		)
+		(pin "2"
+			(uuid "7125a264-63f9-40cf-80e0-6f688b44ef3c")
+		)
+		(instances
+			(project ""
+				(path "/ce36a1c2-88cc-4cba-88a9-6235c3ec0ad6"
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -7801,10 +9129,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "63c3f4a9-00f7-483a-8c7e-1b8e2dbb306f")
+			(uuid "63c3f4a9-00f7-483a-8c7e-1b8e2dbb3071")
 		)
 		(pin "1"
-			(uuid "b7b0c7b5-4891-4775-b0dd-bdc40f049648")
+			(uuid "b7b0c7b5-4891-4775-b0dd-bdc40f04964a")
 		)
 		(instances
 			(project ""
@@ -7869,10 +9197,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "3ae07920-f421-4143-ad68-e397c9339841")
+			(uuid "3ae07920-f421-4143-ad68-e397c9339842")
 		)
 		(pin "1"
-			(uuid "51cc47d9-b378-4680-bd3d-2b1a8aaef9de")
+			(uuid "51cc47d9-b378-4680-bd3d-2b1a8aaef9df")
 		)
 		(instances
 			(project ""
@@ -8007,10 +9335,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "96505509-7886-4ce4-ba16-66918003f36b")
+			(uuid "96505509-7886-4ce4-ba16-66918003f36c")
 		)
 		(pin "1"
-			(uuid "fc8ae7c0-ecc3-4e0c-8ca8-4d53ef7107fd")
+			(uuid "fc8ae7c0-ecc3-4e0c-8ca8-4d53ef7107fe")
 		)
 		(instances
 			(project ""
@@ -8086,6 +9414,74 @@
 			(project ""
 				(path "/ce36a1c2-88cc-4cba-88a9-6235c3ec0ad6"
 					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "microbuilder:RESISTOR0603")
+		(at 78.74 563.88 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9a99273d-f468-47b3-91db-4f761b713699")
+		(property "Reference" "R16"
+			(at 78.74 557.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 78.74 560.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "microbuilder:0603"
+			(at 78.74 563.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 563.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistors\n\n0402 - 0402 Surface Mount Package\n\n• 22 Ohm 1% 1/16W [Digikey: 311-22.0LRTR-ND]\n• 33 Ohm 5% 1/16W\n• 1.0K 5% 1/16W\n• 1.5K 5% 1/16W\n• 2.0K 1% 1/16W\n• 10.0K 1% 1/16W [Digikey: 311-10.0KLRTR-ND]\n• 10.0K 5% 1/16W [Digikey: RMCF0402JT10K0TR-ND]\n• 12.1K 1% 1/16W [Digikey: 311-22.0LRTR-ND]\n• 100.0K 5% 1/16W\n\n0603 - 0603 Surface Mount Package\n\n• 0 Ohm 1/10 Watt 1% Resistor\n• 15 Ohm 1/10 Watt 1% Resistor\n• 33 Ohm 1/10 Watt 1% Resistor\n• 49.9 Ohm 1/10 Watt 1% Resistor\n• 100 Ohm 1/10 Watt 1% Resistor\n• 150 Ohm 1/10 Watt 1% Resistor\n• 240 Ohm 1/10 Watt 1% Resistor\n• 390 Ohm 1/10 Watt 1% Resistor\n• 560 Ohm 1/10 Watt 1% Resistor\n• 680 Ohm 1/10 Watt 1% Resistor\n• 750 Ohm 1/10 Watt 1% Resistor\n• 1.0K Ohm 1/10 Watt 1% Resistor\n• 1.5K Ohm 1/10 Watt 1% Resistor\n• 2.0K Ohm 1/10 Watt 1% Resistor\n• 2.2K Ohm 1/10 Watt 1% Resistor\n• 3.3K Ohm 1/10 Watt 1% Resistor\n• 4.7K Ohm 1/10 Watt 1% Resistor\n• 10.0K Ohm 1/10 Watt 1% Resistor\n• 12.0K Ohm 1/10 Watt 1% Resistor\n• 12.1K Ohm 1/10 Watt 1% Resistor\n• 20.0K Ohm 1/10 Watt 1% Resistor\n• 33.0K Ohm 1/10 Watt 1% Resistor\n• 100.0K Ohm 1/10 Watt 1% Resistor\n\n0805 - 0805 Surface Mount Package\n\n• 0 Ohm 1/8 Watt 1% Resistor\n• 33 Ohm 1/8 Watt 1% Resistor\n• 100 Ohm 1/8 Watt 1% Resistor\n• 150 Ohm 1/8 Watt 1% Resistor\n• 200 Ohm 1/8 Watt 1% Resistor\n• 240 Ohm 1/8 Watt 1% Resistor\n• 330 Ohm 1/8 Watt 1% Resistor\n• 390 Ohm 1/8 Watt 1% Resistor\n• 470 Ohm 1/8 Watt 1% Resistor\n• 1.0K Ohm 1/8 Watt 1% Resistor\n• 1.5K Ohm 1/8 Watt 1% Resistor\n• 2.0K Ohm 1/8 Watt 1% Resistor\n• 4.7K Ohm 1/8 Watt 1% Resistor\n• 5.1K Ohm 1/8 Watt 1% Resistor\n• 5.6K Ohm 1/8 Watt 1% Resistor\n• 10.0K Ohm 1/8 Watt 1% Resistor\n• 22.0K Ohm 1/8 Watt 1% Resistor\n• 33.0K Ohm 1/8 Watt 1% Resistor\n• 100K Ohm 1/8 Watt 1% Resistor\n\n1206 - 1206 Surface Mount Package  2012 - 2010 Surface Mount Package\n\n• 0.11 Ohm 1/2 Watt 1% Resistor - Digikey: RHM.11UCT-ND"
+			(at 78.74 563.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7b7a42c0-23f4-49f5-b9af-15dd53a987b4")
+		)
+		(pin "1"
+			(uuid "67de7b31-d1b6-462c-b901-ae5c8318ac7c")
+		)
+		(instances
+			(project ""
+				(path "/ce36a1c2-88cc-4cba-88a9-6235c3ec0ad6"
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -8217,10 +9613,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "63c3f4a9-00f7-483a-8c7e-1b8e2dbb306f")
+			(uuid "63c3f4a9-00f7-483a-8c7e-1b8e2dbb3072")
 		)
 		(pin "1"
-			(uuid "b7b0c7b5-4891-4775-b0dd-bdc40f049648")
+			(uuid "b7b0c7b5-4891-4775-b0dd-bdc40f04964b")
 		)
 		(instances
 			(project ""
@@ -8285,10 +9681,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "c8683a12-572e-4bf9-8248-9b68018bc461")
+			(uuid "c8683a12-572e-4bf9-8248-9b68018bc462")
 		)
 		(pin "1"
-			(uuid "6821a540-840f-4263-b04c-271f536d97b4")
+			(uuid "6821a540-840f-4263-b04c-271f536d97b5")
 		)
 		(instances
 			(project ""
@@ -8439,10 +9835,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "63c3f4a9-00f7-483a-8c7e-1b8e2dbb306f")
+			(uuid "63c3f4a9-00f7-483a-8c7e-1b8e2dbb3073")
 		)
 		(pin "1"
-			(uuid "b7b0c7b5-4891-4775-b0dd-bdc40f049648")
+			(uuid "b7b0c7b5-4891-4775-b0dd-bdc40f04964c")
 		)
 		(instances
 			(project ""
@@ -8575,10 +9971,10 @@
 			)
 		)
 		(pin "C"
-			(uuid "3c9ca12a-3381-4184-9106-0a18fe08c96d")
+			(uuid "3c9ca12a-3381-4184-9106-0a18fe08c96e")
 		)
 		(pin "A"
-			(uuid "2b7df46e-4792-4f50-88ef-e4a79d358203")
+			(uuid "2b7df46e-4792-4f50-88ef-e4a79d358204")
 		)
 		(instances
 			(project ""
@@ -8855,10 +10251,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "63c3f4a9-00f7-483a-8c7e-1b8e2dbb306f")
+			(uuid "63c3f4a9-00f7-483a-8c7e-1b8e2dbb3074")
 		)
 		(pin "1"
-			(uuid "b7b0c7b5-4891-4775-b0dd-bdc40f049648")
+			(uuid "b7b0c7b5-4891-4775-b0dd-bdc40f04964d")
 		)
 		(instances
 			(project ""
@@ -8925,15 +10321,85 @@
 			)
 		)
 		(pin "2"
-			(uuid "63c3f4a9-00f7-483a-8c7e-1b8e2dbb306f")
+			(uuid "63c3f4a9-00f7-483a-8c7e-1b8e2dbb3075")
 		)
 		(pin "1"
-			(uuid "b7b0c7b5-4891-4775-b0dd-bdc40f049648")
+			(uuid "b7b0c7b5-4891-4775-b0dd-bdc40f04964e")
 		)
 		(instances
 			(project ""
 				(path "/ce36a1c2-88cc-4cba-88a9-6235c3ec0ad6"
 					(reference "C21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "microbuilder:RESISTOR0603")
+		(at 88.9 552.45 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e556039c-edac-4cd2-b1b6-1dd35cb9451f")
+		(property "Reference" "R15"
+			(at 91.44 551.1799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 91.44 553.7199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "microbuilder:0603"
+			(at 88.9 552.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 552.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistors\n\n0402 - 0402 Surface Mount Package\n\n• 22 Ohm 1% 1/16W [Digikey: 311-22.0LRTR-ND]\n• 33 Ohm 5% 1/16W\n• 1.0K 5% 1/16W\n• 1.5K 5% 1/16W\n• 2.0K 1% 1/16W\n• 10.0K 1% 1/16W [Digikey: 311-10.0KLRTR-ND]\n• 10.0K 5% 1/16W [Digikey: RMCF0402JT10K0TR-ND]\n• 12.1K 1% 1/16W [Digikey: 311-22.0LRTR-ND]\n• 100.0K 5% 1/16W\n\n0603 - 0603 Surface Mount Package\n\n• 0 Ohm 1/10 Watt 1% Resistor\n• 15 Ohm 1/10 Watt 1% Resistor\n• 33 Ohm 1/10 Watt 1% Resistor\n• 49.9 Ohm 1/10 Watt 1% Resistor\n• 100 Ohm 1/10 Watt 1% Resistor\n• 150 Ohm 1/10 Watt 1% Resistor\n• 240 Ohm 1/10 Watt 1% Resistor\n• 390 Ohm 1/10 Watt 1% Resistor\n• 560 Ohm 1/10 Watt 1% Resistor\n• 680 Ohm 1/10 Watt 1% Resistor\n• 750 Ohm 1/10 Watt 1% Resistor\n• 1.0K Ohm 1/10 Watt 1% Resistor\n• 1.5K Ohm 1/10 Watt 1% Resistor\n• 2.0K Ohm 1/10 Watt 1% Resistor\n• 2.2K Ohm 1/10 Watt 1% Resistor\n• 3.3K Ohm 1/10 Watt 1% Resistor\n• 4.7K Ohm 1/10 Watt 1% Resistor\n• 10.0K Ohm 1/10 Watt 1% Resistor\n• 12.0K Ohm 1/10 Watt 1% Resistor\n• 12.1K Ohm 1/10 Watt 1% Resistor\n• 20.0K Ohm 1/10 Watt 1% Resistor\n• 33.0K Ohm 1/10 Watt 1% Resistor\n• 100.0K Ohm 1/10 Watt 1% Resistor\n\n0805 - 0805 Surface Mount Package\n\n• 0 Ohm 1/8 Watt 1% Resistor\n• 33 Ohm 1/8 Watt 1% Resistor\n• 100 Ohm 1/8 Watt 1% Resistor\n• 150 Ohm 1/8 Watt 1% Resistor\n• 200 Ohm 1/8 Watt 1% Resistor\n• 240 Ohm 1/8 Watt 1% Resistor\n• 330 Ohm 1/8 Watt 1% Resistor\n• 390 Ohm 1/8 Watt 1% Resistor\n• 470 Ohm 1/8 Watt 1% Resistor\n• 1.0K Ohm 1/8 Watt 1% Resistor\n• 1.5K Ohm 1/8 Watt 1% Resistor\n• 2.0K Ohm 1/8 Watt 1% Resistor\n• 4.7K Ohm 1/8 Watt 1% Resistor\n• 5.1K Ohm 1/8 Watt 1% Resistor\n• 5.6K Ohm 1/8 Watt 1% Resistor\n• 10.0K Ohm 1/8 Watt 1% Resistor\n• 22.0K Ohm 1/8 Watt 1% Resistor\n• 33.0K Ohm 1/8 Watt 1% Resistor\n• 100K Ohm 1/8 Watt 1% Resistor\n\n1206 - 1206 Surface Mount Package  2012 - 2010 Surface Mount Package\n\n• 0.11 Ohm 1/2 Watt 1% Resistor - Digikey: RHM.11UCT-ND"
+			(at 88.9 552.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7b7a42c0-23f4-49f5-b9af-15dd53a987b4")
+		)
+		(pin "1"
+			(uuid "67de7b31-d1b6-462c-b901-ae5c8318ac7c")
+		)
+		(instances
+			(project ""
+				(path "/ce36a1c2-88cc-4cba-88a9-6235c3ec0ad6"
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -9194,15 +10660,101 @@
 			)
 		)
 		(pin "1"
-			(uuid "9789251f-ec3d-440e-b55c-a80fe0062838")
+			(uuid "9789251f-ec3d-440e-b55c-a80fe0062839")
 		)
 		(pin "2"
-			(uuid "dc7ec799-4364-415f-a326-75cf39e41ccb")
+			(uuid "dc7ec799-4364-415f-a326-75cf39e41ccc")
 		)
 		(instances
 			(project ""
 				(path "/ce36a1c2-88cc-4cba-88a9-6235c3ec0ad6"
 					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "W25Q32JVSSIQ:W25Q32JVSSIQ")
+		(at 116.84 571.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f76fb6c0-6427-4c59-8735-4c5e50fd75ae")
+		(property "Reference" "U1"
+			(at 116.84 556.26 0)
+			(effects
+				(font
+					(size 1.2726 1.0817)
+				)
+			)
+		)
+		(property "Value" "FLASH_128K"
+			(at 116.84 558.8 0)
+			(effects
+				(font
+					(size 1.2729 1.0819)
+				)
+			)
+		)
+		(property "Footprint" "W25Q32JVSSIQ:SOIC127P790X216-8N"
+			(at 116.84 571.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 571.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "NOR Flash Serial-SPI 3V/3.3V 32M-bit 4M x 8 8.5ns 8-Pin SOIC https://pricing.snapeda.com/parts/W25Q32JVSSIQ/Winbond/view-part?ref=eda Check availability"
+			(at 116.84 571.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "726b7031-05d5-4dc0-99d4-9cf6405e9af4")
+		)
+		(pin "3"
+			(uuid "d72537a7-6be4-469a-9e1a-81d5537eeab6")
+		)
+		(pin "8"
+			(uuid "93ee1f52-a09e-4ef8-9f96-c41dcd7b4087")
+		)
+		(pin "2"
+			(uuid "cfdb10c7-8d0a-4ace-8c09-8eec556165a7")
+		)
+		(pin "6"
+			(uuid "82ab4121-34c5-4d3f-8226-b779196d0112")
+		)
+		(pin "4"
+			(uuid "91ea4474-b28b-4b1f-8803-92b4844d0d37")
+		)
+		(pin "1"
+			(uuid "3491e733-c20a-48d4-9d3f-d1255466adce")
+		)
+		(pin "5"
+			(uuid "67204fd8-8987-406d-8a00-65886d1dfdf4")
+		)
+		(instances
+			(project ""
+				(path "/ce36a1c2-88cc-4cba-88a9-6235c3ec0ad6"
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -9262,10 +10814,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "3ae07920-f421-4143-ad68-e397c9339841")
+			(uuid "3ae07920-f421-4143-ad68-e397c9339843")
 		)
 		(pin "1"
-			(uuid "51cc47d9-b378-4680-bd3d-2b1a8aaef9de")
+			(uuid "51cc47d9-b378-4680-bd3d-2b1a8aaef9e0")
 		)
 		(instances
 			(project ""
@@ -9461,10 +11013,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "712776e2-b8f6-4c30-8fc4-ee5fc6af9746")
+			(uuid "712776e2-b8f6-4c30-8fc4-ee5fc6af9747")
 		)
 		(pin "1"
-			(uuid "0752ec6b-53a5-4705-89a1-b6fcff1716ba")
+			(uuid "0752ec6b-53a5-4705-89a1-b6fcff1716bb")
 		)
 		(instances
 			(project ""
