@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP RSX501LAM20TR
+D 20V, 5A, SOD-128, Schottky Barrier Diode
+K
+F https://fscdn.rohm.com/en/products/databook/datasheet/discrete/diode/schottky_barrier/rsx501lam20tr-e.pdf
+$ENDCMP
+#
+#End Doc Library
