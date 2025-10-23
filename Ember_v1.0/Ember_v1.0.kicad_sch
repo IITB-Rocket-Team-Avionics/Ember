@@ -234,302 +234,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "FC-135_32.7680KA-A0:FC-135_32.7680KA-A0"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Y"
-				(at -5.08 6.096 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "FC-135_32.7680KA-A0"
-				(at -5.1054 -7.6454 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "XTAL_FC-135_32.7680KA-A0"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Description" "32.7680 Khz 20ppm 12.5pf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "MF" "EPSON"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "PACKAGE" "SMD-2 Epson"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "PRICE" "0.33 USD"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Package" "SMD-2 Epson"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Check_prices" "https://www.snapeda.com/parts/FC-135%2032.7680KA-A0/EPSON/view-part/?ref=eda"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "STANDARD" "Manufacturer Recommendation"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/FC-135%2032.7680KA-A0/EPSON/view-part/?ref=snap"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "MP" "FC-135 32.7680KA-A0"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Price" "None"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Availability" "In Stock"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "AVAILABILITY" "Good"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Description_1" "\\n                        \\n                            32.768 kHz ±20ppm Crystal 12.5pF 70 kOhms 2-SMD, No Lead\\n                        \\n"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "FC-135_32.7680KA-A0_0_0"
-				(polyline
-					(pts
-						(xy -5.08 5.08) (xy -5.08 -5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 5.08) (xy 2.54 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -5.08) (xy -2.54 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 5.08) (xy 2.54 -5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -5.08) (xy -2.54 -5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 5.08) (xy 5.08 -5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -10.16 0 0)
-					(length 5.08)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 0 180)
-					(length 5.08)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "LQM2MPN3R3NG0L:LQM2MPN3R3NG0L"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -921,6 +625,175 @@
 						(effects
 							(font
 								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Q13FC1350000400:Q13FC1350000400"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "XTAL"
+				(at -2.8194 2.6924 0)
+				(effects
+					(font
+						(size 3.4798 2.9578)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at -3.8862 -6.1976 0)
+				(effects
+					(font
+						(size 3.4798 2.9578)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "Q13FC1350000400:XTAL_FC-135_EPS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "https://pricing.snapeda.com/parts/Q13FC1350000400/EPSON/view-part?ref=eda Check availability"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Q13FC1350000400_1_0"
+				(polyline
+					(pts
+						(xy 2.54 -1.905) (xy 2.54 1.905)
+					)
+					(stroke
+						(width 0.2032)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 2.54) (xy 6.35 2.54)
+					)
+					(stroke
+						(width 0.2032)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -2.54) (xy 3.81 2.54)
+					)
+					(stroke
+						(width 0.2032)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 2.54) (xy 6.35 -2.54)
+					)
+					(stroke
+						(width 0.2032)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 -2.54) (xy 3.81 -2.54)
+					)
+					(stroke
+						(width 0.2032)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -1.905) (xy 7.62 1.905)
+					)
+					(stroke
+						(width 0.2032)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
 							)
 						)
 					)
@@ -6421,12 +6294,6 @@
 		(uuid "fd62eaf0-aea4-4fb1-876c-eac070ac3482")
 	)
 	(junction
-		(at 833.12 403.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0643097d-ae07-4d58-bba4-8076fc785f64")
-	)
-	(junction
 		(at 109.22 443.23)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6521,6 +6388,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "69d774eb-4ff3-429d-b11c-55b16b237a51")
+	)
+	(junction
+		(at 822.96 403.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7a2320ac-543d-4e93-82d7-1dfdd8541e30")
 	)
 	(junction
 		(at 142.24 433.07)
@@ -7056,7 +6929,7 @@
 	)
 	(wire
 		(pts
-			(xy 833.12 403.86) (xy 833.12 410.21)
+			(xy 822.96 403.86) (xy 822.96 410.21)
 		)
 		(stroke
 			(width 0)
@@ -7866,7 +7739,7 @@
 	)
 	(wire
 		(pts
-			(xy 833.12 417.83) (xy 833.12 420.37)
+			(xy 822.96 417.83) (xy 822.96 420.37)
 		)
 		(stroke
 			(width 0)
@@ -8436,7 +8309,7 @@
 	)
 	(wire
 		(pts
-			(xy 833.12 403.86) (xy 838.2 403.86)
+			(xy 822.96 403.86) (xy 828.04 403.86)
 		)
 		(stroke
 			(width 0)
@@ -9166,7 +9039,7 @@
 	)
 	(wire
 		(pts
-			(xy 829.31 403.86) (xy 833.12 403.86)
+			(xy 819.15 403.86) (xy 822.96 403.86)
 		)
 		(stroke
 			(width 0)
@@ -9365,7 +9238,7 @@
 		(uuid "22880080-f09e-45df-a76d-63608b8de99b")
 	)
 	(label "XOUT32"
-		(at 838.2 403.86 180)
+		(at 828.04 403.86 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9375,7 +9248,7 @@
 		(uuid "25fdab5c-a8b9-41c8-bed7-566a7265f407")
 	)
 	(label "GND"
-		(at 833.12 420.37 0)
+		(at 822.96 420.37 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12575,7 +12448,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "623912a9-dcc7-40f7-b2ee-153888d98b7a")
-		(property "Reference" "11111111"
+		(property "Reference" "Buck_converter1"
 			(at 167.64 452.12 0)
 			(effects
 				(font
@@ -12627,7 +12500,7 @@
 		(instances
 			(project ""
 				(path "/ce36a1c2-88cc-4cba-88a9-6235c3ec0ad6"
-					(reference "11111111")
+					(reference "Buck_converter1")
 					(unit 1)
 				)
 			)
@@ -12841,7 +12714,7 @@
 	)
 	(symbol
 		(lib_id "microbuilder:CAP_CERAMIC0603")
-		(at 833.12 412.75 180)
+		(at 822.96 412.75 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12850,7 +12723,7 @@
 		(fields_autoplaced yes)
 		(uuid "82acf22b-4268-49ba-8b20-6bab8692cb77")
 		(property "Reference" "C25"
-			(at 835.66 412.7499 0)
+			(at 825.5 412.7499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12858,8 +12731,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "27 pF"
-			(at 835.66 415.2899 0)
+		(property "Value" "20 pF"
+			(at 825.5 415.2899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12868,7 +12741,7 @@
 			)
 		)
 		(property "Footprint" "microbuilder:0603"
-			(at 833.12 412.75 0)
+			(at 822.96 412.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12877,7 +12750,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 833.12 412.75 0)
+			(at 822.96 412.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12886,7 +12759,7 @@
 			)
 		)
 		(property "Description" "Ceramic Capacitors\n\n0402 - 0402 Surface Mount Capacitors\n\n• 16pF 50V 5% [Digikey: 445-4899-2-ND]\n• 18pF 50V 5% [Digikey: 490-1281-2-ND]\n• 22pF 50V 5% [Digikey: 490-1283-2-ND]\n• 68pF 50V 5% [Digikey: 490-1289-2-ND]\n• 0.1uF 10V 10% [Digikey: 490-1318-2-ND]\n• 1.0uF 6.3V 10% [Digikey: 490-1320-2-ND]\n\n0603 - 0603 Surface Mount Capacitors\n\n• 16 pF 50V 5% [Digikey: 445-5051-2-ND]\n• 22 pF 50V [Digikey: PCC220ACVTR-ND]\n• 33 pF 50V 5% [Digikey: 490-1415-1-ND]\n• 56pF 50V 5% [Digikey: 490-1421-1-ND]\n• 220pF 50V 5% [Digikey: 445-1285-1-ND]\n• 680 pF 50V\n• 2200 pF 50V 5% C0G [Digikey: 445-1297-1-ND]\n• 5600 pF 100V 5% X7R [Digikey: 478-3711-1-ND]\n• 0.1 µF 25V 10% [Digikey: PCC2277TR-ND]\n• 0.22 µF 16V 10% X7R [Digikey: 445-1318-1-ND]\n• 1.0 µF 25V 10% [Digikey: 445-5146-2-ND]\n\n0603 - RF Specific\n\n• 3pF 250V +/-0.1pF RF [Digikey: 712-1347-1-ND]\n• 18 pF 250V 5%  [Digikey: 478-3505-1-ND or 712-1322-1-ND]\n• 56 pF 250V 5% C0G RF [Digikey: 490-4867-1-ND]\n• 68 pF 250V RF [Digikey: 490-4868-1-ND]\n\n0805 - 0805 Surface Mount Capacitors\n\n• 220 pF 250V 2% RF Ceramic Capacitor [Digikey: 712-1398-1-ND]\n• 1000 pF 50V 2% NP0 Ceramic Capacitor [Digikey: 478-3760-1-ND]\n• 0.1 µF 25V 10% Ceramic Capacitor [Digikey: PCC1828TR-ND]\n• 1.0 µF 16V 10% Ceramic Capacitor[Digikey: 490-1691-2-ND]\n• 10.0 µF 10V 10% Ceramic Capacitor[Digikey: 709-1228-1-ND]\n• 10.0 uF 16V 10% Ceramic Capacitor [Digikey: 478-5165-2-ND]\n• 47 uF 6.3V 20% Ceramic Capacitor [Digikey: 587-1779-1-ND or 399-5506-1-ND]\n\n1206 - 1206 Surface Mount Capacitors\n\n• 47uF 10V 20% Ceramic Capacitor [Digikey: 490-5528-1-ND or 399-5508-1-ND or 445-6010-1-ND]\n• 100uF 6.3V -20%, +80% Y5V Ceramic Capacitor (Digikey: 490-4512-1-ND, Mouser: 81-GRM31CF50J107ZE1L)"
-			(at 833.12 412.75 0)
+			(at 822.96 412.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13042,6 +12915,74 @@
 			(project ""
 				(path "/ce36a1c2-88cc-4cba-88a9-6235c3ec0ad6"
 					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Q13FC1350000400:Q13FC1350000400")
+		(at 808.99 403.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "904551e1-aa52-4a30-a1bd-1c628695066e")
+		(property "Reference" "XTAL1"
+			(at 814.07 391.16 0)
+			(effects
+				(font
+					(size 3.4798 2.9578)
+				)
+			)
+		)
+		(property "Value" "XTAL_FC135"
+			(at 814.07 397.51 0)
+			(effects
+				(font
+					(size 3.4798 2.9578)
+				)
+			)
+		)
+		(property "Footprint" "Q13FC1350000400:XTAL_FC-135_EPS"
+			(at 808.99 403.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 808.99 403.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "https://pricing.snapeda.com/parts/Q13FC1350000400/EPSON/view-part?ref=eda Check availability"
+			(at 808.99 403.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dc93e0a8-8d84-44b9-8fa7-9a735966740c")
+		)
+		(pin "2"
+			(uuid "db1293aa-065d-4d2c-a326-7cc469382ef7")
+		)
+		(instances
+			(project ""
+				(path "/ce36a1c2-88cc-4cba-88a9-6235c3ec0ad6"
+					(reference "XTAL1")
 					(unit 1)
 				)
 			)
@@ -13773,7 +13714,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "27 pF"
+		(property "Value" "20 pF"
 			(at 805.18 415.2899 0)
 			(effects
 				(font
@@ -14801,196 +14742,6 @@
 			(project "Ember_v1.0"
 				(path "/ce36a1c2-88cc-4cba-88a9-6235c3ec0ad6"
 					(reference "R23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "FC-135_32.7680KA-A0:FC-135_32.7680KA-A0")
-		(at 819.15 403.86 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e1eb53bf-6b23-4f2c-9f17-e52bf07cc1a3")
-		(property "Reference" "Y2"
-			(at 819.15 393.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "FC-135_32.7680KA-A0"
-			(at 819.15 396.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "XTAL_FC-135_32.7680KA-A0"
-			(at 819.15 403.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Datasheet" ""
-			(at 819.15 403.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "32.7680 Khz 20ppm 12.5pf"
-			(at 819.15 403.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MF" "EPSON"
-			(at 819.15 403.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PACKAGE" "SMD-2 Epson"
-			(at 819.15 403.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PRICE" "0.33 USD"
-			(at 819.15 403.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "SMD-2 Epson"
-			(at 819.15 403.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/FC-135%2032.7680KA-A0/EPSON/view-part/?ref=eda"
-			(at 819.15 403.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendation"
-			(at 819.15 403.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/FC-135%2032.7680KA-A0/EPSON/view-part/?ref=snap"
-			(at 819.15 403.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "FC-135 32.7680KA-A0"
-			(at 819.15 403.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 819.15 403.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 819.15 403.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "AVAILABILITY" "Good"
-			(at 819.15 403.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "\\n                        \\n                            32.768 kHz ±20ppm Crystal 12.5pF 70 kOhms 2-SMD, No Lead\\n                        \\n"
-			(at 819.15 403.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3675b66d-e6a9-4e57-ad20-4893853bc04d")
-		)
-		(pin "2"
-			(uuid "69cd4079-8e6d-440f-a1e8-f827b1049cb8")
-		)
-		(instances
-			(project "Ember_v1.0"
-				(path "/ce36a1c2-88cc-4cba-88a9-6235c3ec0ad6"
-					(reference "Y2")
 					(unit 1)
 				)
 			)
