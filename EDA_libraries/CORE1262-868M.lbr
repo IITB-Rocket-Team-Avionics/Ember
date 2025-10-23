@@ -141,14 +141,18 @@
 </connects>
 <technologies>
 <technology name="">
-<attribute name="MP" value="Core1262-868M"/>
-<attribute name="Package" value="Package "/>
-<attribute name="Availability" value="Not in stock"/>
 <attribute name="MF" value="Waveshare Electronics"/>
-<attribute name="Price" value="None"/>
 <attribute name="Description" value="
-Lora core module
-"/>
+                        
+                            Lora core module
+                        
+                    "/>
+<attribute name="Package" value="Package "/>
+<attribute name="Price" value="None"/>
+<attribute name="SnapEDA_Link" value="https://www.snapeda.com/parts/Core1262-868M/Waveshare+Electronics/view-part/?ref=snap"/>
+<attribute name="MP" value="Core1262-868M"/>
+<attribute name="Availability" value="Not in stock"/>
+<attribute name="Check_prices" value="https://www.snapeda.com/parts/Core1262-868M/Waveshare+Electronics/view-part/?ref=eda"/>
 </technology>
 </technologies>
 </device>
