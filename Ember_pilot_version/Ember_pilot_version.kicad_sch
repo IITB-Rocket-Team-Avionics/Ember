@@ -7412,6 +7412,12 @@
 		(uuid "e211d4e5-338b-44a8-8c1a-34fa41dd9f8e")
 	)
 	(junction
+		(at 266.7 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e9afa9f2-d0a6-4a9f-a02d-07bab570ba74")
+	)
+	(junction
 		(at 374.65 331.47)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7700,6 +7706,16 @@
 			(type solid)
 		)
 		(uuid "0c9654ba-a9c5-47c1-a5d7-9f8aaa54cc58")
+	)
+	(wire
+		(pts
+			(xy 266.7 73.66) (xy 266.7 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0cd347a2-1e1f-4cfb-89f3-ca775a5ecd92")
 	)
 	(wire
 		(pts
@@ -8473,6 +8489,16 @@
 	)
 	(wire
 		(pts
+			(xy 266.7 73.66) (xy 285.75 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5478b255-c7eb-4723-8fa2-a3ff41a224f7")
+	)
+	(wire
+		(pts
 			(xy 496.57 62.23) (xy 496.57 66.04)
 		)
 		(stroke
@@ -8830,16 +8856,6 @@
 			(type default)
 		)
 		(uuid "70d00886-3179-4d42-988d-68d8fcaa8b51")
-	)
-	(wire
-		(pts
-			(xy 280.67 73.66) (xy 285.75 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "711ee539-dd72-469c-b46b-99aec2fa5bcd")
 	)
 	(wire
 		(pts
@@ -9683,6 +9699,16 @@
 	)
 	(wire
 		(pts
+			(xy 266.7 69.85) (xy 266.7 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "becf2142-b995-467a-b6d3-ac58947c0726")
+	)
+	(wire
+		(pts
 			(xy 482.6 77.47) (xy 486.41 77.47)
 		)
 		(stroke
@@ -10090,6 +10116,16 @@
 			(type default)
 		)
 		(uuid "e4990a7b-992a-4526-976a-8aacb81f0eb9")
+	)
+	(wire
+		(pts
+			(xy 266.7 85.09) (xy 266.7 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e59f29da-bb0c-49ed-a6f4-ca3035711ae3")
 	)
 	(wire
 		(pts
@@ -10530,6 +10566,16 @@
 			(justify right bottom)
 		)
 		(uuid "0ef46be2-0365-44c5-a5f9-6fabd4585956")
+	)
+	(label "GND"
+		(at 266.7 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0f916dc6-3098-4707-a06a-bc0386fd67c0")
 	)
 	(label "GND"
 		(at 496.57 74.93 0)
@@ -11082,7 +11128,7 @@
 		(uuid "82b43fa2-4954-4b21-ba39-67a549231c82")
 	)
 	(label "LORA_CS"
-		(at 280.67 73.66 180)
+		(at 266.7 69.85 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11739,7 +11785,7 @@
 				)
 			)
 		)
-		(property "Value" "10 uF"
+		(property "Value" "100 nF"
 			(at 491.49 196.85 90)
 			(effects
 				(font
@@ -12290,7 +12336,7 @@
 				)
 			)
 		)
-		(property "Value" "10 uF"
+		(property "Value" "100 nF"
 			(at 501.65 40.64 90)
 			(effects
 				(font
@@ -12358,7 +12404,7 @@
 				)
 			)
 		)
-		(property "Value" "10 uF"
+		(property "Value" "100 nF"
 			(at 525.78 137.16 90)
 			(effects
 				(font
@@ -12914,7 +12960,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "33K"
+		(property "Value" "10k"
 			(at 289.56 298.4499 90)
 			(effects
 				(font
@@ -15262,7 +15308,7 @@
 				)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "13k"
 			(at 293.37 287.02 0)
 			(effects
 				(font
@@ -15298,10 +15344,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "0516404a-3dd5-456e-812c-6f904bfb2533")
+			(uuid "0516404a-3dd5-456e-812c-6f904bfb2534")
 		)
 		(pin "2"
-			(uuid "e5f614f1-519e-474d-80ae-877d90598e39")
+			(uuid "e5f614f1-519e-474d-80ae-877d90598e3a")
 		)
 		(instances
 			(project ""
@@ -16159,6 +16205,76 @@
 				(path "/3d6c902b-75d5-4305-b725-f5c596d25bec"
 					(reference "X1")
 					(unit 10)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "microbuilder:RESISTOR0603")
+		(at 266.7 80.01 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b0cc7b19-7604-41c5-ba6e-93b20fd31b21")
+		(property "Reference" "R16"
+			(at 269.24 78.7399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "~"
+			(at 269.24 81.2799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "microbuilder:0603"
+			(at 266.7 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 266.7 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistors\n\n0402 - 0402 Surface Mount Package\n\n• 22 Ohm 1% 1/16W [Digikey: 311-22.0LRTR-ND]\n• 33 Ohm 5% 1/16W\n• 1.0K 5% 1/16W\n• 1.5K 5% 1/16W\n• 2.0K 1% 1/16W\n• 10.0K 1% 1/16W [Digikey: 311-10.0KLRTR-ND]\n• 10.0K 5% 1/16W [Digikey: RMCF0402JT10K0TR-ND]\n• 12.1K 1% 1/16W [Digikey: 311-22.0LRTR-ND]\n• 100.0K 5% 1/16W\n\n0603 - 0603 Surface Mount Package\n\n• 0 Ohm 1/10 Watt 1% Resistor\n• 15 Ohm 1/10 Watt 1% Resistor\n• 33 Ohm 1/10 Watt 1% Resistor\n• 49.9 Ohm 1/10 Watt 1% Resistor\n• 100 Ohm 1/10 Watt 1% Resistor\n• 150 Ohm 1/10 Watt 1% Resistor\n• 240 Ohm 1/10 Watt 1% Resistor\n• 390 Ohm 1/10 Watt 1% Resistor\n• 560 Ohm 1/10 Watt 1% Resistor\n• 680 Ohm 1/10 Watt 1% Resistor\n• 750 Ohm 1/10 Watt 1% Resistor\n• 1.0K Ohm 1/10 Watt 1% Resistor\n• 1.5K Ohm 1/10 Watt 1% Resistor\n• 2.0K Ohm 1/10 Watt 1% Resistor\n• 2.2K Ohm 1/10 Watt 1% Resistor\n• 3.3K Ohm 1/10 Watt 1% Resistor\n• 4.7K Ohm 1/10 Watt 1% Resistor\n• 10.0K Ohm 1/10 Watt 1% Resistor\n• 12.0K Ohm 1/10 Watt 1% Resistor\n• 12.1K Ohm 1/10 Watt 1% Resistor\n• 20.0K Ohm 1/10 Watt 1% Resistor\n• 33.0K Ohm 1/10 Watt 1% Resistor\n• 100.0K Ohm 1/10 Watt 1% Resistor\n\n0805 - 0805 Surface Mount Package\n\n• 0 Ohm 1/8 Watt 1% Resistor\n• 33 Ohm 1/8 Watt 1% Resistor\n• 100 Ohm 1/8 Watt 1% Resistor\n• 150 Ohm 1/8 Watt 1% Resistor\n• 200 Ohm 1/8 Watt 1% Resistor\n• 240 Ohm 1/8 Watt 1% Resistor\n• 330 Ohm 1/8 Watt 1% Resistor\n• 390 Ohm 1/8 Watt 1% Resistor\n• 470 Ohm 1/8 Watt 1% Resistor\n• 1.0K Ohm 1/8 Watt 1% Resistor\n• 1.5K Ohm 1/8 Watt 1% Resistor\n• 2.0K Ohm 1/8 Watt 1% Resistor\n• 4.7K Ohm 1/8 Watt 1% Resistor\n• 5.1K Ohm 1/8 Watt 1% Resistor\n• 5.6K Ohm 1/8 Watt 1% Resistor\n• 10.0K Ohm 1/8 Watt 1% Resistor\n• 22.0K Ohm 1/8 Watt 1% Resistor\n• 33.0K Ohm 1/8 Watt 1% Resistor\n• 100K Ohm 1/8 Watt 1% Resistor\n\n1206 - 1206 Surface Mount Package  2012 - 2010 Surface Mount Package\n\n• 0.11 Ohm 1/2 Watt 1% Resistor - Digikey: RHM.11UCT-ND"
+			(at 266.7 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "df5ce12f-38fa-4fe4-bd64-89b5cec6736d")
+		)
+		(pin "2"
+			(uuid "754dc49c-fbd4-49b8-aa7d-67a16577f6fd")
+		)
+		(instances
+			(project ""
+				(path "/3d6c902b-75d5-4305-b725-f5c596d25bec"
+					(reference "R16")
+					(unit 1)
 				)
 			)
 		)
