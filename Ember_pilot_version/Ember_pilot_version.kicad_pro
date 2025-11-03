@@ -489,26 +489,12 @@
       },
       {
         "clearance": 0.2,
-        "line_style": 0,
         "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "Buck",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.5,
-        "via_diameter": 0.6,
-        "via_drill": 0.3
-      },
-      {
-        "clearance": 0.2,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "Buck_in",
+        "name": "HV_supp",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.254,
+        "track_width": 0.304,
         "via_diameter": 0.6,
         "via_drill": 0.3
       }
@@ -520,56 +506,68 @@
     "netclass_assignments": null,
     "netclass_patterns": [
       {
-        "netclass": "Buck",
-        "pattern": ""
-      },
-      {
-        "netclass": "Buck",
-        "pattern": "/5v"
-      },
-      {
-        "netclass": "Buck",
-        "pattern": "/BST"
-      },
-      {
-        "netclass": "Buck",
+        "netclass": "HV_supp",
         "pattern": "/BATT_IN"
       },
       {
-        "netclass": "Buck_in",
+        "netclass": "HV_supp",
         "pattern": "/V_BATT"
       },
       {
-        "netclass": "Buck_in",
-        "pattern": "/FB"
+        "netclass": "HV_supp",
+        "pattern": "/5v"
       },
       {
-        "netclass": "Buck",
-        "pattern": "/V_DIV"
+        "netclass": "HV_supp",
+        "pattern": "/PYRO_DROGUE2"
       },
       {
-        "netclass": "Buck_in",
-        "pattern": "/V_CC_AAM"
+        "netclass": "HV_supp",
+        "pattern": "/PYRO_MAIN2"
       },
       {
-        "netclass": "Buck_in",
-        "pattern": "/BST_IN"
+        "netclass": "HV_supp",
+        "pattern": "/PYRO_MAIN"
       },
       {
-        "netclass": "Buck_in",
-        "pattern": "/AAM_DIV"
+        "netclass": "HV_supp",
+        "pattern": "/PYRO_DROGUE"
       },
       {
-        "netclass": "Buck",
-        "pattern": "/BST_INN"
+        "netclass": "HV_supp",
+        "pattern": "/VCC_PYRO"
       },
       {
-        "netclass": "Buck_in",
-        "pattern": "/FB_IN"
+        "netclass": "HV_supp",
+        "pattern": "/G_DROGUE2"
       },
       {
-        "netclass": "Buck_in",
-        "pattern": "/VCC_EN"
+        "netclass": "HV_supp",
+        "pattern": "/DROGUE2"
+      },
+      {
+        "netclass": "HV_supp",
+        "pattern": "/DROGUE"
+      },
+      {
+        "netclass": "HV_supp",
+        "pattern": "/G_DROGUE"
+      },
+      {
+        "netclass": "HV_supp",
+        "pattern": "/G_MAIN2"
+      },
+      {
+        "netclass": "HV_supp",
+        "pattern": "/MAIN2"
+      },
+      {
+        "netclass": "HV_supp",
+        "pattern": "/G_MAIN"
+      },
+      {
+        "netclass": "HV_supp",
+        "pattern": "/MAIN"
       }
     ]
   },

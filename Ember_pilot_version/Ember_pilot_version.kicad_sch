@@ -204,6 +204,169 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "AMS1117-5.0:AMS1117-5.0"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -10.16 5.5921 0)
+				(effects
+					(font
+						(size 2.5418 2.1605)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at -10.16 -8.1378 0)
+				(effects
+					(font
+						(size 2.543 2.1615)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "AMS1117-5.0:SOT229P700X180-4N"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "https://pricing.snapeda.com/parts/AMS1117-5.0/Advanced%20Monolithic%20Systems/view-part?ref=eda Check availability"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "AMS1117-5.0_1_0"
+				(polyline
+					(pts
+						(xy -10.16 5.08) (xy 10.16 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -10.16 -5.08) (xy -10.16 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 5.08) (xy 10.16 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -5.08) (xy -10.16 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -15.24 2.54 0)
+					(length 5.08)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 15.24 2.54 180)
+					(length 5.08)
+					(name "VOUT"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 15.24 -2.54 180)
+					(length 5.08)
+					(name "GND/ADJ"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "CJ3400:CJ3400"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1099,259 +1262,6 @@
 						(effects
 							(font
 								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "MP2315SGJ-Z:MP2315SGJ-Z"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "IC"
-				(at 21.59 7.62 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" ""
-				(at 21.59 5.08 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "MP2315SGJ-Z:SOT65P280X100-8N"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Switching Voltage Regulators 3A 24V Hi Effc.Sync Step Down Converter\n\nSource: https://componentsearchengine.com/Datasheets/1/MP2315SGJ-Z.pdf  Datasheet"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "MP2315SGJ-Z_1_0"
-				(polyline
-					(pts
-						(xy 5.08 2.54) (xy 5.08 -10.16)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 2.54) (xy 20.32 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 20.32 -10.16) (xy 5.08 -10.16)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 20.32 -10.16) (xy 20.32 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin bidirectional line
-					(at 0 0 0)
-					(length 5.08)
-					(name "AAM"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "IN"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 0 -5.08 0)
-					(length 5.08)
-					(name "SW"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 0 -7.62 0)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 25.4 0 180)
-					(length 5.08)
-					(name "BST"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 25.4 -2.54 180)
-					(length 5.08)
-					(name "EN"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 25.4 -5.08 180)
-					(length 5.08)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 25.4 -7.62 180)
-					(length 5.08)
-					(name "FB"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.524 1.524)
 							)
 						)
 					)
@@ -3166,511 +3076,6 @@
 						(effects
 							(font
 								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "SRN6045-4R7Y:SRN6045-330M6045"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" ""
-				(at -4.7244 4.6736 0)
-				(effects
-					(font
-						(size 2.0828 1.7703)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" ""
-				(at -5.3594 -1.0414 0)
-				(effects
-					(font
-						(size 2.0828 1.7703)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "SRN6045-4R7Y:SRN6045"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "https://pricing.snapeda.com/parts/SRN6045330M/Bourns/view-part?ref=eda Check availability"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "SRN6045-330M6045_1_0"
-				(arc
-					(start 4.9022 0.8382)
-					(mid 4.9944 0.458)
-					(end 5.08 0.0762)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -7.62 0) (xy -5.08 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -2.7178 0.8382)
-					(mid -2.5912 0.3368)
-					(end -2.54 -0.1778)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -3.81 1.8542)
-					(mid -3.0815 1.5423)
-					(end -2.7177 0.8382)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -5.08 0)
-					(mid -3.81 1.27)
-					(end -2.54 0)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -4.9276 0.8382)
-					(mid -4.5487 1.5441)
-					(end -3.8099 1.8542)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -0.1778 0.8382)
-					(mid -0.0512 0.3368)
-					(end 0 -0.1778)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -2.54 -0.1778)
-					(mid -2.5609 -0.0889)
-					(end -2.54 0.0001)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -2.54 -0.1778)
-					(mid -2.5609 -0.0889)
-					(end -2.54 0.0001)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -2.54 -0.1778)
-					(mid -2.5609 -0.0889)
-					(end -2.54 0.0001)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -2.54 -0.1778)
-					(mid -2.5609 -0.0889)
-					(end -2.54 0.0001)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -1.27 1.8542)
-					(mid -0.5415 1.5423)
-					(end -0.1777 0.8382)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -2.54 0)
-					(mid -1.27 1.27)
-					(end 0 0)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -2.3876 0.8382)
-					(mid -2.0087 1.5441)
-					(end -1.2699 1.8542)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -5.08 0)
-					(mid -5.0258 0.4231)
-					(end -4.9276 0.8382)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 2.3622 0.8382)
-					(mid 2.4888 0.3368)
-					(end 2.54 -0.1778)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -0.1778)
-					(mid -0.0209 -0.0889)
-					(end 0 0)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -0.1778)
-					(mid -0.0209 -0.0889)
-					(end 0 0)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -0.1778)
-					(mid -0.0209 -0.0889)
-					(end 0 0)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -0.1778)
-					(mid -0.0209 -0.0889)
-					(end 0 0)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.27 1.8542)
-					(mid 1.9985 1.5422)
-					(end 2.3622 0.8381)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 0)
-					(mid 1.27 1.27)
-					(end 2.54 0)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0.1524 0.8382)
-					(mid 0.5313 1.544)
-					(end 1.27 1.8541)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -2.54 0)
-					(mid -2.4858 0.4231)
-					(end -2.3876 0.8382)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 2.54 -0.1778)
-					(mid 2.5191 -0.0889)
-					(end 2.54 0)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 2.54 -0.1778)
-					(mid 2.5191 -0.0889)
-					(end 2.54 0)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 2.54 -0.1778)
-					(mid 2.5191 -0.0889)
-					(end 2.54 0)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 2.54 -0.1778)
-					(mid 2.5191 -0.0889)
-					(end 2.54 0)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 3.81 1.8542)
-					(mid 4.5385 1.5422)
-					(end 4.9022 0.8381)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 2.54 0)
-					(mid 3.81 1.27)
-					(end 5.08 0)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 2.6924 0.8382)
-					(mid 3.0713 1.544)
-					(end 3.81 1.8541)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 0)
-					(mid 0.0542 0.4231)
-					(end 0.1524 0.8382)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 0) (xy 7.62 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 2.54 0)
-					(mid 2.5942 0.4231)
-					(end 2.6924 0.8382)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0 0)
 							)
 						)
 					)
@@ -6837,10 +6242,10 @@
 		(uuid "0142addd-f9af-4bed-b139-463897eb8056")
 	)
 	(junction
-		(at 153.67 231.14)
+		(at 222.25 236.22)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "0309ef3d-fb62-4ee6-a5f3-c42c3b398ec7")
+		(uuid "01e84b14-ccc6-44f4-b59a-e187f9536370")
 	)
 	(junction
 		(at 49.53 138.43)
@@ -6897,28 +6302,22 @@
 		(uuid "18019803-21be-4347-bd73-c81a36c0da26")
 	)
 	(junction
-		(at 270.51 245.11)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "18e92b3f-fb8c-41cf-968d-685b9b1d2890")
-	)
-	(junction
 		(at 106.68 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "19568e09-a6c0-4bc3-8bdb-482def0734f7")
 	)
 	(junction
-		(at 181.61 218.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1f199c2a-07fa-431f-a4b5-af2ab1c220d9")
-	)
-	(junction
 		(at 81.28 175.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1fbfbc2b-0435-4322-a8ee-5ec3264db3ce")
+	)
+	(junction
+		(at 212.09 236.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "20a10d92-ccf9-4172-bfa8-4cfd6d27121f")
 	)
 	(junction
 		(at 158.75 180.34)
@@ -6939,28 +6338,22 @@
 		(uuid "28fcad6b-2810-43d1-884f-9746abcf52f1")
 	)
 	(junction
-		(at 252.73 245.11)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2b8c0b3f-ee41-4228-875e-3b9280221f99")
-	)
-	(junction
 		(at 311.15 135.89)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "45a2df61-80f9-49cc-9215-c1347fc676dc")
 	)
 	(junction
+		(at 165.1 236.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "48fd4794-e846-4583-b404-005ee1c63edb")
+	)
+	(junction
 		(at 85.09 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4ae3ca1b-523d-47b5-8572-63a719c5f1a3")
-	)
-	(junction
-		(at 213.36 259.08)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "653cb695-ef1f-473b-ab24-b235d8092352")
 	)
 	(junction
 		(at 339.09 54.61)
@@ -7033,12 +6426,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9508c2d6-b3d2-42f7-bc79-a756676b43a4")
-	)
-	(junction
-		(at 170.18 259.08)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9f8055d9-9803-44cc-b111-9f08040d94ac")
 	)
 	(junction
 		(at 393.7 66.04)
@@ -7125,12 +6512,6 @@
 		(uuid "ca908edc-a4ee-4c14-8c43-135f99024358")
 	)
 	(junction
-		(at 246.38 245.11)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cb7da6e4-c427-4a02-acb6-036f1062f1db")
-	)
-	(junction
 		(at 36.83 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7185,12 +6566,6 @@
 		(uuid "e9afa9f2-d0a6-4a9f-a02d-07bab570ba74")
 	)
 	(junction
-		(at 162.56 231.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e9b2a1fb-79e4-4f7a-8016-c97354c677b4")
-	)
-	(junction
 		(at 133.35 172.72)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7213,18 +6588,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ed5e7dd2-7c4c-4cc8-a1cb-cdd321b27a18")
-	)
-	(junction
-		(at 205.74 259.08)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f37ab41c-4500-4826-bec3-05046c4e8963")
-	)
-	(junction
-		(at 194.31 203.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f4e8dab1-25a7-49f1-87c6-4b5ede0e2398")
 	)
 	(junction
 		(at 81.28 138.43)
@@ -7326,16 +6689,6 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 218.44) (xy 181.61 219.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0490a5b2-bf4b-4f8a-ba00-b11adab93f8e")
-	)
-	(wire
-		(pts
 			(xy 134.62 148.59) (xy 134.62 144.78)
 		)
 		(stroke
@@ -7373,16 +6726,6 @@
 			(type default)
 		)
 		(uuid "05afb704-5568-4e2e-ba87-9e00c28c28ca")
-	)
-	(wire
-		(pts
-			(xy 205.74 266.7) (xy 205.74 270.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0651ecba-bae2-4066-ac88-9bb7065eb38e")
 	)
 	(wire
 		(pts
@@ -7506,16 +6849,6 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 242.57) (xy 208.28 242.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0d6c4dca-4260-4147-9c05-21fe3cbeffdf")
-	)
-	(wire
-		(pts
 			(xy 36.83 172.72) (xy 36.83 177.8)
 		)
 		(stroke
@@ -7533,16 +6866,6 @@
 			(type default)
 		)
 		(uuid "0f49dc5f-6afd-496a-b223-033eb358bf16")
-	)
-	(wire
-		(pts
-			(xy 204.47 229.87) (xy 205.74 229.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "127198f6-2320-4d9f-bf45-72a41b7f69b4")
 	)
 	(wire
 		(pts
@@ -7616,16 +6939,6 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 240.03) (xy 218.44 240.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1b5c17cb-f788-434d-9c13-373ccf8c32e9")
-	)
-	(wire
-		(pts
 			(xy 81.28 133.35) (xy 81.28 135.89)
 		)
 		(stroke
@@ -7656,13 +6969,23 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 232.41) (xy 270.51 232.41)
+			(xy 201.93 236.22) (xy 212.09 236.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "22d68f82-7c96-4c46-800c-eaffaa39c3b3")
+		(uuid "1fbfd05a-bcbc-42d4-8d6a-729284de1aa3")
+	)
+	(wire
+		(pts
+			(xy 165.1 236.22) (xy 165.1 241.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21d72bd7-6be4-415b-9775-d27e52dc58f4")
 	)
 	(wire
 		(pts
@@ -7673,16 +6996,6 @@
 			(type default)
 		)
 		(uuid "23253478-8853-4ddb-bf11-f3fa76cfb06e")
-	)
-	(wire
-		(pts
-			(xy 153.67 238.76) (xy 153.67 242.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "23f1a971-e786-4134-882e-af0ae8511dc3")
 	)
 	(polyline
 		(pts
@@ -7784,16 +7097,6 @@
 		)
 		(uuid "297ebc44-1c67-484a-bb93-b0ef0cd0fe39")
 	)
-	(wire
-		(pts
-			(xy 194.31 203.2) (xy 194.31 209.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "29a86b3e-5a71-483d-b2b3-354d44571d53")
-	)
 	(polyline
 		(pts
 			(xy 582.168 273.558) (xy 582.168 273.812)
@@ -7813,16 +7116,6 @@
 			(type default)
 		)
 		(uuid "2adb8590-b9c2-4a96-9b11-e1c1458e864c")
-	)
-	(wire
-		(pts
-			(xy 246.38 255.27) (xy 246.38 259.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2b06255d-b856-46b4-8994-5366cd73efef")
 	)
 	(wire
 		(pts
@@ -7873,16 +7166,6 @@
 			(type default)
 		)
 		(uuid "2f34d9fc-3a7a-475c-bfc1-6e39b0c9ca42")
-	)
-	(wire
-		(pts
-			(xy 201.93 240.03) (xy 204.47 240.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2f3d7628-d03e-4d18-a539-b86a695cdba4")
 	)
 	(wire
 		(pts
@@ -7946,16 +7229,6 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 259.08) (xy 180.34 259.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3a820a66-5fbc-4e32-a8ab-a94c22d1316c")
-	)
-	(wire
-		(pts
 			(xy 311.15 60.96) (xy 311.15 63.5)
 		)
 		(stroke
@@ -7973,16 +7246,6 @@
 			(type default)
 		)
 		(uuid "3cdd55e9-599d-4ae0-bcb1-094172d8612f")
-	)
-	(wire
-		(pts
-			(xy 181.61 229.87) (xy 181.61 231.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3daac595-8940-4473-9fb0-aaece3972a0b")
 	)
 	(polyline
 		(pts
@@ -8003,16 +7266,6 @@
 			(type default)
 		)
 		(uuid "415b7554-6e38-4f13-a861-b7b308f00fcb")
-	)
-	(wire
-		(pts
-			(xy 176.53 245.11) (xy 173.99 245.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "416584f2-93c4-4c6e-8c6f-66190dfa59bd")
 	)
 	(wire
 		(pts
@@ -8073,16 +7326,6 @@
 			(type default)
 		)
 		(uuid "436051cf-749b-4690-ac64-1c7c5a5992e4")
-	)
-	(wire
-		(pts
-			(xy 147.32 231.14) (xy 153.67 231.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "43c67b30-ef62-4716-8698-a3c9bda05081")
 	)
 	(wire
 		(pts
@@ -8206,6 +7449,16 @@
 	)
 	(wire
 		(pts
+			(xy 212.09 236.22) (xy 212.09 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bd6cf82-67ba-496c-a281-1d1740fdb2af")
+	)
+	(wire
+		(pts
 			(xy 36.83 133.35) (xy 55.88 133.35)
 		)
 		(stroke
@@ -8216,13 +7469,13 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 231.14) (xy 171.45 240.03)
+			(xy 222.25 246.38) (xy 222.25 248.92)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4de8e150-e6ca-4dd0-b88c-858f70e8f4ea")
+		(uuid "4d0bce88-e635-46b7-9efe-bd6b0eb44d2a")
 	)
 	(wire
 		(pts
@@ -8296,6 +7549,16 @@
 	)
 	(wire
 		(pts
+			(xy 222.25 236.22) (xy 228.6 236.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54db373d-8cae-42d2-83a9-0a4ce093ca75")
+	)
+	(wire
+		(pts
 			(xy 350.52 204.47) (xy 341.63 204.47)
 		)
 		(stroke
@@ -8316,16 +7579,6 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 242.57) (xy 170.18 242.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "572e2fb8-f539-443e-876a-ebd5c63ab0d7")
-	)
-	(wire
-		(pts
 			(xy 393.7 127) (xy 402.59 127)
 		)
 		(stroke
@@ -8343,26 +7596,6 @@
 			(type default)
 		)
 		(uuid "597f92bd-b5ea-4a0e-b379-89a520bf8dc5")
-	)
-	(wire
-		(pts
-			(xy 252.73 232.41) (xy 257.81 232.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "59b163fc-7608-4ced-9453-3edb26ad70f0")
-	)
-	(wire
-		(pts
-			(xy 173.99 237.49) (xy 173.99 218.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5a059836-7d34-4f6c-a65a-42d07f01a1cb")
 	)
 	(wire
 		(pts
@@ -8406,16 +7639,6 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 259.08) (xy 205.74 259.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5bb18406-2c33-4eb7-b7a3-6beea51379e9")
-	)
-	(wire
-		(pts
 			(xy 251.46 144.78) (xy 251.46 147.32)
 		)
 		(stroke
@@ -8453,16 +7676,6 @@
 			(type default)
 		)
 		(uuid "62691dfa-cb73-4866-ae62-1941ad4c30c4")
-	)
-	(wire
-		(pts
-			(xy 194.31 217.17) (xy 194.31 219.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "627c9d39-0833-4c09-8cce-ec69bbe052d3")
 	)
 	(wire
 		(pts
@@ -8516,6 +7729,16 @@
 	)
 	(wire
 		(pts
+			(xy 212.09 246.38) (xy 212.09 248.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6656257c-7364-417b-95e7-e5696047404e")
+	)
+	(wire
+		(pts
 			(xy 160.02 132.08) (xy 160.02 134.62)
 		)
 		(stroke
@@ -8523,6 +7746,16 @@
 			(type default)
 		)
 		(uuid "66e9b9b6-4cee-4e95-92bd-63299c402817")
+	)
+	(wire
+		(pts
+			(xy 201.93 241.3) (xy 203.2 241.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67313066-fd5c-4b21-9b98-db64544e8ed4")
 	)
 	(wire
 		(pts
@@ -8636,16 +7869,6 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 259.08) (xy 213.36 259.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6ea18830-6050-403c-bec4-5cbf1afa407c")
-	)
-	(wire
-		(pts
 			(xy 360.68 182.88) (xy 375.92 182.88)
 		)
 		(stroke
@@ -8683,16 +7906,6 @@
 			(type default)
 		)
 		(uuid "73cc79c3-21e3-4835-abe2-f4cc0fbb4a72")
-	)
-	(wire
-		(pts
-			(xy 162.56 231.14) (xy 171.45 231.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "755356b5-fc8d-43d9-a2a8-b15e95afcf1b")
 	)
 	(wire
 		(pts
@@ -8886,16 +8099,6 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 238.76) (xy 162.56 242.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8228969d-220d-4dd6-94c6-49b1a9478d2f")
-	)
-	(wire
-		(pts
 			(xy 120.65 247.65) (xy 124.46 247.65)
 		)
 		(stroke
@@ -8973,6 +8176,16 @@
 			(type default)
 		)
 		(uuid "86947c32-ed7e-4669-bfeb-03bd8d724a0c")
+	)
+	(wire
+		(pts
+			(xy 165.1 236.22) (xy 171.45 236.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "875c51d7-2015-4117-ad4f-746c9ef57d4f")
 	)
 	(wire
 		(pts
@@ -9056,16 +8269,6 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 245.11) (xy 256.54 245.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8e8fc93a-67d4-4af1-9a0c-23e312423233")
-	)
-	(wire
-		(pts
 			(xy 247.65 118.11) (xy 254 118.11)
 		)
 		(stroke
@@ -9126,16 +8329,6 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 245.11) (xy 275.59 245.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "97e9312f-c8b2-47b9-9b4e-5a8a87399c29")
-	)
-	(wire
-		(pts
 			(xy 393.7 60.96) (xy 393.7 63.5)
 		)
 		(stroke
@@ -9143,16 +8336,6 @@
 			(type default)
 		)
 		(uuid "98f6465f-713a-42fe-89a8-63b065d07b1c")
-	)
-	(wire
-		(pts
-			(xy 204.47 237.49) (xy 204.47 229.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "997f539a-1491-45d4-8410-c14f1903d289")
 	)
 	(wire
 		(pts
@@ -9183,16 +8366,6 @@
 			(type default)
 		)
 		(uuid "a0dab750-2809-4748-9b71-89633f9109b9")
-	)
-	(wire
-		(pts
-			(xy 171.45 240.03) (xy 176.53 240.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a120c8be-f8ac-416b-86f2-0beb8201558b")
 	)
 	(wire
 		(pts
@@ -9254,16 +8427,6 @@
 		)
 		(uuid "a316151f-86a8-4131-a11b-47276dc229b9")
 	)
-	(wire
-		(pts
-			(xy 181.61 217.17) (xy 181.61 218.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a381697b-f743-466f-b6a0-032df8ff129c")
-	)
 	(polyline
 		(pts
 			(xy 299.974 173.99) (xy 299.974 253.238)
@@ -9304,6 +8467,16 @@
 		)
 		(uuid "a6ceb2d5-761c-4cda-aba9-7d79545c3372")
 	)
+	(wire
+		(pts
+			(xy 203.2 241.3) (xy 203.2 246.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a767d96c-31e4-40db-8235-96cb8412cb0c")
+	)
 	(polyline
 		(pts
 			(xy 113.792 316.484) (xy 117.094 316.484)
@@ -9326,16 +8499,6 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 242.57) (xy 170.18 259.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aa1d6051-91b0-467e-a17c-71ab1944c771")
-	)
-	(wire
-		(pts
 			(xy 334.01 124.46) (xy 337.82 124.46)
 		)
 		(stroke
@@ -9343,6 +8506,16 @@
 			(type default)
 		)
 		(uuid "aa5a6c5a-572f-49b5-97b1-7ea2e32cdd2f")
+	)
+	(wire
+		(pts
+			(xy 153.67 236.22) (xy 165.1 236.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa64ce6f-c292-445f-87b3-de48fb673920")
 	)
 	(wire
 		(pts
@@ -9426,16 +8599,6 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 259.08) (xy 223.52 259.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b5e0b8b8-bf9a-404e-9fcd-2100f4616006")
-	)
-	(wire
-		(pts
 			(xy 388.62 135.89) (xy 391.16 135.89)
 		)
 		(stroke
@@ -9476,16 +8639,6 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 203.2) (xy 208.28 203.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b8b50e37-cefc-4310-853b-9480910b3188")
-	)
-	(wire
-		(pts
 			(xy 81.28 172.72) (xy 81.28 175.26)
 		)
 		(stroke
@@ -9496,26 +8649,6 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 218.44) (xy 181.61 218.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b9f9bab9-cff1-46b7-b316-8d29427f8796")
-	)
-	(wire
-		(pts
-			(xy 246.38 245.11) (xy 252.73 245.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bad8fcb8-02c4-4462-b28b-6ac66a6d526d")
-	)
-	(wire
-		(pts
 			(xy 393.7 63.5) (xy 393.7 66.04)
 		)
 		(stroke
@@ -9523,16 +8656,6 @@
 			(type default)
 		)
 		(uuid "bb810a05-d2a4-45e3-be06-031e6f7baf0a")
-	)
-	(wire
-		(pts
-			(xy 252.73 245.11) (xy 252.73 232.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bb9b2299-cc19-4534-aa56-01a3dec14470")
 	)
 	(polyline
 		(pts
@@ -9583,26 +8706,6 @@
 			(type default)
 		)
 		(uuid "bf7b62a0-d43e-4320-ba15-284a60896524")
-	)
-	(wire
-		(pts
-			(xy 176.53 237.49) (xy 173.99 237.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c29842fd-e58b-4bec-9885-0c7ee93b40c1")
-	)
-	(wire
-		(pts
-			(xy 201.93 237.49) (xy 204.47 237.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c3299234-b164-4ab1-b872-e56dae2915bd")
 	)
 	(wire
 		(pts
@@ -9686,16 +8789,6 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 259.08) (xy 170.18 259.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ca063de8-0b69-4a77-90aa-f2f9618e9529")
-	)
-	(wire
-		(pts
 			(xy 290.83 46.99) (xy 290.83 53.34)
 		)
 		(stroke
@@ -9713,26 +8806,6 @@
 			(type default)
 		)
 		(uuid "cb2479b1-6099-4f50-8e3c-03fd8a50bdb2")
-	)
-	(wire
-		(pts
-			(xy 153.67 231.14) (xy 162.56 231.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cc6b3743-e0f8-4622-8b95-d2935470e785")
-	)
-	(wire
-		(pts
-			(xy 181.61 203.2) (xy 194.31 203.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cd1c1051-df41-472a-9e85-c987bcb50e25")
 	)
 	(wire
 		(pts
@@ -9826,16 +8899,6 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 245.11) (xy 173.99 250.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d9edf471-d6da-4de1-bcfb-0cb386bf9edc")
-	)
-	(wire
-		(pts
 			(xy 36.83 133.35) (xy 34.29 133.35)
 		)
 		(stroke
@@ -9853,26 +8916,6 @@
 			(type default)
 		)
 		(uuid "dc3599ba-9216-42e4-a1f9-e03006cd6ac9")
-	)
-	(wire
-		(pts
-			(xy 236.22 245.11) (xy 246.38 245.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dc3d155f-4b1a-4daa-b156-984a6aa4f0ee")
-	)
-	(wire
-		(pts
-			(xy 270.51 232.41) (xy 270.51 245.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dc7c5043-bc7c-46b1-9dbb-ca1c8e36aacd")
 	)
 	(wire
 		(pts
@@ -9926,6 +8969,16 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 248.92) (xy 165.1 251.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0536ad9-77af-4729-84d8-6909c47b4fa7")
+	)
+	(wire
+		(pts
 			(xy 76.2 27.94) (xy 85.09 27.94)
 		)
 		(stroke
@@ -9943,26 +8996,6 @@
 			(type default)
 		)
 		(uuid "e3acd224-6213-432e-baff-80016556117c")
-	)
-	(wire
-		(pts
-			(xy 201.93 245.11) (xy 226.06 245.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e4322e5a-4833-4f8e-8f70-0617229020f9")
-	)
-	(wire
-		(pts
-			(xy 181.61 207.01) (xy 181.61 203.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e4990a7b-992a-4526-976a-8aacb81f0eb9")
 	)
 	(wire
 		(pts
@@ -10023,16 +9056,6 @@
 			(type solid)
 		)
 		(uuid "eb5efdad-1165-4d2f-9007-adcfb7cad508")
-	)
-	(wire
-		(pts
-			(xy 215.9 229.87) (xy 218.44 229.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ec4da877-fac3-4c8d-8745-4487c1221d20")
 	)
 	(polyline
 		(pts
@@ -10136,26 +9159,6 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 266.7) (xy 213.36 270.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f3c26d23-80f8-4fd5-a022-cd63c2a85d59")
-	)
-	(wire
-		(pts
-			(xy 270.51 245.11) (xy 266.7 245.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f6cfc6ce-c712-4222-8c7d-76f64879edb7")
-	)
-	(wire
-		(pts
 			(xy 81.28 177.8) (xy 81.28 180.34)
 		)
 		(stroke
@@ -10186,13 +9189,13 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 229.87) (xy 228.6 229.87)
+			(xy 222.25 236.22) (xy 222.25 238.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f8b72e6d-ecf3-400b-8f63-deb8be553daa")
+		(uuid "f85aad59-3dbb-4eca-8b14-7e5c2e55afae")
 	)
 	(wire
 		(pts
@@ -10243,6 +9246,16 @@
 			(type default)
 		)
 		(uuid "fa3d0e2f-e6d1-4283-b80f-d5b69f244ce0")
+	)
+	(wire
+		(pts
+			(xy 212.09 236.22) (xy 222.25 236.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd390e42-d3ef-4979-95c8-aa18212b83eb")
 	)
 	(wire
 		(pts
@@ -10313,6 +9326,16 @@
 			(justify left bottom)
 		)
 		(uuid "0941f9d7-9f9d-47a0-b34d-8108ce562a60")
+	)
+	(label "GND"
+		(at 212.09 248.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0ba1ea6a-e588-4c6a-a433-9678fbce4a78")
 	)
 	(label "SDA"
 		(at 255.27 161.29 0)
@@ -10394,26 +9417,6 @@
 		)
 		(uuid "12529cf1-46aa-4e0f-a74a-650bdafcfbcf")
 	)
-	(label "V_BATT"
-		(at 218.44 240.03 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "16e5e738-c144-47dd-9111-cb20d0eca98f")
-	)
-	(label "BST_INN"
-		(at 217.17 229.87 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "190ff34e-687d-45a5-8076-1ff170e2bb15")
-	)
 	(label "LORA_DIO1"
 		(at 191.77 49.53 0)
 		(effects
@@ -10423,16 +9426,6 @@
 			(justify left bottom)
 		)
 		(uuid "1abe5566-40ff-41a9-aaa8-6730932f8a01")
-	)
-	(label "V_CC_AAM"
-		(at 208.28 242.57 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1edbfdf5-0d25-422f-a16f-7c34403c145f")
 	)
 	(label "GPS_RX"
 		(at 31.75 38.1 0)
@@ -10464,16 +9457,6 @@
 		)
 		(uuid "22f6e0e7-7b3f-48ba-beda-a067f8455b99")
 	)
-	(label "V_CC_AAM"
-		(at 208.28 203.2 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "23e598ed-03b3-41e3-a6ce-a8ff50530ef7")
-	)
 	(label "BATT_IN"
 		(at 105.41 234.95 0)
 		(effects
@@ -10484,15 +9467,15 @@
 		)
 		(uuid "2413a6b4-285b-4388-9932-b90a474bf6e3")
 	)
-	(label "5v"
-		(at 275.59 245.11 0)
+	(label "GND"
+		(at 165.1 251.46 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "269186fc-182a-4d65-bfad-777cb16f82e6")
+		(uuid "245423df-d0b0-49d8-bb51-50ef21ac514e")
 	)
 	(label "BUZZER"
 		(at 207.01 133.35 180)
@@ -10554,16 +9537,6 @@
 		)
 		(uuid "2fb96d7d-ae98-43fd-b27b-f5cc1735ae42")
 	)
-	(label "5v"
-		(at 223.52 259.08 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "35218287-21ae-4976-9ead-6c18abe4795e")
-	)
 	(label "PYRO_MAIN2"
 		(at 38.1 233.68 180)
 		(effects
@@ -10573,36 +9546,6 @@
 			(justify right bottom)
 		)
 		(uuid "35f5578e-4977-4aa3-af04-c4630f4c75e8")
-	)
-	(label "GND"
-		(at 194.31 219.71 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "36af68de-1c58-4e02-89a4-1c1811c97d26")
-	)
-	(label "FB"
-		(at 228.6 229.87 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3a0a4a87-3f7a-428a-8882-d6beba241f5c")
-	)
-	(label "V_DIV"
-		(at 242.57 245.11 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3cd11a61-47bd-4dc2-baa6-b5fdc320ca52")
 	)
 	(label "GND"
 		(at 106.68 96.52 0)
@@ -10624,15 +9567,15 @@
 		)
 		(uuid "4136e0a0-9cf3-4bee-83af-f5eb4e54b890")
 	)
-	(label "FB_IN"
-		(at 215.9 245.11 0)
+	(label "G_DROGUE"
+		(at 49.53 177.8 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "418f8fbb-4e95-4e28-a0de-e7592c1f87d8")
+		(uuid "428b46fe-4577-494e-8cbc-f6fe1e6e232a")
 	)
 	(label "V_BATT"
 		(at 38.1 251.46 180)
@@ -10673,16 +9616,6 @@
 			(justify left bottom)
 		)
 		(uuid "4d0ffc58-374b-416a-81c4-ca9ebb3be799")
-	)
-	(label "GND"
-		(at 173.99 250.19 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "501967fa-1dcd-423a-9932-baaa6f19abdd")
 	)
 	(label "GND"
 		(at 311.15 63.5 0)
@@ -10764,15 +9697,15 @@
 		)
 		(uuid "5ee059fb-5ba9-4e15-bb44-cd61aa792a0c")
 	)
-	(label "GND"
-		(at 205.74 270.51 0)
+	(label "G_MAIN2"
+		(at 128.27 139.7 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "60a970e0-585d-4913-9e4a-523ace0c4045")
+		(uuid "621554bb-3d6a-4e75-8fc8-25727984710f")
 	)
 	(label "3v3"
 		(at 254 120.65 0)
@@ -10783,16 +9716,6 @@
 			(justify left bottom)
 		)
 		(uuid "626c3f5a-3809-4cf5-b7fb-5534dfdeb089")
-	)
-	(label "GND"
-		(at 213.36 270.51 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "66280d02-a2f1-4636-b3dc-663d3bfbc4e3")
 	)
 	(label "3v3"
 		(at 219.71 39.37 180)
@@ -10865,16 +9788,6 @@
 		(uuid "7411a4fc-c164-44d7-84ab-8c4ac69aba06")
 	)
 	(label "GND"
-		(at 162.56 242.57 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "76a0cae4-2026-45dd-b6df-8a3d3a076fd2")
-	)
-	(label "GND"
 		(at 367.03 74.93 0)
 		(effects
 			(font
@@ -10904,6 +9817,16 @@
 		)
 		(uuid "7850467b-7c1b-427d-abcb-ec4de657fd2f")
 	)
+	(label "5v"
+		(at 228.6 236.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7b08aa86-2b68-43da-acad-dde7d74bd8c9")
+	)
 	(label "GND"
 		(at 402.59 135.89 0)
 		(effects
@@ -10913,6 +9836,16 @@
 			(justify left bottom)
 		)
 		(uuid "7ca019f8-1136-45d7-b674-3f39220d9e43")
+	)
+	(label "GND"
+		(at 203.2 246.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7d401bd8-d46f-4edf-b7d6-464fac8a362a")
 	)
 	(label "3v3"
 		(at 388.62 143.51 0)
@@ -10953,16 +9886,6 @@
 			(justify right bottom)
 		)
 		(uuid "8a321a9d-2cc3-462e-88cc-4374ed0f1a5b")
-	)
-	(label "GND"
-		(at 181.61 231.14 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8a3b3978-064e-411a-81fc-e3591e91fd43")
 	)
 	(label "XOUT32"
 		(at 316.23 46.99 180)
@@ -11033,26 +9956,6 @@
 			(justify left bottom)
 		)
 		(uuid "94802ec8-ed1c-4ae7-9913-287ab6852c3c")
-	)
-	(label "V_BATT"
-		(at 147.32 231.14 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "952c37cd-5cda-4f22-a520-27f1be284a72")
-	)
-	(label "GND"
-		(at 246.38 259.08 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "957bc819-1629-40ad-8d22-cc71eb7c4271")
 	)
 	(label "GND"
 		(at 113.03 134.62 180)
@@ -11184,6 +10087,16 @@
 		)
 		(uuid "b4f83574-3f46-406a-99c1-e1ae7edc3f12")
 	)
+	(label "GND"
+		(at 222.25 248.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b51c4a04-13c5-4290-b2a7-0c0ea0af32a6")
+	)
 	(label "SCL"
 		(at 255.27 158.75 0)
 		(effects
@@ -11223,16 +10136,6 @@
 			(justify right bottom)
 		)
 		(uuid "bba7a9fd-f54d-4d77-9f07-6073cbdfefac")
-	)
-	(label "FB"
-		(at 166.37 259.08 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "bdbe2857-049c-4ab3-844c-ee509780fa44")
 	)
 	(label "GND"
 		(at 251.46 147.32 0)
@@ -11314,16 +10217,6 @@
 		)
 		(uuid "c494c110-789f-4888-b8f6-537c39dce479")
 	)
-	(label "VCC_EN"
-		(at 203.2 240.03 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c62d78ca-b71b-4255-b488-921d2ab06ee2")
-	)
 	(label "MAIN2"
 		(at 254 171.45 0)
 		(effects
@@ -11333,6 +10226,16 @@
 			(justify left bottom)
 		)
 		(uuid "ca5a121f-51f8-42aa-b521-8b22a649a1f2")
+	)
+	(label "V_BATT"
+		(at 153.67 236.22 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d19bb82a-0f5f-4a56-98ae-f58b8061e1f3")
 	)
 	(label "GND"
 		(at 111.76 172.72 180)
@@ -11385,16 +10288,6 @@
 		(uuid "e22fca2d-03f7-4f93-9266-eec10c285afd")
 	)
 	(label "GND"
-		(at 153.67 242.57 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e296f6d8-4e59-43f7-af0c-261161a7a576")
-	)
-	(label "GND"
 		(at 106.68 232.41 0)
 		(effects
 			(font
@@ -11403,16 +10296,6 @@
 			(justify left bottom)
 		)
 		(uuid "e3b8e914-47b6-4249-868b-3ccc50a49cc8")
-	)
-	(label "BST_IN"
-		(at 204.47 237.49 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e7a05a6c-ee17-4bf2-8647-06a3f5cf6dfb")
 	)
 	(label "GND"
 		(at 276.86 128.27 180)
@@ -11464,15 +10347,15 @@
 		)
 		(uuid "f11050af-1e93-4430-a7e7-7e4b755a4d4c")
 	)
-	(label "AAM_DIV"
-		(at 173.99 218.44 0)
+	(label "G_MAIN"
+		(at 49.53 138.43 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "f2262217-b0a5-42dc-b7ae-a372460d6721")
+		(uuid "f1fffd2c-b12f-4638-81bc-aec92030b4a3")
 	)
 	(label "MAIN2"
 		(at 128.27 153.67 0)
@@ -11707,76 +10590,6 @@
 			(project ""
 				(path "/3d6c902b-75d5-4305-b725-f5c596d25bec"
 					(reference "J8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "adafruit:R-US_R0603")
-		(at 181.61 224.79 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0c3c691f-acb6-4a9d-a75b-f59c743e3e1f")
-		(property "Reference" "R9"
-			(at 184.15 222.885 90)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "9.09k"
-			(at 184.15 226.695 90)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "adafruit:R0603"
-			(at 181.61 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 181.61 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RESISTOR, American symbol"
-			(at 181.61 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a9772158-7b11-48f0-9d83-b525de8531da")
-		)
-		(pin "2"
-			(uuid "1265649a-939c-48c4-9cac-e8bff4288c41")
-		)
-		(instances
-			(project "Ember_pilot_version"
-				(path "/3d6c902b-75d5-4305-b725-f5c596d25bec"
-					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -12471,74 +11284,6 @@
 	)
 	(symbol
 		(lib_id "microbuilder:CAP_CERAMIC0603")
-		(at 223.52 229.87 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "364acf49-4be7-4136-84d7-100e32391d06")
-		(property "Reference" "C18"
-			(at 222.25 223.52 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100nF"
-			(at 222.25 226.06 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "microbuilder:0603"
-			(at 223.52 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 223.52 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Ceramic Capacitors\n\n0402 - 0402 Surface Mount Capacitors\n\n• 16pF 50V 5% [Digikey: 445-4899-2-ND]\n• 18pF 50V 5% [Digikey: 490-1281-2-ND]\n• 22pF 50V 5% [Digikey: 490-1283-2-ND]\n• 68pF 50V 5% [Digikey: 490-1289-2-ND]\n• 0.1uF 10V 10% [Digikey: 490-1318-2-ND]\n• 1.0uF 6.3V 10% [Digikey: 490-1320-2-ND]\n\n0603 - 0603 Surface Mount Capacitors\n\n• 16 pF 50V 5% [Digikey: 445-5051-2-ND]\n• 22 pF 50V [Digikey: PCC220ACVTR-ND]\n• 33 pF 50V 5% [Digikey: 490-1415-1-ND]\n• 56pF 50V 5% [Digikey: 490-1421-1-ND]\n• 220pF 50V 5% [Digikey: 445-1285-1-ND]\n• 680 pF 50V\n• 2200 pF 50V 5% C0G [Digikey: 445-1297-1-ND]\n• 5600 pF 100V 5% X7R [Digikey: 478-3711-1-ND]\n• 0.1 µF 25V 10% [Digikey: PCC2277TR-ND]\n• 0.22 µF 16V 10% X7R [Digikey: 445-1318-1-ND]\n• 1.0 µF 25V 10% [Digikey: 445-5146-2-ND]\n\n0603 - RF Specific\n\n• 3pF 250V +/-0.1pF RF [Digikey: 712-1347-1-ND]\n• 18 pF 250V 5%  [Digikey: 478-3505-1-ND or 712-1322-1-ND]\n• 56 pF 250V 5% C0G RF [Digikey: 490-4867-1-ND]\n• 68 pF 250V RF [Digikey: 490-4868-1-ND]\n\n0805 - 0805 Surface Mount Capacitors\n\n• 220 pF 250V 2% RF Ceramic Capacitor [Digikey: 712-1398-1-ND]\n• 1000 pF 50V 2% NP0 Ceramic Capacitor [Digikey: 478-3760-1-ND]\n• 0.1 µF 25V 10% Ceramic Capacitor [Digikey: PCC1828TR-ND]\n• 1.0 µF 16V 10% Ceramic Capacitor[Digikey: 490-1691-2-ND]\n• 10.0 µF 10V 10% Ceramic Capacitor[Digikey: 709-1228-1-ND]\n• 10.0 uF 16V 10% Ceramic Capacitor [Digikey: 478-5165-2-ND]\n• 47 uF 6.3V 20% Ceramic Capacitor [Digikey: 587-1779-1-ND or 399-5506-1-ND]\n\n1206 - 1206 Surface Mount Capacitors\n\n• 47uF 10V 20% Ceramic Capacitor [Digikey: 490-5528-1-ND or 399-5508-1-ND or 445-6010-1-ND]\n• 100uF 6.3V -20%, +80% Y5V Ceramic Capacitor (Digikey: 490-4512-1-ND, Mouser: 81-GRM31CF50J107ZE1L)"
-			(at 223.52 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "63c3f4a9-00f7-483a-8c7e-1b8e2dbb306f")
-		)
-		(pin "1"
-			(uuid "b7b0c7b5-4891-4775-b0dd-bdc40f049648")
-		)
-		(instances
-			(project "Ember_pilot_version"
-				(path "/3d6c902b-75d5-4305-b725-f5c596d25bec"
-					(reference "C18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "microbuilder:CAP_CERAMIC0603")
 		(at 91.44 78.74 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12600,74 +11345,6 @@
 			(project "Ember_pilot_version"
 				(path "/3d6c902b-75d5-4305-b725-f5c596d25bec"
 					(reference "C3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "adafruit:R-US_R0603")
-		(at 210.82 229.87 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "39809bf6-5a6b-4d6e-a29d-9fa2604d1258")
-		(property "Reference" "R7"
-			(at 210.82 222.25 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-			)
-		)
-		(property "Value" "10"
-			(at 210.82 226.06 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-			)
-		)
-		(property "Footprint" "adafruit:R0603"
-			(at 210.82 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 210.82 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RESISTOR, American symbol"
-			(at 210.82 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fc9381cb-f1c5-4383-ad7a-4661e21bfdc4")
-		)
-		(pin "2"
-			(uuid "dae4d6b0-677c-48a2-8b02-02b5fbe72847")
-		)
-		(instances
-			(project "Ember_pilot_version"
-				(path "/3d6c902b-75d5-4305-b725-f5c596d25bec"
-					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -12998,146 +11675,6 @@
 		)
 	)
 	(symbol
-		(lib_id "adafruit:R-US_R0603")
-		(at 181.61 212.09 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "47b080ab-8aa7-4a7d-b867-5009a7556b58")
-		(property "Reference" "R8"
-			(at 184.15 210.185 90)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100k"
-			(at 184.15 213.995 90)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "adafruit:R0603"
-			(at 181.61 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 181.61 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RESISTOR, American symbol"
-			(at 181.61 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a9772158-7b11-48f0-9d83-b525de8531db")
-		)
-		(pin "2"
-			(uuid "1265649a-939c-48c4-9cac-e8bff4288c42")
-		)
-		(instances
-			(project "Ember_pilot_version"
-				(path "/3d6c902b-75d5-4305-b725-f5c596d25bec"
-					(reference "R8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "microbuilder:CAP_CERAMIC0603")
-		(at 194.31 212.09 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4b210188-b099-4d44-b485-52ae7b9f80b1")
-		(property "Reference" "C19"
-			(at 196.85 212.0899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100nF"
-			(at 196.85 214.6299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "microbuilder:0603"
-			(at 194.31 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 194.31 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Ceramic Capacitors\n\n0402 - 0402 Surface Mount Capacitors\n\n• 16pF 50V 5% [Digikey: 445-4899-2-ND]\n• 18pF 50V 5% [Digikey: 490-1281-2-ND]\n• 22pF 50V 5% [Digikey: 490-1283-2-ND]\n• 68pF 50V 5% [Digikey: 490-1289-2-ND]\n• 0.1uF 10V 10% [Digikey: 490-1318-2-ND]\n• 1.0uF 6.3V 10% [Digikey: 490-1320-2-ND]\n\n0603 - 0603 Surface Mount Capacitors\n\n• 16 pF 50V 5% [Digikey: 445-5051-2-ND]\n• 22 pF 50V [Digikey: PCC220ACVTR-ND]\n• 33 pF 50V 5% [Digikey: 490-1415-1-ND]\n• 56pF 50V 5% [Digikey: 490-1421-1-ND]\n• 220pF 50V 5% [Digikey: 445-1285-1-ND]\n• 680 pF 50V\n• 2200 pF 50V 5% C0G [Digikey: 445-1297-1-ND]\n• 5600 pF 100V 5% X7R [Digikey: 478-3711-1-ND]\n• 0.1 µF 25V 10% [Digikey: PCC2277TR-ND]\n• 0.22 µF 16V 10% X7R [Digikey: 445-1318-1-ND]\n• 1.0 µF 25V 10% [Digikey: 445-5146-2-ND]\n\n0603 - RF Specific\n\n• 3pF 250V +/-0.1pF RF [Digikey: 712-1347-1-ND]\n• 18 pF 250V 5%  [Digikey: 478-3505-1-ND or 712-1322-1-ND]\n• 56 pF 250V 5% C0G RF [Digikey: 490-4867-1-ND]\n• 68 pF 250V RF [Digikey: 490-4868-1-ND]\n\n0805 - 0805 Surface Mount Capacitors\n\n• 220 pF 250V 2% RF Ceramic Capacitor [Digikey: 712-1398-1-ND]\n• 1000 pF 50V 2% NP0 Ceramic Capacitor [Digikey: 478-3760-1-ND]\n• 0.1 µF 25V 10% Ceramic Capacitor [Digikey: PCC1828TR-ND]\n• 1.0 µF 16V 10% Ceramic Capacitor[Digikey: 490-1691-2-ND]\n• 10.0 µF 10V 10% Ceramic Capacitor[Digikey: 709-1228-1-ND]\n• 10.0 uF 16V 10% Ceramic Capacitor [Digikey: 478-5165-2-ND]\n• 47 uF 6.3V 20% Ceramic Capacitor [Digikey: 587-1779-1-ND or 399-5506-1-ND]\n\n1206 - 1206 Surface Mount Capacitors\n\n• 47uF 10V 20% Ceramic Capacitor [Digikey: 490-5528-1-ND or 399-5508-1-ND or 445-6010-1-ND]\n• 100uF 6.3V -20%, +80% Y5V Ceramic Capacitor (Digikey: 490-4512-1-ND, Mouser: 81-GRM31CF50J107ZE1L)"
-			(at 194.31 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "63c3f4a9-00f7-483a-8c7e-1b8e2dbb3070")
-		)
-		(pin "1"
-			(uuid "b7b0c7b5-4891-4775-b0dd-bdc40f049649")
-		)
-		(instances
-			(project "Ember_pilot_version"
-				(path "/3d6c902b-75d5-4305-b725-f5c596d25bec"
-					(reference "C19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "OSTTA020161:OSTTA020161")
 		(at 50.8 224.79 0)
 		(unit 1)
@@ -13202,76 +11739,6 @@
 			(project ""
 				(path "/3d6c902b-75d5-4305-b725-f5c596d25bec"
 					(reference "J5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "adafruit:R-US_R0603")
-		(at 246.38 250.19 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5dc8aa72-b121-4818-8d57-14a2cdf2b571")
-		(property "Reference" "R11"
-			(at 248.92 248.285 90)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "7.5k"
-			(at 248.92 252.095 90)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "adafruit:R0603"
-			(at 246.38 250.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 246.38 250.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RESISTOR, American symbol"
-			(at 246.38 250.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "3ae07920-f421-4143-ad68-e397c9339841")
-		)
-		(pin "1"
-			(uuid "51cc47d9-b378-4680-bd3d-2b1a8aaef9de")
-		)
-		(instances
-			(project "Ember_pilot_version"
-				(path "/3d6c902b-75d5-4305-b725-f5c596d25bec"
-					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -13351,74 +11818,6 @@
 			(project ""
 				(path "/3d6c902b-75d5-4305-b725-f5c596d25bec"
 					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SRN6045-4R7Y:SRN6045-330M6045")
-		(at 187.96 259.08 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "623912a9-dcc7-40f7-b2ee-153888d98b7a")
-		(property "Reference" "Buck_converter1"
-			(at 187.96 250.19 0)
-			(effects
-				(font
-					(size 2.0828 1.7703)
-				)
-			)
-		)
-		(property "Value" "4.7uH"
-			(at 187.96 254 0)
-			(effects
-				(font
-					(size 2.0828 1.7703)
-				)
-			)
-		)
-		(property "Footprint" "SRN6045-4R7Y:SRN6045"
-			(at 187.96 259.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 187.96 259.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "https://pricing.snapeda.com/parts/SRN6045330M/Bourns/view-part?ref=eda Check availability"
-			(at 187.96 259.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "0170448c-5131-4533-90b3-b4e8288e3d93")
-		)
-		(pin "1"
-			(uuid "9ff96d78-7a9c-4110-8141-57dd00b679c4")
-		)
-		(instances
-			(project "Ember_pilot_version"
-				(path "/3d6c902b-75d5-4305-b725-f5c596d25bec"
-					(reference "Buck_converter1")
 					(unit 1)
 				)
 			)
@@ -14297,76 +12696,6 @@
 		)
 	)
 	(symbol
-		(lib_id "microbuilder:CAP_CERAMIC0603")
-		(at 162.56 233.68 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "82f78229-473f-413f-a6cb-a6784a01c78f")
-		(property "Reference" "C22"
-			(at 165.1 233.6799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100nF"
-			(at 165.1 236.2199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "microbuilder:0603"
-			(at 162.56 233.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 162.56 233.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Ceramic Capacitors\n\n0402 - 0402 Surface Mount Capacitors\n\n• 16pF 50V 5% [Digikey: 445-4899-2-ND]\n• 18pF 50V 5% [Digikey: 490-1281-2-ND]\n• 22pF 50V 5% [Digikey: 490-1283-2-ND]\n• 68pF 50V 5% [Digikey: 490-1289-2-ND]\n• 0.1uF 10V 10% [Digikey: 490-1318-2-ND]\n• 1.0uF 6.3V 10% [Digikey: 490-1320-2-ND]\n\n0603 - 0603 Surface Mount Capacitors\n\n• 16 pF 50V 5% [Digikey: 445-5051-2-ND]\n• 22 pF 50V [Digikey: PCC220ACVTR-ND]\n• 33 pF 50V 5% [Digikey: 490-1415-1-ND]\n• 56pF 50V 5% [Digikey: 490-1421-1-ND]\n• 220pF 50V 5% [Digikey: 445-1285-1-ND]\n• 680 pF 50V\n• 2200 pF 50V 5% C0G [Digikey: 445-1297-1-ND]\n• 5600 pF 100V 5% X7R [Digikey: 478-3711-1-ND]\n• 0.1 µF 25V 10% [Digikey: PCC2277TR-ND]\n• 0.22 µF 16V 10% X7R [Digikey: 445-1318-1-ND]\n• 1.0 µF 25V 10% [Digikey: 445-5146-2-ND]\n\n0603 - RF Specific\n\n• 3pF 250V +/-0.1pF RF [Digikey: 712-1347-1-ND]\n• 18 pF 250V 5%  [Digikey: 478-3505-1-ND or 712-1322-1-ND]\n• 56 pF 250V 5% C0G RF [Digikey: 490-4867-1-ND]\n• 68 pF 250V RF [Digikey: 490-4868-1-ND]\n\n0805 - 0805 Surface Mount Capacitors\n\n• 220 pF 250V 2% RF Ceramic Capacitor [Digikey: 712-1398-1-ND]\n• 1000 pF 50V 2% NP0 Ceramic Capacitor [Digikey: 478-3760-1-ND]\n• 0.1 µF 25V 10% Ceramic Capacitor [Digikey: PCC1828TR-ND]\n• 1.0 µF 16V 10% Ceramic Capacitor[Digikey: 490-1691-2-ND]\n• 10.0 µF 10V 10% Ceramic Capacitor[Digikey: 709-1228-1-ND]\n• 10.0 uF 16V 10% Ceramic Capacitor [Digikey: 478-5165-2-ND]\n• 47 uF 6.3V 20% Ceramic Capacitor [Digikey: 587-1779-1-ND or 399-5506-1-ND]\n\n1206 - 1206 Surface Mount Capacitors\n\n• 47uF 10V 20% Ceramic Capacitor [Digikey: 490-5528-1-ND or 399-5508-1-ND or 445-6010-1-ND]\n• 100uF 6.3V -20%, +80% Y5V Ceramic Capacitor (Digikey: 490-4512-1-ND, Mouser: 81-GRM31CF50J107ZE1L)"
-			(at 162.56 233.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "63c3f4a9-00f7-483a-8c7e-1b8e2dbb3071")
-		)
-		(pin "1"
-			(uuid "b7b0c7b5-4891-4775-b0dd-bdc40f04964a")
-		)
-		(instances
-			(project "Ember_pilot_version"
-				(path "/3d6c902b-75d5-4305-b725-f5c596d25bec"
-					(reference "C22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "microbuilder:RESISTOR0603")
 		(at 127 186.69 270)
 		(mirror x)
@@ -14432,6 +12761,77 @@
 			(project ""
 				(path "/3d6c902b-75d5-4305-b725-f5c596d25bec"
 					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "AMS1117-5.0:AMS1117-5.0")
+		(at 186.69 238.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "86521ea9-7dc5-4349-9827-c8d335611ea8")
+		(property "Reference" "U1"
+			(at 186.69 224.79 0)
+			(effects
+				(font
+					(size 2.5418 2.1605)
+				)
+			)
+		)
+		(property "Value" "LDO Regulator 5v"
+			(at 186.69 229.87 0)
+			(effects
+				(font
+					(size 2.543 2.1615)
+				)
+			)
+		)
+		(property "Footprint" "AMS1117-5.0:SOT229P700X180-4N"
+			(at 186.69 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 186.69 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "https://pricing.snapeda.com/parts/AMS1117-5.0/Advanced%20Monolithic%20Systems/view-part?ref=eda Check availability"
+			(at 186.69 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "252d1fd1-fddc-45b5-a382-fd627e458230")
+		)
+		(pin "3"
+			(uuid "97351c25-cd76-4f2e-9151-fe905b602dd9")
+		)
+		(pin "2"
+			(uuid "615f18f0-655d-4dea-ab9a-d0e56dbb5599")
+		)
+		(instances
+			(project ""
+				(path "/3d6c902b-75d5-4305-b725-f5c596d25bec"
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -14645,74 +13045,6 @@
 		)
 	)
 	(symbol
-		(lib_id "adafruit:R-US_R0603")
-		(at 231.14 245.11 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "941f0e75-7130-49f7-a378-41058dddfd96")
-		(property "Reference" "R12"
-			(at 231.14 237.49 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-			)
-		)
-		(property "Value" "20k"
-			(at 231.14 241.3 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-			)
-		)
-		(property "Footprint" "adafruit:R0603"
-			(at 231.14 245.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 231.14 245.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RESISTOR, American symbol"
-			(at 231.14 245.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "3ae07920-f421-4143-ad68-e397c9339842")
-		)
-		(pin "1"
-			(uuid "51cc47d9-b378-4680-bd3d-2b1a8aaef9df")
-		)
-		(instances
-			(project "Ember_pilot_version"
-				(path "/3d6c902b-75d5-4305-b725-f5c596d25bec"
-					(reference "R12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "SISA96DN-T1-GE3:SISA96DN-T1-GE3")
 		(at 133.35 170.18 0)
 		(unit 1)
@@ -14802,74 +13134,6 @@
 			(project ""
 				(path "/3d6c902b-75d5-4305-b725-f5c596d25bec"
 					(reference "Q4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "adafruit:R-US_R0603")
-		(at 209.55 240.03 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "95239ccc-ea1e-4342-b551-5153a75e4bf5")
-		(property "Reference" "R6"
-			(at 209.55 232.41 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-			)
-		)
-		(property "Value" "499k"
-			(at 209.55 236.22 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-			)
-		)
-		(property "Footprint" "adafruit:R0603"
-			(at 209.55 240.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 209.55 240.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RESISTOR, American symbol"
-			(at 209.55 240.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "1673c1b3-af42-4025-96ee-8e3a3f4809db")
-		)
-		(pin "1"
-			(uuid "a7dbdd4b-de07-4236-a53c-3efa0ae9cba4")
-		)
-		(instances
-			(project "Ember_pilot_version"
-				(path "/3d6c902b-75d5-4305-b725-f5c596d25bec"
-					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -15519,76 +13783,6 @@
 	)
 	(symbol
 		(lib_id "microbuilder:CAP_CERAMIC0603")
-		(at 153.67 233.68 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a30896f1-5d35-44ae-ad6d-17efcfc7dc19")
-		(property "Reference" "C23"
-			(at 156.21 233.6799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "22uF"
-			(at 156.21 236.2199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "microbuilder:0603"
-			(at 153.67 233.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 153.67 233.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Ceramic Capacitors\n\n0402 - 0402 Surface Mount Capacitors\n\n• 16pF 50V 5% [Digikey: 445-4899-2-ND]\n• 18pF 50V 5% [Digikey: 490-1281-2-ND]\n• 22pF 50V 5% [Digikey: 490-1283-2-ND]\n• 68pF 50V 5% [Digikey: 490-1289-2-ND]\n• 0.1uF 10V 10% [Digikey: 490-1318-2-ND]\n• 1.0uF 6.3V 10% [Digikey: 490-1320-2-ND]\n\n0603 - 0603 Surface Mount Capacitors\n\n• 16 pF 50V 5% [Digikey: 445-5051-2-ND]\n• 22 pF 50V [Digikey: PCC220ACVTR-ND]\n• 33 pF 50V 5% [Digikey: 490-1415-1-ND]\n• 56pF 50V 5% [Digikey: 490-1421-1-ND]\n• 220pF 50V 5% [Digikey: 445-1285-1-ND]\n• 680 pF 50V\n• 2200 pF 50V 5% C0G [Digikey: 445-1297-1-ND]\n• 5600 pF 100V 5% X7R [Digikey: 478-3711-1-ND]\n• 0.1 µF 25V 10% [Digikey: PCC2277TR-ND]\n• 0.22 µF 16V 10% X7R [Digikey: 445-1318-1-ND]\n• 1.0 µF 25V 10% [Digikey: 445-5146-2-ND]\n\n0603 - RF Specific\n\n• 3pF 250V +/-0.1pF RF [Digikey: 712-1347-1-ND]\n• 18 pF 250V 5%  [Digikey: 478-3505-1-ND or 712-1322-1-ND]\n• 56 pF 250V 5% C0G RF [Digikey: 490-4867-1-ND]\n• 68 pF 250V RF [Digikey: 490-4868-1-ND]\n\n0805 - 0805 Surface Mount Capacitors\n\n• 220 pF 250V 2% RF Ceramic Capacitor [Digikey: 712-1398-1-ND]\n• 1000 pF 50V 2% NP0 Ceramic Capacitor [Digikey: 478-3760-1-ND]\n• 0.1 µF 25V 10% Ceramic Capacitor [Digikey: PCC1828TR-ND]\n• 1.0 µF 16V 10% Ceramic Capacitor[Digikey: 490-1691-2-ND]\n• 10.0 µF 10V 10% Ceramic Capacitor[Digikey: 709-1228-1-ND]\n• 10.0 uF 16V 10% Ceramic Capacitor [Digikey: 478-5165-2-ND]\n• 47 uF 6.3V 20% Ceramic Capacitor [Digikey: 587-1779-1-ND or 399-5506-1-ND]\n\n1206 - 1206 Surface Mount Capacitors\n\n• 47uF 10V 20% Ceramic Capacitor [Digikey: 490-5528-1-ND or 399-5508-1-ND or 445-6010-1-ND]\n• 100uF 6.3V -20%, +80% Y5V Ceramic Capacitor (Digikey: 490-4512-1-ND, Mouser: 81-GRM31CF50J107ZE1L)"
-			(at 153.67 233.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "63c3f4a9-00f7-483a-8c7e-1b8e2dbb3072")
-		)
-		(pin "1"
-			(uuid "b7b0c7b5-4891-4775-b0dd-bdc40f04964b")
-		)
-		(instances
-			(project "Ember_pilot_version"
-				(path "/3d6c902b-75d5-4305-b725-f5c596d25bec"
-					(reference "C23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "microbuilder:CAP_CERAMIC0603")
 		(at 290.83 55.88 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15864,33 +14058,35 @@
 		)
 	)
 	(symbol
-		(lib_id "MP2315SGJ-Z:MP2315SGJ-Z")
-		(at 176.53 237.49 0)
+		(lib_id "microbuilder:CAP_CERAMIC0603")
+		(at 165.1 246.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b796e0d1-6d34-42bb-850b-cafc23f0f956")
-		(property "Reference" "IC2"
-			(at 189.23 228.6 0)
+		(uuid "be5204fd-8735-4ff1-96ca-806b98f257be")
+		(property "Reference" "C5"
+			(at 167.64 243.8399 0)
 			(effects
 				(font
-					(size 1.778 1.5113)
+					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "MP2315S"
-			(at 189.23 232.41 0)
+		(property "Value" "10 uF"
+			(at 167.64 246.3799 0)
 			(effects
 				(font
-					(size 1.778 1.5113)
+					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "MP2315SGJ-Z:SOT65P280X100-8N"
-			(at 176.53 237.49 0)
+		(property "Footprint" "microbuilder:0603"
+			(at 165.1 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15899,7 +14095,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 176.53 237.49 0)
+			(at 165.1 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15907,43 +14103,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Switching Voltage Regulators 3A 24V Hi Effc.Sync Step Down Converter\n\nSource: https://componentsearchengine.com/Datasheets/1/MP2315SGJ-Z.pdf  Datasheet"
-			(at 176.53 237.49 0)
+		(property "Description" "Ceramic Capacitors\n\n0402 - 0402 Surface Mount Capacitors\n\n• 16pF 50V 5% [Digikey: 445-4899-2-ND]\n• 18pF 50V 5% [Digikey: 490-1281-2-ND]\n• 22pF 50V 5% [Digikey: 490-1283-2-ND]\n• 68pF 50V 5% [Digikey: 490-1289-2-ND]\n• 0.1uF 10V 10% [Digikey: 490-1318-2-ND]\n• 1.0uF 6.3V 10% [Digikey: 490-1320-2-ND]\n\n0603 - 0603 Surface Mount Capacitors\n\n• 16 pF 50V 5% [Digikey: 445-5051-2-ND]\n• 22 pF 50V [Digikey: PCC220ACVTR-ND]\n• 33 pF 50V 5% [Digikey: 490-1415-1-ND]\n• 56pF 50V 5% [Digikey: 490-1421-1-ND]\n• 220pF 50V 5% [Digikey: 445-1285-1-ND]\n• 680 pF 50V\n• 2200 pF 50V 5% C0G [Digikey: 445-1297-1-ND]\n• 5600 pF 100V 5% X7R [Digikey: 478-3711-1-ND]\n• 0.1 µF 25V 10% [Digikey: PCC2277TR-ND]\n• 0.22 µF 16V 10% X7R [Digikey: 445-1318-1-ND]\n• 1.0 µF 25V 10% [Digikey: 445-5146-2-ND]\n\n0603 - RF Specific\n\n• 3pF 250V +/-0.1pF RF [Digikey: 712-1347-1-ND]\n• 18 pF 250V 5%  [Digikey: 478-3505-1-ND or 712-1322-1-ND]\n• 56 pF 250V 5% C0G RF [Digikey: 490-4867-1-ND]\n• 68 pF 250V RF [Digikey: 490-4868-1-ND]\n\n0805 - 0805 Surface Mount Capacitors\n\n• 220 pF 250V 2% RF Ceramic Capacitor [Digikey: 712-1398-1-ND]\n• 1000 pF 50V 2% NP0 Ceramic Capacitor [Digikey: 478-3760-1-ND]\n• 0.1 µF 25V 10% Ceramic Capacitor [Digikey: PCC1828TR-ND]\n• 1.0 µF 16V 10% Ceramic Capacitor[Digikey: 490-1691-2-ND]\n• 10.0 µF 10V 10% Ceramic Capacitor[Digikey: 709-1228-1-ND]\n• 10.0 uF 16V 10% Ceramic Capacitor [Digikey: 478-5165-2-ND]\n• 47 uF 6.3V 20% Ceramic Capacitor [Digikey: 587-1779-1-ND or 399-5506-1-ND]\n\n1206 - 1206 Surface Mount Capacitors\n\n• 47uF 10V 20% Ceramic Capacitor [Digikey: 490-5528-1-ND or 399-5508-1-ND or 445-6010-1-ND]\n• 100uF 6.3V -20%, +80% Y5V Ceramic Capacitor (Digikey: 490-4512-1-ND, Mouser: 81-GRM31CF50J107ZE1L)"
+			(at 165.1 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "3"
-			(uuid "a47408f6-9229-45e2-97cf-55a76a770be8")
-		)
-		(pin "7"
-			(uuid "0af2febf-ef20-4f1d-bf45-653e92306ab0")
 		)
 		(pin "1"
-			(uuid "98f915f6-9d04-4441-9c94-01e00b153d25")
-		)
-		(pin "4"
-			(uuid "1f42e8eb-e9ac-46f4-937e-7c3b03b351d6")
+			(uuid "527ebdbe-3f19-42f8-9b7a-77a1cc9131b9")
 		)
 		(pin "2"
-			(uuid "b973ed43-d761-496d-8a20-5a7fef9fb02c")
-		)
-		(pin "5"
-			(uuid "bbfef864-cb5b-48ff-b874-b6c2b9097cf6")
-		)
-		(pin "6"
-			(uuid "ed2d10ac-070f-4476-8439-80498c58ca07")
-		)
-		(pin "8"
-			(uuid "58316f59-a57c-4e42-b96f-37f39c277b49")
+			(uuid "b4ed4b71-1c7d-4f5d-a227-d5a5a8f9cbda")
 		)
 		(instances
-			(project "Ember_pilot_version"
+			(project ""
 				(path "/3d6c902b-75d5-4305-b725-f5c596d25bec"
-					(reference "IC2")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -16014,74 +14192,6 @@
 			(project ""
 				(path "/3d6c902b-75d5-4305-b725-f5c596d25bec"
 					(reference "R27")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "microbuilder:CAP_CERAMIC0603")
-		(at 262.89 232.41 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c2cebdf4-7a39-4a25-8f17-89a3607541e7")
-		(property "Reference" "C17"
-			(at 261.62 226.06 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "3.3pF"
-			(at 261.62 228.6 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "microbuilder:0603"
-			(at 262.89 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 262.89 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Ceramic Capacitors\n\n0402 - 0402 Surface Mount Capacitors\n\n• 16pF 50V 5% [Digikey: 445-4899-2-ND]\n• 18pF 50V 5% [Digikey: 490-1281-2-ND]\n• 22pF 50V 5% [Digikey: 490-1283-2-ND]\n• 68pF 50V 5% [Digikey: 490-1289-2-ND]\n• 0.1uF 10V 10% [Digikey: 490-1318-2-ND]\n• 1.0uF 6.3V 10% [Digikey: 490-1320-2-ND]\n\n0603 - 0603 Surface Mount Capacitors\n\n• 16 pF 50V 5% [Digikey: 445-5051-2-ND]\n• 22 pF 50V [Digikey: PCC220ACVTR-ND]\n• 33 pF 50V 5% [Digikey: 490-1415-1-ND]\n• 56pF 50V 5% [Digikey: 490-1421-1-ND]\n• 220pF 50V 5% [Digikey: 445-1285-1-ND]\n• 680 pF 50V\n• 2200 pF 50V 5% C0G [Digikey: 445-1297-1-ND]\n• 5600 pF 100V 5% X7R [Digikey: 478-3711-1-ND]\n• 0.1 µF 25V 10% [Digikey: PCC2277TR-ND]\n• 0.22 µF 16V 10% X7R [Digikey: 445-1318-1-ND]\n• 1.0 µF 25V 10% [Digikey: 445-5146-2-ND]\n\n0603 - RF Specific\n\n• 3pF 250V +/-0.1pF RF [Digikey: 712-1347-1-ND]\n• 18 pF 250V 5%  [Digikey: 478-3505-1-ND or 712-1322-1-ND]\n• 56 pF 250V 5% C0G RF [Digikey: 490-4867-1-ND]\n• 68 pF 250V RF [Digikey: 490-4868-1-ND]\n\n0805 - 0805 Surface Mount Capacitors\n\n• 220 pF 250V 2% RF Ceramic Capacitor [Digikey: 712-1398-1-ND]\n• 1000 pF 50V 2% NP0 Ceramic Capacitor [Digikey: 478-3760-1-ND]\n• 0.1 µF 25V 10% Ceramic Capacitor [Digikey: PCC1828TR-ND]\n• 1.0 µF 16V 10% Ceramic Capacitor[Digikey: 490-1691-2-ND]\n• 10.0 µF 10V 10% Ceramic Capacitor[Digikey: 709-1228-1-ND]\n• 10.0 uF 16V 10% Ceramic Capacitor [Digikey: 478-5165-2-ND]\n• 47 uF 6.3V 20% Ceramic Capacitor [Digikey: 587-1779-1-ND or 399-5506-1-ND]\n\n1206 - 1206 Surface Mount Capacitors\n\n• 47uF 10V 20% Ceramic Capacitor [Digikey: 490-5528-1-ND or 399-5508-1-ND or 445-6010-1-ND]\n• 100uF 6.3V -20%, +80% Y5V Ceramic Capacitor (Digikey: 490-4512-1-ND, Mouser: 81-GRM31CF50J107ZE1L)"
-			(at 262.89 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "63c3f4a9-00f7-483a-8c7e-1b8e2dbb3073")
-		)
-		(pin "1"
-			(uuid "b7b0c7b5-4891-4775-b0dd-bdc40f04964c")
-		)
-		(instances
-			(project "Ember_pilot_version"
-				(path "/3d6c902b-75d5-4305-b725-f5c596d25bec"
-					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -16334,146 +14444,6 @@
 		)
 	)
 	(symbol
-		(lib_id "microbuilder:CAP_CERAMIC0603")
-		(at 213.36 261.62 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d75ac5c4-bd36-4230-b491-0791cb255b16")
-		(property "Reference" "C20"
-			(at 215.9 261.6199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "22uF"
-			(at 215.9 264.1599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "microbuilder:0603"
-			(at 213.36 261.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 213.36 261.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Ceramic Capacitors\n\n0402 - 0402 Surface Mount Capacitors\n\n• 16pF 50V 5% [Digikey: 445-4899-2-ND]\n• 18pF 50V 5% [Digikey: 490-1281-2-ND]\n• 22pF 50V 5% [Digikey: 490-1283-2-ND]\n• 68pF 50V 5% [Digikey: 490-1289-2-ND]\n• 0.1uF 10V 10% [Digikey: 490-1318-2-ND]\n• 1.0uF 6.3V 10% [Digikey: 490-1320-2-ND]\n\n0603 - 0603 Surface Mount Capacitors\n\n• 16 pF 50V 5% [Digikey: 445-5051-2-ND]\n• 22 pF 50V [Digikey: PCC220ACVTR-ND]\n• 33 pF 50V 5% [Digikey: 490-1415-1-ND]\n• 56pF 50V 5% [Digikey: 490-1421-1-ND]\n• 220pF 50V 5% [Digikey: 445-1285-1-ND]\n• 680 pF 50V\n• 2200 pF 50V 5% C0G [Digikey: 445-1297-1-ND]\n• 5600 pF 100V 5% X7R [Digikey: 478-3711-1-ND]\n• 0.1 µF 25V 10% [Digikey: PCC2277TR-ND]\n• 0.22 µF 16V 10% X7R [Digikey: 445-1318-1-ND]\n• 1.0 µF 25V 10% [Digikey: 445-5146-2-ND]\n\n0603 - RF Specific\n\n• 3pF 250V +/-0.1pF RF [Digikey: 712-1347-1-ND]\n• 18 pF 250V 5%  [Digikey: 478-3505-1-ND or 712-1322-1-ND]\n• 56 pF 250V 5% C0G RF [Digikey: 490-4867-1-ND]\n• 68 pF 250V RF [Digikey: 490-4868-1-ND]\n\n0805 - 0805 Surface Mount Capacitors\n\n• 220 pF 250V 2% RF Ceramic Capacitor [Digikey: 712-1398-1-ND]\n• 1000 pF 50V 2% NP0 Ceramic Capacitor [Digikey: 478-3760-1-ND]\n• 0.1 µF 25V 10% Ceramic Capacitor [Digikey: PCC1828TR-ND]\n• 1.0 µF 16V 10% Ceramic Capacitor[Digikey: 490-1691-2-ND]\n• 10.0 µF 10V 10% Ceramic Capacitor[Digikey: 709-1228-1-ND]\n• 10.0 uF 16V 10% Ceramic Capacitor [Digikey: 478-5165-2-ND]\n• 47 uF 6.3V 20% Ceramic Capacitor [Digikey: 587-1779-1-ND or 399-5506-1-ND]\n\n1206 - 1206 Surface Mount Capacitors\n\n• 47uF 10V 20% Ceramic Capacitor [Digikey: 490-5528-1-ND or 399-5508-1-ND or 445-6010-1-ND]\n• 100uF 6.3V -20%, +80% Y5V Ceramic Capacitor (Digikey: 490-4512-1-ND, Mouser: 81-GRM31CF50J107ZE1L)"
-			(at 213.36 261.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "63c3f4a9-00f7-483a-8c7e-1b8e2dbb3074")
-		)
-		(pin "1"
-			(uuid "b7b0c7b5-4891-4775-b0dd-bdc40f04964d")
-		)
-		(instances
-			(project "Ember_pilot_version"
-				(path "/3d6c902b-75d5-4305-b725-f5c596d25bec"
-					(reference "C20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "microbuilder:CAP_CERAMIC0603")
-		(at 205.74 261.62 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dbeb7d60-1c38-4176-aee4-13ef9346be91")
-		(property "Reference" "C21"
-			(at 208.28 261.6199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "22uF"
-			(at 208.28 264.1599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "microbuilder:0603"
-			(at 205.74 261.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 205.74 261.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Ceramic Capacitors\n\n0402 - 0402 Surface Mount Capacitors\n\n• 16pF 50V 5% [Digikey: 445-4899-2-ND]\n• 18pF 50V 5% [Digikey: 490-1281-2-ND]\n• 22pF 50V 5% [Digikey: 490-1283-2-ND]\n• 68pF 50V 5% [Digikey: 490-1289-2-ND]\n• 0.1uF 10V 10% [Digikey: 490-1318-2-ND]\n• 1.0uF 6.3V 10% [Digikey: 490-1320-2-ND]\n\n0603 - 0603 Surface Mount Capacitors\n\n• 16 pF 50V 5% [Digikey: 445-5051-2-ND]\n• 22 pF 50V [Digikey: PCC220ACVTR-ND]\n• 33 pF 50V 5% [Digikey: 490-1415-1-ND]\n• 56pF 50V 5% [Digikey: 490-1421-1-ND]\n• 220pF 50V 5% [Digikey: 445-1285-1-ND]\n• 680 pF 50V\n• 2200 pF 50V 5% C0G [Digikey: 445-1297-1-ND]\n• 5600 pF 100V 5% X7R [Digikey: 478-3711-1-ND]\n• 0.1 µF 25V 10% [Digikey: PCC2277TR-ND]\n• 0.22 µF 16V 10% X7R [Digikey: 445-1318-1-ND]\n• 1.0 µF 25V 10% [Digikey: 445-5146-2-ND]\n\n0603 - RF Specific\n\n• 3pF 250V +/-0.1pF RF [Digikey: 712-1347-1-ND]\n• 18 pF 250V 5%  [Digikey: 478-3505-1-ND or 712-1322-1-ND]\n• 56 pF 250V 5% C0G RF [Digikey: 490-4867-1-ND]\n• 68 pF 250V RF [Digikey: 490-4868-1-ND]\n\n0805 - 0805 Surface Mount Capacitors\n\n• 220 pF 250V 2% RF Ceramic Capacitor [Digikey: 712-1398-1-ND]\n• 1000 pF 50V 2% NP0 Ceramic Capacitor [Digikey: 478-3760-1-ND]\n• 0.1 µF 25V 10% Ceramic Capacitor [Digikey: PCC1828TR-ND]\n• 1.0 µF 16V 10% Ceramic Capacitor[Digikey: 490-1691-2-ND]\n• 10.0 µF 10V 10% Ceramic Capacitor[Digikey: 709-1228-1-ND]\n• 10.0 uF 16V 10% Ceramic Capacitor [Digikey: 478-5165-2-ND]\n• 47 uF 6.3V 20% Ceramic Capacitor [Digikey: 587-1779-1-ND or 399-5506-1-ND]\n\n1206 - 1206 Surface Mount Capacitors\n\n• 47uF 10V 20% Ceramic Capacitor [Digikey: 490-5528-1-ND or 399-5508-1-ND or 445-6010-1-ND]\n• 100uF 6.3V -20%, +80% Y5V Ceramic Capacitor (Digikey: 490-4512-1-ND, Mouser: 81-GRM31CF50J107ZE1L)"
-			(at 205.74 261.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "63c3f4a9-00f7-483a-8c7e-1b8e2dbb3075")
-		)
-		(pin "1"
-			(uuid "b7b0c7b5-4891-4775-b0dd-bdc40f04964e")
-		)
-		(instances
-			(project "Ember_pilot_version"
-				(path "/3d6c902b-75d5-4305-b725-f5c596d25bec"
-					(reference "C21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "adafruit:R-US_R0603")
 		(at 339.09 66.04 0)
 		(unit 1)
@@ -16610,6 +14580,76 @@
 		)
 	)
 	(symbol
+		(lib_id "microbuilder:CAP_CERAMIC0603")
+		(at 212.09 243.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e0f8c477-871e-4d7d-b21f-4a04de6fa8c1")
+		(property "Reference" "C6"
+			(at 214.63 241.2999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10 uF"
+			(at 214.63 243.8399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "microbuilder:0603"
+			(at 212.09 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 212.09 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ceramic Capacitors\n\n0402 - 0402 Surface Mount Capacitors\n\n• 16pF 50V 5% [Digikey: 445-4899-2-ND]\n• 18pF 50V 5% [Digikey: 490-1281-2-ND]\n• 22pF 50V 5% [Digikey: 490-1283-2-ND]\n• 68pF 50V 5% [Digikey: 490-1289-2-ND]\n• 0.1uF 10V 10% [Digikey: 490-1318-2-ND]\n• 1.0uF 6.3V 10% [Digikey: 490-1320-2-ND]\n\n0603 - 0603 Surface Mount Capacitors\n\n• 16 pF 50V 5% [Digikey: 445-5051-2-ND]\n• 22 pF 50V [Digikey: PCC220ACVTR-ND]\n• 33 pF 50V 5% [Digikey: 490-1415-1-ND]\n• 56pF 50V 5% [Digikey: 490-1421-1-ND]\n• 220pF 50V 5% [Digikey: 445-1285-1-ND]\n• 680 pF 50V\n• 2200 pF 50V 5% C0G [Digikey: 445-1297-1-ND]\n• 5600 pF 100V 5% X7R [Digikey: 478-3711-1-ND]\n• 0.1 µF 25V 10% [Digikey: PCC2277TR-ND]\n• 0.22 µF 16V 10% X7R [Digikey: 445-1318-1-ND]\n• 1.0 µF 25V 10% [Digikey: 445-5146-2-ND]\n\n0603 - RF Specific\n\n• 3pF 250V +/-0.1pF RF [Digikey: 712-1347-1-ND]\n• 18 pF 250V 5%  [Digikey: 478-3505-1-ND or 712-1322-1-ND]\n• 56 pF 250V 5% C0G RF [Digikey: 490-4867-1-ND]\n• 68 pF 250V RF [Digikey: 490-4868-1-ND]\n\n0805 - 0805 Surface Mount Capacitors\n\n• 220 pF 250V 2% RF Ceramic Capacitor [Digikey: 712-1398-1-ND]\n• 1000 pF 50V 2% NP0 Ceramic Capacitor [Digikey: 478-3760-1-ND]\n• 0.1 µF 25V 10% Ceramic Capacitor [Digikey: PCC1828TR-ND]\n• 1.0 µF 16V 10% Ceramic Capacitor[Digikey: 490-1691-2-ND]\n• 10.0 µF 10V 10% Ceramic Capacitor[Digikey: 709-1228-1-ND]\n• 10.0 uF 16V 10% Ceramic Capacitor [Digikey: 478-5165-2-ND]\n• 47 uF 6.3V 20% Ceramic Capacitor [Digikey: 587-1779-1-ND or 399-5506-1-ND]\n\n1206 - 1206 Surface Mount Capacitors\n\n• 47uF 10V 20% Ceramic Capacitor [Digikey: 490-5528-1-ND or 399-5508-1-ND or 445-6010-1-ND]\n• 100uF 6.3V -20%, +80% Y5V Ceramic Capacitor (Digikey: 490-4512-1-ND, Mouser: 81-GRM31CF50J107ZE1L)"
+			(at 212.09 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "527ebdbe-3f19-42f8-9b7a-77a1cc9131b9")
+		)
+		(pin "2"
+			(uuid "b4ed4b71-1c7d-4f5d-a227-d5a5a8f9cbda")
+		)
+		(instances
+			(project ""
+				(path "/3d6c902b-75d5-4305-b725-f5c596d25bec"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "microbuilder:RESISTOR0603")
 		(at 259.08 39.37 0)
 		(unit 1)
@@ -16672,6 +14712,76 @@
 			(project ""
 				(path "/3d6c902b-75d5-4305-b725-f5c596d25bec"
 					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "microbuilder:CAP_CERAMIC0603")
+		(at 222.25 243.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eb014111-c1aa-4e90-827b-912331183333")
+		(property "Reference" "C7"
+			(at 224.79 241.2999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10 uF"
+			(at 224.79 243.8399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "microbuilder:0603"
+			(at 222.25 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 222.25 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ceramic Capacitors\n\n0402 - 0402 Surface Mount Capacitors\n\n• 16pF 50V 5% [Digikey: 445-4899-2-ND]\n• 18pF 50V 5% [Digikey: 490-1281-2-ND]\n• 22pF 50V 5% [Digikey: 490-1283-2-ND]\n• 68pF 50V 5% [Digikey: 490-1289-2-ND]\n• 0.1uF 10V 10% [Digikey: 490-1318-2-ND]\n• 1.0uF 6.3V 10% [Digikey: 490-1320-2-ND]\n\n0603 - 0603 Surface Mount Capacitors\n\n• 16 pF 50V 5% [Digikey: 445-5051-2-ND]\n• 22 pF 50V [Digikey: PCC220ACVTR-ND]\n• 33 pF 50V 5% [Digikey: 490-1415-1-ND]\n• 56pF 50V 5% [Digikey: 490-1421-1-ND]\n• 220pF 50V 5% [Digikey: 445-1285-1-ND]\n• 680 pF 50V\n• 2200 pF 50V 5% C0G [Digikey: 445-1297-1-ND]\n• 5600 pF 100V 5% X7R [Digikey: 478-3711-1-ND]\n• 0.1 µF 25V 10% [Digikey: PCC2277TR-ND]\n• 0.22 µF 16V 10% X7R [Digikey: 445-1318-1-ND]\n• 1.0 µF 25V 10% [Digikey: 445-5146-2-ND]\n\n0603 - RF Specific\n\n• 3pF 250V +/-0.1pF RF [Digikey: 712-1347-1-ND]\n• 18 pF 250V 5%  [Digikey: 478-3505-1-ND or 712-1322-1-ND]\n• 56 pF 250V 5% C0G RF [Digikey: 490-4867-1-ND]\n• 68 pF 250V RF [Digikey: 490-4868-1-ND]\n\n0805 - 0805 Surface Mount Capacitors\n\n• 220 pF 250V 2% RF Ceramic Capacitor [Digikey: 712-1398-1-ND]\n• 1000 pF 50V 2% NP0 Ceramic Capacitor [Digikey: 478-3760-1-ND]\n• 0.1 µF 25V 10% Ceramic Capacitor [Digikey: PCC1828TR-ND]\n• 1.0 µF 16V 10% Ceramic Capacitor[Digikey: 490-1691-2-ND]\n• 10.0 µF 10V 10% Ceramic Capacitor[Digikey: 709-1228-1-ND]\n• 10.0 uF 16V 10% Ceramic Capacitor [Digikey: 478-5165-2-ND]\n• 47 uF 6.3V 20% Ceramic Capacitor [Digikey: 587-1779-1-ND or 399-5506-1-ND]\n\n1206 - 1206 Surface Mount Capacitors\n\n• 47uF 10V 20% Ceramic Capacitor [Digikey: 490-5528-1-ND or 399-5508-1-ND or 445-6010-1-ND]\n• 100uF 6.3V -20%, +80% Y5V Ceramic Capacitor (Digikey: 490-4512-1-ND, Mouser: 81-GRM31CF50J107ZE1L)"
+			(at 222.25 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "527ebdbe-3f19-42f8-9b7a-77a1cc9131b9")
+		)
+		(pin "2"
+			(uuid "b4ed4b71-1c7d-4f5d-a227-d5a5a8f9cbda")
+		)
+		(instances
+			(project ""
+				(path "/3d6c902b-75d5-4305-b725-f5c596d25bec"
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -17017,74 +15127,6 @@
 			(project "Ember_pilot_version"
 				(path "/3d6c902b-75d5-4305-b725-f5c596d25bec"
 					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "adafruit:R-US_R0603")
-		(at 261.62 245.11 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f83e94e9-ed97-4e36-b274-e23f50dc1519")
-		(property "Reference" "R10"
-			(at 261.62 237.49 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-			)
-		)
-		(property "Value" "40.2k"
-			(at 261.62 241.3 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-			)
-		)
-		(property "Footprint" "adafruit:R0603"
-			(at 261.62 245.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 261.62 245.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RESISTOR, American symbol"
-			(at 261.62 245.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "3ae07920-f421-4143-ad68-e397c9339843")
-		)
-		(pin "1"
-			(uuid "51cc47d9-b378-4680-bd3d-2b1a8aaef9e0")
-		)
-		(instances
-			(project "Ember_pilot_version"
-				(path "/3d6c902b-75d5-4305-b725-f5c596d25bec"
-					(reference "R10")
 					(unit 1)
 				)
 			)
