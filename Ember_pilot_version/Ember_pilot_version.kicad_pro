@@ -492,11 +492,20 @@
         "microvia_diameter": 0.3,
         "name": "HV_supp",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.304,
         "via_diameter": 0.6,
         "via_drill": 0.3
+      },
+      {
+        "clearance": 0.2,
+        "name": "RF",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.6,
+        "wire_width": 24
       }
     ],
     "meta": {
@@ -568,6 +577,26 @@
       {
         "netclass": "HV_supp",
         "pattern": "/MAIN"
+      },
+      {
+        "netclass": "RF",
+        "pattern": "/LoRa_ANT"
+      },
+      {
+        "netclass": "RF",
+        "pattern": "/GPS_RF_IN"
+      },
+      {
+        "netclass": "RF",
+        "pattern": "/SAW_OUT"
+      },
+      {
+        "netclass": "RF",
+        "pattern": "/SAW_IN"
+      },
+      {
+        "netclass": "RF",
+        "pattern": "/GPS_ANT"
       }
     ]
   },

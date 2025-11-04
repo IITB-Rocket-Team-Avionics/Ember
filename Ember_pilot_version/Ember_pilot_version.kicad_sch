@@ -6416,6 +6416,12 @@
 		(uuid "873b4d0e-377f-49e8-abd3-9070d2bc0804")
 	)
 	(junction
+		(at 106.68 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "87696ecb-565e-4ad7-b6bd-3bc22f084c2d")
+	)
+	(junction
 		(at 81.28 176.53)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6462,12 +6468,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b7434b74-c038-4fb7-9516-48cec3974563")
-	)
-	(junction
-		(at 106.68 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b95e03be-7f28-43c1-86e5-1d75cd5438d4")
 	)
 	(junction
 		(at 36.83 172.72)
@@ -6666,16 +6666,6 @@
 			(type default)
 		)
 		(uuid "03ab0c9f-f0f0-44ca-91e7-63512beb765c")
-	)
-	(wire
-		(pts
-			(xy 96.52 78.74) (xy 106.68 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "04489d97-d431-4f0d-be63-471daa8dd325")
 	)
 	(wire
 		(pts
@@ -7176,6 +7166,16 @@
 			(type default)
 		)
 		(uuid "31764bde-7160-45ab-8c85-ffd7f9764967")
+	)
+	(wire
+		(pts
+			(xy 88.9 78.74) (xy 91.44 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32952c1d-4353-4b06-a0b4-94de1423709e")
 	)
 	(wire
 		(pts
@@ -9199,6 +9199,16 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 78.74) (xy 106.68 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8b4bfb4-c2b5-4497-8bc8-4135958c5220")
+	)
+	(wire
+		(pts
 			(xy 264.16 39.37) (xy 267.97 39.37)
 		)
 		(stroke
@@ -9517,6 +9527,16 @@
 		)
 		(uuid "2b16694d-1b5a-4047-8ec0-c5b64ab60e47")
 	)
+	(label "SAW_IN"
+		(at 90.17 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2bcf24c1-8dc4-4aa9-9b2a-b5c73257463c")
+	)
 	(label "PYRO_MAIN"
 		(at 38.1 224.79 180)
 		(effects
@@ -9716,6 +9736,16 @@
 			(justify left bottom)
 		)
 		(uuid "626c3f5a-3809-4cf5-b7fb-5534dfdeb089")
+	)
+	(label "LoRa_ANT"
+		(at 190.5 41.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "684bb728-c20e-41dd-a3aa-ffd1baaabd93")
 	)
 	(label "3v3"
 		(at 219.71 39.37 180)
@@ -9957,6 +9987,16 @@
 		)
 		(uuid "94802ec8-ed1c-4ae7-9913-287ab6852c3c")
 	)
+	(label "SAW_OUT"
+		(at 49.53 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "97d0ca36-e16c-478f-ab9d-ba678b8a56cd")
+	)
 	(label "GND"
 		(at 113.03 134.62 180)
 		(effects
@@ -10036,6 +10076,16 @@
 			(justify right bottom)
 		)
 		(uuid "acb6294d-764f-4412-aa4a-3ed6548a3893")
+	)
+	(label "GPS_ANT"
+		(at 101.6 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "af2c5c8c-99e9-4fcb-a487-5eb1a886735b")
 	)
 	(label "XIN32"
 		(at 388.62 53.34 0)
@@ -10236,6 +10286,16 @@
 			(justify right bottom)
 		)
 		(uuid "d19bb82a-0f5f-4a56-98ae-f58b8061e1f3")
+	)
+	(label "GPS_RF_IN"
+		(at 27.94 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d1a15773-b484-41e5-bbc6-ea79c64bcc8a")
 	)
 	(label "GND"
 		(at 111.76 172.72 180)
@@ -11284,7 +11344,7 @@
 	)
 	(symbol
 		(lib_id "microbuilder:CAP_CERAMIC0603")
-		(at 91.44 78.74 270)
+		(at 93.98 78.74 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11293,7 +11353,7 @@
 		(fields_autoplaced yes)
 		(uuid "39700344-af84-4b52-91d5-737ab0ecccd1")
 		(property "Reference" "C3"
-			(at 92.71 72.39 90)
+			(at 95.25 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11301,7 +11361,7 @@
 			)
 		)
 		(property "Value" "120 pF"
-			(at 92.71 74.93 90)
+			(at 95.25 74.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11309,7 +11369,7 @@
 			)
 		)
 		(property "Footprint" "microbuilder:0603"
-			(at 91.44 78.74 0)
+			(at 93.98 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11318,7 +11378,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 91.44 78.74 0)
+			(at 93.98 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11327,7 +11387,7 @@
 			)
 		)
 		(property "Description" "Ceramic Capacitors\n\n0402 - 0402 Surface Mount Capacitors\n\n• 16pF 50V 5% [Digikey: 445-4899-2-ND]\n• 18pF 50V 5% [Digikey: 490-1281-2-ND]\n• 22pF 50V 5% [Digikey: 490-1283-2-ND]\n• 68pF 50V 5% [Digikey: 490-1289-2-ND]\n• 0.1uF 10V 10% [Digikey: 490-1318-2-ND]\n• 1.0uF 6.3V 10% [Digikey: 490-1320-2-ND]\n\n0603 - 0603 Surface Mount Capacitors\n\n• 16 pF 50V 5% [Digikey: 445-5051-2-ND]\n• 22 pF 50V [Digikey: PCC220ACVTR-ND]\n• 33 pF 50V 5% [Digikey: 490-1415-1-ND]\n• 56pF 50V 5% [Digikey: 490-1421-1-ND]\n• 220pF 50V 5% [Digikey: 445-1285-1-ND]\n• 680 pF 50V\n• 2200 pF 50V 5% C0G [Digikey: 445-1297-1-ND]\n• 5600 pF 100V 5% X7R [Digikey: 478-3711-1-ND]\n• 0.1 µF 25V 10% [Digikey: PCC2277TR-ND]\n• 0.22 µF 16V 10% X7R [Digikey: 445-1318-1-ND]\n• 1.0 µF 25V 10% [Digikey: 445-5146-2-ND]\n\n0603 - RF Specific\n\n• 3pF 250V +/-0.1pF RF [Digikey: 712-1347-1-ND]\n• 18 pF 250V 5%  [Digikey: 478-3505-1-ND or 712-1322-1-ND]\n• 56 pF 250V 5% C0G RF [Digikey: 490-4867-1-ND]\n• 68 pF 250V RF [Digikey: 490-4868-1-ND]\n\n0805 - 0805 Surface Mount Capacitors\n\n• 220 pF 250V 2% RF Ceramic Capacitor [Digikey: 712-1398-1-ND]\n• 1000 pF 50V 2% NP0 Ceramic Capacitor [Digikey: 478-3760-1-ND]\n• 0.1 µF 25V 10% Ceramic Capacitor [Digikey: PCC1828TR-ND]\n• 1.0 µF 16V 10% Ceramic Capacitor[Digikey: 490-1691-2-ND]\n• 10.0 µF 10V 10% Ceramic Capacitor[Digikey: 709-1228-1-ND]\n• 10.0 uF 16V 10% Ceramic Capacitor [Digikey: 478-5165-2-ND]\n• 47 uF 6.3V 20% Ceramic Capacitor [Digikey: 587-1779-1-ND or 399-5506-1-ND]\n\n1206 - 1206 Surface Mount Capacitors\n\n• 47uF 10V 20% Ceramic Capacitor [Digikey: 490-5528-1-ND or 399-5508-1-ND or 445-6010-1-ND]\n• 100uF 6.3V -20%, +80% Y5V Ceramic Capacitor (Digikey: 490-4512-1-ND, Mouser: 81-GRM31CF50J107ZE1L)"
-			(at 91.44 78.74 0)
+			(at 93.98 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14635,10 +14695,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "527ebdbe-3f19-42f8-9b7a-77a1cc9131b9")
+			(uuid "527ebdbe-3f19-42f8-9b7a-77a1cc9131ba")
 		)
 		(pin "2"
-			(uuid "b4ed4b71-1c7d-4f5d-a227-d5a5a8f9cbda")
+			(uuid "b4ed4b71-1c7d-4f5d-a227-d5a5a8f9cbdb")
 		)
 		(instances
 			(project ""
@@ -14773,10 +14833,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "527ebdbe-3f19-42f8-9b7a-77a1cc9131b9")
+			(uuid "527ebdbe-3f19-42f8-9b7a-77a1cc9131bb")
 		)
 		(pin "2"
-			(uuid "b4ed4b71-1c7d-4f5d-a227-d5a5a8f9cbda")
+			(uuid "b4ed4b71-1c7d-4f5d-a227-d5a5a8f9cbdc")
 		)
 		(instances
 			(project ""
