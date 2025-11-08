@@ -482,7 +482,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.152,
+        "track_width": 0.304,
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
@@ -504,7 +504,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.6,
+        "track_width": 0.623,
         "wire_width": 24
       }
     ],
@@ -605,7 +605,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "C:/Project_files/IITB-RT/Ember_gerber/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
