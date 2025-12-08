@@ -613,6 +613,14 @@
     [
       "ce36a1c2-88cc-4cba-88a9-6235c3ec0ad6",
       "Root"
+    ],
+    [
+      "c3ce2583-1f9c-42f2-aac9-ce16c5c05d5d",
+      "Main_board"
+    ],
+    [
+      "db1c349a-0d85-4768-8f49-422ed59136c0",
+      "RF_board"
     ]
   ],
   "text_variables": {}
