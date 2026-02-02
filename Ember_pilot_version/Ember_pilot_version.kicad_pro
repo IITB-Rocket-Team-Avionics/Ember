@@ -608,7 +608,7 @@
       "plot": "C:/Project_files/IITB-RT/Ember_gerber/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "Ember_pilot_version.step",
       "svg": "",
       "vrml": ""
     },

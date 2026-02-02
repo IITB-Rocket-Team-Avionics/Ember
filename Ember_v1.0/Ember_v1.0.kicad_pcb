@@ -1700,7 +1700,7 @@
 	(footprint "XT60-M:AMASS_XT60-M"
 		(layer "F.Cu")
 		(uuid "20fd9797-850f-4cce-ae39-77694f2deb7e")
-		(at 95.3235 107.155)
+		(at 143.02 117.48)
 		(property "Reference" "J2"
 			(at -8 -5.3 0)
 			(unlocked yes)

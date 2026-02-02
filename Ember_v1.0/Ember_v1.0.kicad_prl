@@ -5,7 +5,8 @@
     "auto_track_width": false,
     "hidden_netclasses": [],
     "hidden_nets": [
-      "/Main_board/GND"
+      "/Main_board/GND",
+      "/RF_board/GND"
     ],
     "high_contrast_mode": 0,
     "net_color_mode": 1,
