@@ -334,20 +334,23 @@ class async_test:
         self.calib_count = 0                              # Number of calibrations performed so far
         self.calib_max = 1                                # Maximum number of automatic calibrations (Manual Telemetry Command will override this limit)
         
-        self.liftoff_accel = 2                            # Minimum sustained Gs for liftoff detection
-        self.min_liftoff_alt = 20                # put 10        # Minimum altitude to be cleared for liftoff detection in m
+        self.liftoff_accel = 0.7  #2                            # Minimum sustained Gs for liftoff detection
+        self.min_liftoff_alt = 300                # put 10        # Minimum altitude to be cleared for liftoff detection in m
         
-        self.force_burnout_time = 5 * 1000    # put 5*1000            # Force burnout after this time from liftoff in ms
+        self.force_burnout_time = 1 * 1000    # put 5*1000            # Force burnout after this time from liftoff in ms
         
-        self.force_drogue_time = 13 * 1000                # Force drogue after this time from liftoff in ms
-        self.lockout_drogue_time = 1 * 1000     # put 6*1000          # Cannot fire drogue before this time after liftoff in ms
+        self.force_drogue_time = 17 * 1000                # Force drogue after this time from liftoff in ms
+        self.lockout_drogue_time = 3 * 1000     # put 6*1000          # Cannot fire drogue before this time after liftoff in ms
         
         self.main_alt = 400                               # Deploy main chute / de-reef chute below this altitude in m during descent
-        self.drogue_to_main_lockout = 5000        # put 5000        # Cannot fire main / de-reef chute before this time after drogue ejection in ms (Incase ejection fucks up pressure readings)
+        self.drogue_to_main_lockout = 500        # put 5000        # Cannot fire main / de-reef chute before this time after drogue ejection in ms (Incase ejection fucks up pressure readings)
+        
+        self.ballistic_lockout_time = 1000        # delay to force main in case drogue fails and rocket is in ballisitc re-entry
+        self.max_re_entry_speed = -2000.0             # max tolerable speed until vehicle enters ballistic 
         
         self.touchdown_alt = 50                           # Maximum altitude for touchdown detection in m
         self.touchdown_vel_limit = 0.1                    # Maximum speed for touchdown detection in m/s
-        self.main_to_touchdown_lockout =  5000     # put 20000      # Cannot detect touchdown before this time after main ejection / de-reefing in ms (Incase ejection fucks up pressure readings)                                        
+        self.main_to_touchdown_lockout =  2000     # put 20000      # Cannot detect touchdown before this time after main ejection / de-reefing in ms (Incase ejection fucks up pressure readings)                                        
         
 #----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -359,7 +362,7 @@ class async_test:
         self.state = 0                                    # (0 - On Pad, 1 - Boost, 2 - Coasting, 3 - Descent under Drogue, 4 - Descent under Main, 5 - Landed)
         self.t_log = ticks_ms()                           # Timestamp of loop
         sleep_ms(10)                                      # 10 ms wait to avoid divide by zero on first loop
-        self.last_t_log = self.buf_len = 5
+        self.last_t_log = self.buf_len = 10
         # Length of buffer
         self.alt_buf = np.zeros((self.buf_len))           # Altitude buffer for state machine
         self.acc_buf = np.zeros((self.buf_len))           # Acceleration buffer for state machine
@@ -388,12 +391,16 @@ class async_test:
             self.gps_altitude = gps.altitude - self.calib_altitude
             self._fix_time = gps._fix_time
             self.time_since_fix = gps.time_since_fix()
-            print(f'{self.latitude} {self.longitude}') 
+#             print(f'{self.latitude} {self.longitude}') 
                                     
         except Exception as e:
             
             e = 'GPS Error : ' + str(e)
             print(e)
+            
+    def cb(sx, events):
+        if events & SX1262.TX_DONE:
+            print('TX done.')
     
     # Calibrate pad altitude and temperature
     def calib_bmp(self, n = 10):
@@ -440,11 +447,12 @@ class async_test:
         # Initialize SX1262
         try:
             self.sx = SX1262(spi_bus=1, clk=14, mosi=15, miso=8, cs=13, irq=11, rst=12, gpio=9)
-            self.sx.begin(freq=928, bw=500, sf=12, cr=8, syncWord=0x12,
+            self.sx.begin(freq=928, bw=500.0, sf=12, cr=8, syncWord=0x12,
                          power=22, currentLimit=60.0, preambleLength=8,
                          implicit=False, implicitLen=0xFF,
                          crcOn=True, txIq=False, rxIq=False,
                          tcxoVoltage=1.7, useRegulatorLDO=False, blocking=True)
+            self.sx.setBlockingCallback(False, self.cb)
             print('sx1262 done')
             
         except Exception as e:
@@ -633,7 +641,7 @@ class async_test:
             
 #             print(self.vel_buf[-1])
 #             
-#             print(self.state,self.acc_buf[-1], self.vel_buf[-1],self.alt_buf[-1])
+            print(self.state,self.acc_buf[-1], self.vel_buf[-1],self.alt_buf[-1])
 
             # Try BNO
             try:
@@ -744,19 +752,24 @@ class async_test:
                     # Spam drogue pin
                     for i in range(3):
                         self.drogue_pin.value(1)
-                        sleep_ms(2000)
+                        sleep_ms(300)
                         self.drogue_pin.value(0)
                         sleep_ms(100)
                 
-                # Main deployed if - (Drogue deployed & Altitude < Main deployment altitude & Lockout time crossed)
-                elif self.state==3 and np.all(self.alt_buf < self.main_alt) and self.t_log - self.t_events[2] > self.drogue_to_main_lockout:
+                # Main deployed if - (Drogue deployed & Altitude < Main deployment altitude & Lockout time crossed) or (decent rate > max decent rate threshold and ballisitc entry lockout exceeded)
+                elif self.state==3 and ((np.all(self.alt_buf < self.main_alt) and self.t_log - self.t_events[2] > self.drogue_to_main_lockout) or (np.all(self.vel_buf < self.max_re_entry_speed) and self.t_log - self.t_events[2] > self.ballistic_lockout_time)):
+                    if np.all(self.alt_buf < self.main_alt) and self.t_log - self.t_events[2] > self.drogue_to_main_lockout:
+                        self.failure("MAIN_ALT_BRANCH")
+                    elif np.all(self.vel_buf < self.max_re_entry_speed) and self.t_log - self.t_events[2] > self.ballistic_lockout_time:
+                        self.failure("MAIN_BALLISTIC_BRANCH: "+ str(self.vel_buf[0])+" "+str(self.vel_buf[-1])+" "+str(self.vel_buf[-2])+" "+str(self.vel_buf[-3])+" "+str(self.vel_buf[-4]))
+                        self.failure("BUF_DTYPE: "+str(type(self.vel_buf[-1]))+" Threshold type: "+str(type(self.max_re_entry_speed))+" THRESHOLD: "+str(self.max_re_entry_speed))
                     self.state = 4
                     self.t_events[3] = self.t_log
                     
                     # Spam main pin
                     for i in range(3):
                         self.main_pin.value(1)
-                        sleep_ms(2000)
+                        sleep_ms(300)
                         self.main_pin.value(0)
                         sleep_ms(100)
 
@@ -1389,4 +1402,4 @@ if __name__ == "__main__":
 
 
 
-#flyte.py
+#flyte.

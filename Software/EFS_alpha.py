@@ -749,7 +749,7 @@ class async_test:
                     # Spam drogue pin
                     for i in range(3):
                         self.drogue_pin.value(1)
-                        sleep_ms(2000)
+                        sleep_ms(300)
                         self.drogue_pin.value(0)
                         sleep_ms(100)
                 

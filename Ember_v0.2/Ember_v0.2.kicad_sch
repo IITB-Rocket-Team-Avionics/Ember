@@ -5385,7 +5385,7 @@
 	)
 	(text "BMP280"
 		(exclude_from_sim no)
-		(at 360.934 167.386 0)
+		(at 354.584 190.246 0)
 		(effects
 			(font
 				(size 3.81 3.81)
@@ -5394,7 +5394,7 @@
 		(uuid "f7d790b9-bdf2-4c84-8221-6e647a5a77a8")
 	)
 	(junction
-		(at 367.03 154.94)
+		(at 360.68 177.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0350b6e8-82ec-4d60-8aaa-c1db0207e8a0")
@@ -5868,7 +5868,7 @@
 		(uuid "f08b86d5-e63f-4c23-b36f-bc612aeed56f")
 	)
 	(junction
-		(at 364.49 133.35)
+		(at 358.14 156.21)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f343ea52-ea28-4ace-b19c-48f9b98a01a3")
@@ -6027,7 +6027,7 @@
 	)
 	(wire
 		(pts
-			(xy 346.71 147.32) (xy 354.33 147.32)
+			(xy 340.36 170.18) (xy 347.98 170.18)
 		)
 		(stroke
 			(width 0)
@@ -6287,7 +6287,7 @@
 	)
 	(wire
 		(pts
-			(xy 364.49 154.94) (xy 367.03 154.94)
+			(xy 358.14 177.8) (xy 360.68 177.8)
 		)
 		(stroke
 			(width 0)
@@ -6387,7 +6387,7 @@
 	)
 	(wire
 		(pts
-			(xy 332.74 147.32) (xy 336.55 147.32)
+			(xy 326.39 170.18) (xy 330.2 170.18)
 		)
 		(stroke
 			(width 0)
@@ -6897,7 +6897,7 @@
 	)
 	(wire
 		(pts
-			(xy 346.71 142.24) (xy 354.33 142.24)
+			(xy 340.36 165.1) (xy 347.98 165.1)
 		)
 		(stroke
 			(width 0)
@@ -6947,7 +6947,7 @@
 	)
 	(wire
 		(pts
-			(xy 364.49 130.81) (xy 364.49 133.35)
+			(xy 358.14 153.67) (xy 358.14 156.21)
 		)
 		(stroke
 			(width 0)
@@ -7177,7 +7177,7 @@
 	)
 	(wire
 		(pts
-			(xy 364.49 137.16) (xy 364.49 133.35)
+			(xy 358.14 160.02) (xy 358.14 156.21)
 		)
 		(stroke
 			(width 0)
@@ -7577,7 +7577,7 @@
 	)
 	(wire
 		(pts
-			(xy 354.33 149.86) (xy 354.33 153.67)
+			(xy 347.98 172.72) (xy 347.98 176.53)
 		)
 		(stroke
 			(width 0)
@@ -7787,7 +7787,7 @@
 	)
 	(wire
 		(pts
-			(xy 346.71 144.78) (xy 354.33 144.78)
+			(xy 340.36 167.64) (xy 347.98 167.64)
 		)
 		(stroke
 			(width 0)
@@ -8257,7 +8257,7 @@
 	)
 	(wire
 		(pts
-			(xy 367.03 154.94) (xy 367.03 160.02)
+			(xy 360.68 177.8) (xy 360.68 182.88)
 		)
 		(stroke
 			(width 0)
@@ -8287,7 +8287,7 @@
 	)
 	(wire
 		(pts
-			(xy 367.03 133.35) (xy 364.49 133.35)
+			(xy 360.68 156.21) (xy 358.14 156.21)
 		)
 		(stroke
 			(width 0)
@@ -8307,7 +8307,7 @@
 	)
 	(wire
 		(pts
-			(xy 354.33 133.35) (xy 356.87 133.35)
+			(xy 347.98 156.21) (xy 350.52 156.21)
 		)
 		(stroke
 			(width 0)
@@ -8537,7 +8537,7 @@
 	)
 	(wire
 		(pts
-			(xy 367.03 133.35) (xy 367.03 137.16)
+			(xy 360.68 156.21) (xy 360.68 160.02)
 		)
 		(stroke
 			(width 0)
@@ -10096,7 +10096,7 @@
 		(uuid "906c04f2-9709-46a4-b878-915e2e6d7bf8")
 	)
 	(label "3v3"
-		(at 344.17 153.67 0)
+		(at 337.82 176.53 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10166,7 +10166,7 @@
 		(uuid "9d850f8f-4586-453f-9dbc-2c9e7be85494")
 	)
 	(label "GND"
-		(at 354.33 133.35 180)
+		(at 347.98 156.21 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10176,7 +10176,7 @@
 		(uuid "9dda32eb-ccb6-4f99-9af4-4ac875e3efc4")
 	)
 	(label "GND"
-		(at 332.74 147.32 180)
+		(at 326.39 170.18 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10316,7 +10316,7 @@
 		(uuid "b9f1b2ba-4822-48a1-b61d-adbdddd82d51")
 	)
 	(label "GND"
-		(at 367.03 160.02 0)
+		(at 360.68 182.88 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10496,7 +10496,7 @@
 		(uuid "cd29857e-011d-4914-8bc9-c2c634749218")
 	)
 	(label "SCL"
-		(at 346.71 142.24 0)
+		(at 340.36 165.1 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10506,7 +10506,7 @@
 		(uuid "cd67a37b-a621-4634-a85c-a6cd8fc810f3")
 	)
 	(label "SDA"
-		(at 346.71 144.78 0)
+		(at 340.36 167.64 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10516,7 +10516,7 @@
 		(uuid "cff12c7b-aa3a-41d6-b81a-e7bbb56e4764")
 	)
 	(label "3v3"
-		(at 364.49 130.81 0)
+		(at 358.14 153.67 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10797,7 +10797,7 @@
 	)
 	(symbol
 		(lib_id "microbuilder:CAP_CERAMIC0603")
-		(at 359.41 133.35 270)
+		(at 353.06 156.21 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10806,7 +10806,7 @@
 		(fields_autoplaced yes)
 		(uuid "011f650d-68ae-4108-b223-8b0c615e0d23")
 		(property "Reference" "C14"
-			(at 360.68 127 90)
+			(at 354.33 149.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10814,7 +10814,7 @@
 			)
 		)
 		(property "Value" "100 nF"
-			(at 360.68 129.54 90)
+			(at 354.33 152.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10822,7 +10822,7 @@
 			)
 		)
 		(property "Footprint" "microbuilder:0603"
-			(at 359.41 133.35 0)
+			(at 353.06 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10831,7 +10831,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 359.41 133.35 0)
+			(at 353.06 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10840,7 +10840,7 @@
 			)
 		)
 		(property "Description" "Ceramic Capacitors\n\n0402 - 0402 Surface Mount Capacitors\n\n• 16pF 50V 5% [Digikey: 445-4899-2-ND]\n• 18pF 50V 5% [Digikey: 490-1281-2-ND]\n• 22pF 50V 5% [Digikey: 490-1283-2-ND]\n• 68pF 50V 5% [Digikey: 490-1289-2-ND]\n• 0.1uF 10V 10% [Digikey: 490-1318-2-ND]\n• 1.0uF 6.3V 10% [Digikey: 490-1320-2-ND]\n\n0603 - 0603 Surface Mount Capacitors\n\n• 16 pF 50V 5% [Digikey: 445-5051-2-ND]\n• 22 pF 50V [Digikey: PCC220ACVTR-ND]\n• 33 pF 50V 5% [Digikey: 490-1415-1-ND]\n• 56pF 50V 5% [Digikey: 490-1421-1-ND]\n• 220pF 50V 5% [Digikey: 445-1285-1-ND]\n• 680 pF 50V\n• 2200 pF 50V 5% C0G [Digikey: 445-1297-1-ND]\n• 5600 pF 100V 5% X7R [Digikey: 478-3711-1-ND]\n• 0.1 µF 25V 10% [Digikey: PCC2277TR-ND]\n• 0.22 µF 16V 10% X7R [Digikey: 445-1318-1-ND]\n• 1.0 µF 25V 10% [Digikey: 445-5146-2-ND]\n\n0603 - RF Specific\n\n• 3pF 250V +/-0.1pF RF [Digikey: 712-1347-1-ND]\n• 18 pF 250V 5%  [Digikey: 478-3505-1-ND or 712-1322-1-ND]\n• 56 pF 250V 5% C0G RF [Digikey: 490-4867-1-ND]\n• 68 pF 250V RF [Digikey: 490-4868-1-ND]\n\n0805 - 0805 Surface Mount Capacitors\n\n• 220 pF 250V 2% RF Ceramic Capacitor [Digikey: 712-1398-1-ND]\n• 1000 pF 50V 2% NP0 Ceramic Capacitor [Digikey: 478-3760-1-ND]\n• 0.1 µF 25V 10% Ceramic Capacitor [Digikey: PCC1828TR-ND]\n• 1.0 µF 16V 10% Ceramic Capacitor[Digikey: 490-1691-2-ND]\n• 10.0 µF 10V 10% Ceramic Capacitor[Digikey: 709-1228-1-ND]\n• 10.0 uF 16V 10% Ceramic Capacitor [Digikey: 478-5165-2-ND]\n• 47 uF 6.3V 20% Ceramic Capacitor [Digikey: 587-1779-1-ND or 399-5506-1-ND]\n\n1206 - 1206 Surface Mount Capacitors\n\n• 47uF 10V 20% Ceramic Capacitor [Digikey: 490-5528-1-ND or 399-5508-1-ND or 445-6010-1-ND]\n• 100uF 6.3V -20%, +80% Y5V Ceramic Capacitor (Digikey: 490-4512-1-ND, Mouser: 81-GRM31CF50J107ZE1L)"
-			(at 359.41 133.35 0)
+			(at 353.06 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11142,7 +11142,7 @@
 	)
 	(symbol
 		(lib_id "adafruit:R-US_R0603")
-		(at 349.25 153.67 0)
+		(at 342.9 176.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11151,7 +11151,7 @@
 		(fields_autoplaced yes)
 		(uuid "0fbbceb7-d5fc-423b-9a1a-64e4a035ee07")
 		(property "Reference" "R24"
-			(at 349.25 146.05 0)
+			(at 342.9 168.91 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -11159,7 +11159,7 @@
 			)
 		)
 		(property "Value" "10k ohm"
-			(at 349.25 149.86 0)
+			(at 342.9 172.72 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -11167,7 +11167,7 @@
 			)
 		)
 		(property "Footprint" "adafruit:R0603"
-			(at 349.25 153.67 0)
+			(at 342.9 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11176,7 +11176,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 349.25 153.67 0)
+			(at 342.9 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11185,7 +11185,7 @@
 			)
 		)
 		(property "Description" "RESISTOR, American symbol"
-			(at 349.25 153.67 0)
+			(at 342.9 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12163,7 +12163,7 @@
 	)
 	(symbol
 		(lib_id "Sensor_Pressure:BMP280")
-		(at 364.49 147.32 0)
+		(at 358.14 170.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12172,7 +12172,7 @@
 		(fields_autoplaced yes)
 		(uuid "3b233808-caf8-4de7-ae47-7a46cab19356")
 		(property "Reference" "U4"
-			(at 370.84 144.7799 0)
+			(at 364.49 167.6399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12181,7 +12181,7 @@
 			)
 		)
 		(property "Value" "BMP280"
-			(at 370.84 147.3199 0)
+			(at 364.49 170.1799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12190,7 +12190,7 @@
 			)
 		)
 		(property "Footprint" "Package_LGA:Bosch_LGA-8_2x2.5mm_P0.65mm_ClockwisePinNumbering"
-			(at 364.49 165.1 0)
+			(at 358.14 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12199,7 +12199,7 @@
 			)
 		)
 		(property "Datasheet" "https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BMP280-DS001.pdf"
-			(at 364.49 147.32 0)
+			(at 358.14 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12208,7 +12208,7 @@
 			)
 		)
 		(property "Description" "Absolute Barometric Pressure Sensor, LGA-8"
-			(at 364.49 147.32 0)
+			(at 358.14 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12721,10 +12721,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "c6a05d14-3ffb-4cba-bcea-ec0bab812b19")
+			(uuid "c6a05d14-3ffb-4cba-bcea-ec0bab812b1a")
 		)
 		(pin "1"
-			(uuid "66b4efb5-ab2e-4b89-b00b-5ed5ad8d919e")
+			(uuid "66b4efb5-ab2e-4b89-b00b-5ed5ad8d919f")
 		)
 		(instances
 			(project ""
@@ -12926,10 +12926,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "605d9e81-41ff-45f6-a6ef-f3cf5ec459f1")
+			(uuid "605d9e81-41ff-45f6-a6ef-f3cf5ec459f2")
 		)
 		(pin "2"
-			(uuid "79127d2f-0be5-4fa6-bffb-5dae09ee1ad5")
+			(uuid "79127d2f-0be5-4fa6-bffb-5dae09ee1ad6")
 		)
 		(instances
 			(project ""
@@ -13489,7 +13489,7 @@
 	)
 	(symbol
 		(lib_id "adafruit:R-US_R0603")
-		(at 341.63 147.32 0)
+		(at 335.28 170.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13498,7 +13498,7 @@
 		(fields_autoplaced yes)
 		(uuid "8226833e-4770-4795-b224-0f3d4bd31ed2")
 		(property "Reference" "R19"
-			(at 341.63 139.7 0)
+			(at 335.28 162.56 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -13506,7 +13506,7 @@
 			)
 		)
 		(property "Value" "10k ohm"
-			(at 341.63 143.51 0)
+			(at 335.28 166.37 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -13514,7 +13514,7 @@
 			)
 		)
 		(property "Footprint" "adafruit:R0603"
-			(at 341.63 147.32 0)
+			(at 335.28 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13523,7 +13523,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 341.63 147.32 0)
+			(at 335.28 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13532,7 +13532,7 @@
 			)
 		)
 		(property "Description" "RESISTOR, American symbol"
-			(at 341.63 147.32 0)
+			(at 335.28 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16187,10 +16187,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "c6a05d14-3ffb-4cba-bcea-ec0bab812b19")
+			(uuid "c6a05d14-3ffb-4cba-bcea-ec0bab812b1b")
 		)
 		(pin "1"
-			(uuid "66b4efb5-ab2e-4b89-b00b-5ed5ad8d919e")
+			(uuid "66b4efb5-ab2e-4b89-b00b-5ed5ad8d91a0")
 		)
 		(instances
 			(project ""
