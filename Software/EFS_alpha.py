@@ -235,7 +235,7 @@ class async_test:
         # Telemetry - SX1262 on this board
         
         self.sx = None                                    # Radio
-        self.tel_delay = 100                              # Delay between telemetry cycles in ms (Choose fast/slow in code)
+        self.tel_delay = 700                              # Delay between telemetry cycles in ms (Choose fast/slow in code)
         self.tel_delay_fast = 100                         # Delay between telemetry cycles in ms (Fast mode - In flight)
         self.tel_delay_slow = 100                         # Delay between telemetry cycles in ms (Slow mode - On Pad / After Touchdown)
 
@@ -253,10 +253,10 @@ class async_test:
         
         self.data_buffer = bytearray(0)                   # Buffer for storing upto ~2.5 seconds before launch
         
-        self.packing_str = '!s2i37f'
-        self.packing_str_tel = '<siii3h2f3h'  # Telemetry disabled
+        self.packing_str = '!s2i34f' 					  # change to '!s2i34f'
+        self.packing_str_tel = '!1s2i10f'  # Telemetry disabled
         
-        self.data_fast = bytearray(157)                    # Bytearray for sending data via telemetry or writing to flash
+        self.data_fast = bytearray(145) # change to                     # Bytearray for sending data via telemetry or writing to flash
         self.data_tel = bytearray(49)                    # Telemetry disabled
         
         self.bno_accel = [0,0,0]                          # Array for BNO acceleraton readings
@@ -334,20 +334,24 @@ class async_test:
         self.calib_count = 0                              # Number of calibrations performed so far
         self.calib_max = 1                                # Maximum number of automatic calibrations (Manual Telemetry Command will override this limit)
         
-        self.liftoff_accel = 2                            # Minimum sustained Gs for liftoff detection
-        self.min_liftoff_alt = 70                # put 10        # Minimum altitude to be cleared for liftoff detection in m
+        self.liftoff_accel = 2  #2                            # Minimum sustained Gs for liftoff detection
+        self.min_liftoff_alt = 10                # put 10        # Minimum altitude to be cleared for liftoff detection in m
         
-        self.force_burnout_time = 5 * 1000    # put 5*1000            # Force burnout after this time from liftoff in ms
+        self.force_burnout_time = 3 * 1000    # put 5*1000            # Force burnout after this time from liftoff in ms
         
-        self.force_drogue_time = 13 * 1000                # Force drogue after this time from liftoff in ms
-        self.lockout_drogue_time = 1 * 1000     # put 6*1000          # Cannot fire drogue before this time after liftoff in ms
+        self.force_drogue_time = 17 * 1000                # Force drogue after this time from liftoff in ms
+        self.lockout_drogue_time = 10 * 1000     # put 6*1000          # Cannot fire drogue before this time after liftoff in ms
         
         self.main_alt = 400                               # Deploy main chute / de-reef chute below this altitude in m during descent
-        self.drogue_to_main_lockout = 5000        # put 5000        # Cannot fire main / de-reef chute before this time after drogue ejection in ms (Incase ejection fucks up pressure readings)
+        self.drogue_to_main_lockout = 10*1000        # put 5000        # Cannot fire main / de-reef chute before this time after drogue ejection in ms (Incase ejection fucks up pressure readings)
+        
+        self.ballistic_lockout_time = 3*1000        # delay to force main in case drogue fails and rocket is in ballisitc re-entry
+        self.max_re_entry_speed = -40.0             # In float as vel_buf values are in float, python doesn't what it's doing sometimes, so it does wrong comparision
+                                                    # max tolerable speed until vehicle enters ballistic 
         
         self.touchdown_alt = 50                           # Maximum altitude for touchdown detection in m
         self.touchdown_vel_limit = 0.1                    # Maximum speed for touchdown detection in m/s
-        self.main_to_touchdown_lockout =  5000     # put 20000      # Cannot detect touchdown before this time after main ejection / de-reefing in ms (Incase ejection fucks up pressure readings)                                        
+        self.main_to_touchdown_lockout =  10*1000     # put 20000      # Cannot detect touchdown before this time after main ejection / de-reefing in ms (Incase ejection fucks up pressure readings)                                        
         
 #----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -359,7 +363,7 @@ class async_test:
         self.state = 0                                    # (0 - On Pad, 1 - Boost, 2 - Coasting, 3 - Descent under Drogue, 4 - Descent under Main, 5 - Landed)
         self.t_log = ticks_ms()                           # Timestamp of loop
         sleep_ms(10)                                      # 10 ms wait to avoid divide by zero on first loop
-        self.last_t_log = self.buf_len = 5
+        self.last_t_log = self.buf_len = 10
         # Length of buffer
         self.alt_buf = np.zeros((self.buf_len))           # Altitude buffer for state machine
         self.acc_buf = np.zeros((self.buf_len))           # Acceleration buffer for state machine
@@ -638,7 +642,7 @@ class async_test:
             
 #             print(self.vel_buf[-1])
 #             
-            print(self.state,self.acc_buf[-1], self.vel_buf[-1],self.alt_buf[-1])
+#             print(self.state,self.acc_buf[-1], self.vel_buf[-1],self.alt_buf[-1])
 
             # Try BNO
             try:
@@ -753,15 +757,20 @@ class async_test:
                         self.drogue_pin.value(0)
                         sleep_ms(100)
                 
-                # Main deployed if - (Drogue deployed & Altitude < Main deployment altitude & Lockout time crossed)
-                elif self.state==3 and np.all(self.alt_buf < self.main_alt) and self.t_log - self.t_events[2] > self.drogue_to_main_lockout:
+                # Main deployed if - (Drogue deployed & Altitude < Main deployment altitude & Lockout time crossed) or (decent rate > max decent rate threshold and ballisitc entry lockout exceeded)
+                elif self.state==3 and ((np.all(self.alt_buf < self.main_alt) and self.t_log - self.t_events[2] > self.drogue_to_main_lockout) or (np.all(self.vel_buf < self.max_re_entry_speed) and self.t_log - self.t_events[2] > self.ballistic_lockout_time)):
+                    if np.all(self.alt_buf < self.main_alt) and self.t_log - self.t_events[2] > self.drogue_to_main_lockout:
+                        self.failure("MAIN_ALT_BRANCH")
+                    elif np.all(self.vel_buf < self.max_re_entry_speed) and self.t_log - self.t_events[2] > self.ballistic_lockout_time:
+                        self.failure("MAIN_BALLISTIC_BRANCH: "+ str(self.vel_buf[0])+" "+str(self.vel_buf[-1])+" "+str(self.vel_buf[-2])+" "+str(self.vel_buf[-3])+" "+str(self.vel_buf[-4]))
+#                         self.failure("BUF_DTYPE: "+str(type(self.vel_buf[-1]))+" Threshold type: "+str(type(self.max_re_entry_speed))+" THRESHOLD: "+str(self.max_re_entry_speed))
                     self.state = 4
                     self.t_events[3] = self.t_log
                     
                     # Spam main pin
                     for i in range(3):
                         self.main_pin.value(1)
-                        sleep_ms(2000)
+                        sleep_ms(300)
                         self.main_pin.value(0)
                         sleep_ms(100)
 
@@ -904,16 +913,16 @@ class async_test:
                                   b'T',                       # T indicates telemetry readings
                                   (int)(self.t_log),
                                   (int)(self.state),
-                                  (int)(self.temp),
-                                  (int)(self.bno_accel[0]*10),
-                                  (int)(self.bno_accel[1]*10),
-                                  (int)(self.bno_accel[2]*10),
+                                  (float)(self.temp),
+                                  (float)(self.bno_accel[0]*10),
+                                  (float)(self.bno_accel[1]*10),
+                                  (float)(self.bno_accel[2]*10),
     #                                   (int)(self.kx_accel[0]*10),
     #                                   (int)(self.kx_accel[1]*10),
     #                                   (int)(self.kx_accel[2]*10),
-    #                                   (int)(self.gyro[0]*10),
-    #                                   (int)(self.gyro[1]*10),
-    #                                   (int)(self.gyro[2]*10),
+                                   (float)(self.gyro[0]*10),
+                                   (float)(self.gyro[1]*10),
+                                   (float)(self.gyro[2]*10),
     #                                   (int)(self.volt_bat*10),
     #                                   (int)(self.volt_3v3*10),
     #                                   (int)(self.volt_drogue*10),
@@ -924,12 +933,17 @@ class async_test:
     #                                   (int)(self.reg_2*10),
     #                                   (int)(self.reg_3*10),
     #                                   (int)(self.reg_4*10),
-                                  (float)(self.Z[0][0]),
-                                  (float)(self.Z[1][0]),
-                                  (int)(self.Z[2][0]),
-                                  (int)(self.Z[3][0]),
-                                  (int)(self.Z[4][0])
+#                                   (float)(self.Z[0][0]),
+#                                   (float)(self.Z[1][0]),
+                                  (float)(self.Z[2][0]),
+                                  (float)(self.Z[3][0]),
+                                  (float)(self.Z[4][0])
                                   )
+                #----- for debugging -------
+                print(self.data_tel)
+                print(self.data_tel.hex())
+                print(len(self.data_tel))
+                #---------------------------
             
                 # COBS encoder removed; send raw telemetry buffer instead
 #                     encoded_tel = self.data_tel
@@ -1394,4 +1408,4 @@ if __name__ == "__main__":
 
 
 
-#flyte.py
+#flyte.
