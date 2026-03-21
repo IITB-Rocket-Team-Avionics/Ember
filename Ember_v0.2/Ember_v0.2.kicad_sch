@@ -6074,12 +6074,6 @@
 		(uuid "49097a4f-3df3-45b6-a8f3-58a232114c69")
 	)
 	(junction
-		(at 391.16 44.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4b51d774-fb6a-4f4b-b1d1-cbeacf14630b")
-	)
-	(junction
 		(at 62.23 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7095,16 +7089,6 @@
 	)
 	(wire
 		(pts
-			(xy 391.16 35.56) (xy 391.16 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "293101fa-9a93-4c5b-aaea-a7c6e269a090")
-	)
-	(wire
-		(pts
 			(xy 99.06 102.87) (xy 105.41 102.87)
 		)
 		(stroke
@@ -7182,16 +7166,6 @@
 			(type default)
 		)
 		(uuid "2d84a674-6b1f-4a04-954d-da15ac817b07")
-	)
-	(wire
-		(pts
-			(xy 387.35 48.26) (xy 381 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2e7eb0d2-fb6d-469a-bafd-374e5d5b9c52")
 	)
 	(wire
 		(pts
@@ -8635,16 +8609,6 @@
 	)
 	(wire
 		(pts
-			(xy 387.35 52.07) (xy 387.35 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "90097080-621b-4285-ba0f-c3dd5fc2405f")
-	)
-	(wire
-		(pts
 			(xy 269.24 59.69) (xy 280.67 59.69)
 		)
 		(stroke
@@ -8675,7 +8639,7 @@
 	)
 	(wire
 		(pts
-			(xy 384.81 52.07) (xy 387.35 52.07)
+			(xy 384.81 52.07) (xy 394.97 52.07)
 		)
 		(stroke
 			(width 0)
@@ -10135,16 +10099,6 @@
 	)
 	(wire
 		(pts
-			(xy 381 44.45) (xy 381 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f823572c-2514-47b1-aaae-79b721114028")
-	)
-	(wire
-		(pts
 			(xy 335.28 66.04) (xy 335.28 68.58)
 		)
 		(stroke
@@ -11193,16 +11147,6 @@
 		)
 		(uuid "98159ba7-e118-45f5-b82e-44624ce1124b")
 	)
-	(label "GND"
-		(at 401.32 44.45 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9874f560-f28a-4296-a2b7-a7353b042b4e")
-	)
 	(label "V_BATT"
 		(at 153.67 236.22 180)
 		(effects
@@ -11653,7 +11597,7 @@
 		)
 		(uuid "cffc8950-8982-4186-9ae5-a978fcf9e9e7")
 	)
-	(label "3v3"
+	(label "5v"
 		(at 377.19 102.87 0)
 		(effects
 			(font
@@ -12034,7 +11978,7 @@
 		(uuid "fdfb21d6-1754-4374-bb1b-30cbb0b8fb01")
 	)
 	(label "V_DP"
-		(at 391.16 35.56 0)
+		(at 394.97 52.07 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12184,74 +12128,6 @@
 			(project ""
 				(path "/97e7889e-e69b-4dc1-9c2e-5339b74b36d3"
 					(reference "R11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "microbuilder:RESISTOR0603")
-		(at 396.24 44.45 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0323747a-53a1-41f0-873d-fb81c66b2d08")
-		(property "Reference" "R14"
-			(at 396.24 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "3k"
-			(at 396.24 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "microbuilder:0603"
-			(at 396.24 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 396.24 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistors\n\n0402 - 0402 Surface Mount Package\n\n• 22 Ohm 1% 1/16W [Digikey: 311-22.0LRTR-ND]\n• 33 Ohm 5% 1/16W\n• 1.0K 5% 1/16W\n• 1.5K 5% 1/16W\n• 2.0K 1% 1/16W\n• 10.0K 1% 1/16W [Digikey: 311-10.0KLRTR-ND]\n• 10.0K 5% 1/16W [Digikey: RMCF0402JT10K0TR-ND]\n• 12.1K 1% 1/16W [Digikey: 311-22.0LRTR-ND]\n• 100.0K 5% 1/16W\n\n0603 - 0603 Surface Mount Package\n\n• 0 Ohm 1/10 Watt 1% Resistor\n• 15 Ohm 1/10 Watt 1% Resistor\n• 33 Ohm 1/10 Watt 1% Resistor\n• 49.9 Ohm 1/10 Watt 1% Resistor\n• 100 Ohm 1/10 Watt 1% Resistor\n• 150 Ohm 1/10 Watt 1% Resistor\n• 240 Ohm 1/10 Watt 1% Resistor\n• 390 Ohm 1/10 Watt 1% Resistor\n• 560 Ohm 1/10 Watt 1% Resistor\n• 680 Ohm 1/10 Watt 1% Resistor\n• 750 Ohm 1/10 Watt 1% Resistor\n• 1.0K Ohm 1/10 Watt 1% Resistor\n• 1.5K Ohm 1/10 Watt 1% Resistor\n• 2.0K Ohm 1/10 Watt 1% Resistor\n• 2.2K Ohm 1/10 Watt 1% Resistor\n• 3.3K Ohm 1/10 Watt 1% Resistor\n• 4.7K Ohm 1/10 Watt 1% Resistor\n• 10.0K Ohm 1/10 Watt 1% Resistor\n• 12.0K Ohm 1/10 Watt 1% Resistor\n• 12.1K Ohm 1/10 Watt 1% Resistor\n• 20.0K Ohm 1/10 Watt 1% Resistor\n• 33.0K Ohm 1/10 Watt 1% Resistor\n• 100.0K Ohm 1/10 Watt 1% Resistor\n\n0805 - 0805 Surface Mount Package\n\n• 0 Ohm 1/8 Watt 1% Resistor\n• 33 Ohm 1/8 Watt 1% Resistor\n• 100 Ohm 1/8 Watt 1% Resistor\n• 150 Ohm 1/8 Watt 1% Resistor\n• 200 Ohm 1/8 Watt 1% Resistor\n• 240 Ohm 1/8 Watt 1% Resistor\n• 330 Ohm 1/8 Watt 1% Resistor\n• 390 Ohm 1/8 Watt 1% Resistor\n• 470 Ohm 1/8 Watt 1% Resistor\n• 1.0K Ohm 1/8 Watt 1% Resistor\n• 1.5K Ohm 1/8 Watt 1% Resistor\n• 2.0K Ohm 1/8 Watt 1% Resistor\n• 4.7K Ohm 1/8 Watt 1% Resistor\n• 5.1K Ohm 1/8 Watt 1% Resistor\n• 5.6K Ohm 1/8 Watt 1% Resistor\n• 10.0K Ohm 1/8 Watt 1% Resistor\n• 22.0K Ohm 1/8 Watt 1% Resistor\n• 33.0K Ohm 1/8 Watt 1% Resistor\n• 100K Ohm 1/8 Watt 1% Resistor\n\n1206 - 1206 Surface Mount Package  2012 - 2010 Surface Mount Package\n\n• 0.11 Ohm 1/2 Watt 1% Resistor - Digikey: RHM.11UCT-ND"
-			(at 396.24 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2b1efba8-9d96-4a14-bb70-819b03698d61")
-		)
-		(pin "2"
-			(uuid "8264b280-6c95-49d2-bbd7-55f72b35d335")
-		)
-		(instances
-			(project ""
-				(path "/97e7889e-e69b-4dc1-9c2e-5339b74b36d3"
-					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -14260,74 +14136,6 @@
 		)
 	)
 	(symbol
-		(lib_id "microbuilder:RESISTOR0603")
-		(at 386.08 44.45 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6450dd54-1cd2-4705-b0ba-cd97127da35e")
-		(property "Reference" "R13"
-			(at 386.08 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "2k"
-			(at 386.08 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "microbuilder:0603"
-			(at 386.08 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 386.08 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistors\n\n0402 - 0402 Surface Mount Package\n\n• 22 Ohm 1% 1/16W [Digikey: 311-22.0LRTR-ND]\n• 33 Ohm 5% 1/16W\n• 1.0K 5% 1/16W\n• 1.5K 5% 1/16W\n• 2.0K 1% 1/16W\n• 10.0K 1% 1/16W [Digikey: 311-10.0KLRTR-ND]\n• 10.0K 5% 1/16W [Digikey: RMCF0402JT10K0TR-ND]\n• 12.1K 1% 1/16W [Digikey: 311-22.0LRTR-ND]\n• 100.0K 5% 1/16W\n\n0603 - 0603 Surface Mount Package\n\n• 0 Ohm 1/10 Watt 1% Resistor\n• 15 Ohm 1/10 Watt 1% Resistor\n• 33 Ohm 1/10 Watt 1% Resistor\n• 49.9 Ohm 1/10 Watt 1% Resistor\n• 100 Ohm 1/10 Watt 1% Resistor\n• 150 Ohm 1/10 Watt 1% Resistor\n• 240 Ohm 1/10 Watt 1% Resistor\n• 390 Ohm 1/10 Watt 1% Resistor\n• 560 Ohm 1/10 Watt 1% Resistor\n• 680 Ohm 1/10 Watt 1% Resistor\n• 750 Ohm 1/10 Watt 1% Resistor\n• 1.0K Ohm 1/10 Watt 1% Resistor\n• 1.5K Ohm 1/10 Watt 1% Resistor\n• 2.0K Ohm 1/10 Watt 1% Resistor\n• 2.2K Ohm 1/10 Watt 1% Resistor\n• 3.3K Ohm 1/10 Watt 1% Resistor\n• 4.7K Ohm 1/10 Watt 1% Resistor\n• 10.0K Ohm 1/10 Watt 1% Resistor\n• 12.0K Ohm 1/10 Watt 1% Resistor\n• 12.1K Ohm 1/10 Watt 1% Resistor\n• 20.0K Ohm 1/10 Watt 1% Resistor\n• 33.0K Ohm 1/10 Watt 1% Resistor\n• 100.0K Ohm 1/10 Watt 1% Resistor\n\n0805 - 0805 Surface Mount Package\n\n• 0 Ohm 1/8 Watt 1% Resistor\n• 33 Ohm 1/8 Watt 1% Resistor\n• 100 Ohm 1/8 Watt 1% Resistor\n• 150 Ohm 1/8 Watt 1% Resistor\n• 200 Ohm 1/8 Watt 1% Resistor\n• 240 Ohm 1/8 Watt 1% Resistor\n• 330 Ohm 1/8 Watt 1% Resistor\n• 390 Ohm 1/8 Watt 1% Resistor\n• 470 Ohm 1/8 Watt 1% Resistor\n• 1.0K Ohm 1/8 Watt 1% Resistor\n• 1.5K Ohm 1/8 Watt 1% Resistor\n• 2.0K Ohm 1/8 Watt 1% Resistor\n• 4.7K Ohm 1/8 Watt 1% Resistor\n• 5.1K Ohm 1/8 Watt 1% Resistor\n• 5.6K Ohm 1/8 Watt 1% Resistor\n• 10.0K Ohm 1/8 Watt 1% Resistor\n• 22.0K Ohm 1/8 Watt 1% Resistor\n• 33.0K Ohm 1/8 Watt 1% Resistor\n• 100K Ohm 1/8 Watt 1% Resistor\n\n1206 - 1206 Surface Mount Package  2012 - 2010 Surface Mount Package\n\n• 0.11 Ohm 1/2 Watt 1% Resistor - Digikey: RHM.11UCT-ND"
-			(at 386.08 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2b1efba8-9d96-4a14-bb70-819b03698d61")
-		)
-		(pin "2"
-			(uuid "8264b280-6c95-49d2-bbd7-55f72b35d335")
-		)
-		(instances
-			(project ""
-				(path "/97e7889e-e69b-4dc1-9c2e-5339b74b36d3"
-					(reference "R13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "microbuilder:LED0603")
 		(at 115.57 247.65 180)
 		(unit 1)
@@ -16085,10 +15893,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "c9bd5d51-3243-474d-949c-f99662de6616")
+			(uuid "c9bd5d51-3243-474d-949c-f99662de6617")
 		)
 		(pin "1"
-			(uuid "b35c0e68-a0da-4e6a-a28d-50223c82c691")
+			(uuid "b35c0e68-a0da-4e6a-a28d-50223c82c692")
 		)
 		(instances
 			(project ""
@@ -17343,10 +17151,10 @@
 			)
 		)
 		(pin "A"
-			(uuid "bfd196a0-be57-4620-9519-b8c705a7a0d9")
+			(uuid "bfd196a0-be57-4620-9519-b8c705a7a0da")
 		)
 		(pin "C"
-			(uuid "d5b4a341-701c-455d-aa66-4b18f511812a")
+			(uuid "d5b4a341-701c-455d-aa66-4b18f511812b")
 		)
 		(instances
 			(project ""
@@ -18255,10 +18063,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "f9de7276-d913-4396-a02a-54d9816792ca")
+			(uuid "f9de7276-d913-4396-a02a-54d9816792cb")
 		)
 		(pin "2"
-			(uuid "2f3f3103-2c99-4140-a9f5-660922526caa")
+			(uuid "2f3f3103-2c99-4140-a9f5-660922526cab")
 		)
 		(instances
 			(project ""
