@@ -1838,7 +1838,7 @@
 	(footprint "microbuilder:0603"
 		(layer "F.Cu")
 		(uuid "12e8da2e-3249-4132-9951-e304afd476d8")
-		(at 145.45 73.5 180)
+		(at 145.05 73.5 180)
 		(descr "0603 (1608 Metric)")
 		(property "Reference" "R4"
 			(at 1.778 0.127 180)
@@ -2405,7 +2405,7 @@
 	(footprint "microbuilder:0603"
 		(layer "F.Cu")
 		(uuid "180fcba8-a1fa-4b3a-b698-cb75b99087a8")
-		(at 106.8929 52.5622)
+		(at 145.05 71.05)
 		(descr "0603 (1608 Metric)")
 		(property "Reference" "R41"
 			(at 1.778 0.127 0)
@@ -2625,7 +2625,7 @@
 	(footprint "microbuilder:0603"
 		(layer "F.Cu")
 		(uuid "1aa1821d-2024-471c-aa86-82f96eff0ffc")
-		(at 93.6833 65.5782)
+		(at 144.875 80.675)
 		(descr "0603 (1608 Metric)")
 		(property "Reference" "R8"
 			(at 1.778 0.127 0)
@@ -5689,7 +5689,7 @@
 	(footprint "microbuilder:0603"
 		(layer "F.Cu")
 		(uuid "56d055a1-9b46-4548-bbd0-126234944e1f")
-		(at 145.45 63.95 180)
+		(at 145.25 63.95 180)
 		(descr "0603 (1608 Metric)")
 		(property "Reference" "R32"
 			(at 1.778 0.127 180)
@@ -6953,7 +6953,7 @@
 	(footprint "microbuilder:0603"
 		(layer "F.Cu")
 		(uuid "5d1995de-110f-4804-93f0-4ab351d520c5")
-		(at 106.8929 49.959)
+		(at 149.6 61.25)
 		(descr "0603 (1608 Metric)")
 		(property "Reference" "R40"
 			(at 1.778 0.127 0)
@@ -8457,7 +8457,7 @@
 	(footprint "microbuilder:0603"
 		(layer "F.Cu")
 		(uuid "7254a458-d6c9-4d93-a25b-2403e2334f85")
-		(at 106.8929 44.7526)
+		(at 149.225 80.7)
 		(descr "0603 (1608 Metric)")
 		(property "Reference" "R38"
 			(at 1.778 0.127 0)
@@ -9857,7 +9857,7 @@
 	(footprint "microbuilder:0603"
 		(layer "F.Cu")
 		(uuid "86df6bc6-a182-499c-864a-64bf19113e60")
-		(at 106.8929 47.3558)
+		(at 145.25 61.25)
 		(descr "0603 (1608 Metric)")
 		(property "Reference" "R39"
 			(at 1.778 0.127 0)
@@ -13152,7 +13152,7 @@
 	(footprint "microbuilder:0603"
 		(layer "F.Cu")
 		(uuid "a194024e-e0cf-4655-b7db-aeb4ca39bf48")
-		(at 93.6833 60.3718)
+		(at 144.75 89.85)
 		(descr "0603 (1608 Metric)")
 		(property "Reference" "R6"
 			(at 1.778 0.127 0)
@@ -15409,7 +15409,7 @@
 	(footprint "microbuilder:0603"
 		(layer "F.Cu")
 		(uuid "aa3c3efe-6dbb-4b70-a077-3bd6a97f79a7")
-		(at 93.6833 62.975)
+		(at 149.125 89.8)
 		(descr "0603 (1608 Metric)")
 		(property "Reference" "R7"
 			(at 1.778 0.127 0)
@@ -21395,13 +21395,13 @@
 	(footprint "microbuilder:0603"
 		(layer "F.Cu")
 		(uuid "ee715282-fb6b-4338-b553-e09680dbaa41")
-		(at 106.8929 55.1654)
+		(at 149.45 71.05)
 		(descr "0603 (1608 Metric)")
 		(property "Reference" "R42"
 			(at 1.778 0.127 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "1d047374-7b70-45cc-ae3e-0f7f7c2586cf")
+			(uuid "8621d2c0-0682-4f76-9b8c-e0b8daa047c9")
 			(effects
 				(font
 					(size 0.666496 0.666496)
@@ -21414,7 +21414,7 @@
 			(at 1.778 0.762 0)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "8a318f05-d18c-4224-b636-f5dc0cc7a48c")
+			(uuid "1f69295e-2c4f-439d-af8e-f072a003df43")
 			(effects
 				(font
 					(size 0.36576 0.36576)
@@ -21427,7 +21427,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9e597894-207e-4b82-a19c-76d0374515bd")
+			(uuid "89455057-ae5e-400d-a20e-84c8f0537c9e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21439,7 +21439,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ca040ad7-44be-4c42-aa19-d0059d0ebfdf")
+			(uuid "ef3db2dd-484b-489f-8a6f-afb0a7035a02")
 			(effects
 				(font
 					(size 1.27 1.27)
