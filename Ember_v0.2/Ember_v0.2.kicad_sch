@@ -5506,89 +5506,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "microbuilder:MOUNTINGHOLE"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "microbuilder:MOUNTINGHOLE_3.0_PLATED"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Mounting Hole\n\nFor #2 screws (0.086\"/2.18mm width, 0.094\"/2.4mm hole) use 2.5mm"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "MOUNTINGHOLE_1_0"
-				(circle
-					(center 0 0)
-					(radius 1.905)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 0)
-					(radius 2.54)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "microbuilder:RESISTOR0603"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -16494,10 +16411,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "d4116695-a9ff-4de6-83c9-5c42f9f50eea")
+			(uuid "d4116695-a9ff-4de6-83c9-5c42f9f50eeb")
 		)
 		(pin "2"
-			(uuid "3c8ce6f8-0984-4e32-ba4f-8fb4b3d0be2e")
+			(uuid "3c8ce6f8-0984-4e32-ba4f-8fb4b3d0be2f")
 		)
 		(instances
 			(project ""
@@ -17935,70 +17852,6 @@
 		)
 	)
 	(symbol
-		(lib_id "microbuilder:MOUNTINGHOLE")
-		(at 295.91 194.31 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c9440a98-a7d1-4c81-b72a-37ecbe1f1dd5")
-		(property "Reference" "111111111111111111"
-			(at 295.91 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "~"
-			(at 295.91 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "microbuilder:MOUNTINGHOLE_3.0_PLATED"
-			(at 295.91 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 295.91 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole\n\nFor #2 screws (0.086\"/2.18mm width, 0.094\"/2.4mm hole) use 2.5mm"
-			(at 295.91 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project ""
-				(path "/97e7889e-e69b-4dc1-9c2e-5339b74b36d3"
-					(reference "111111111111111111")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "microbuilder:RESISTOR0603")
 		(at 54.61 55.88 0)
 		(unit 1)
@@ -18492,70 +18345,6 @@
 			(project ""
 				(path "/97e7889e-e69b-4dc1-9c2e-5339b74b36d3"
 					(reference "U5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "microbuilder:MOUNTINGHOLE")
-		(at 299.72 204.47 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dc305e6e-87a4-429b-9b08-f1aec19fc1f6")
-		(property "Reference" "121111111111111111"
-			(at 299.72 204.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "~"
-			(at 299.72 204.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "microbuilder:MOUNTINGHOLE_3.0_PLATED"
-			(at 299.72 204.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 299.72 204.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole\n\nFor #2 screws (0.086\"/2.18mm width, 0.094\"/2.4mm hole) use 2.5mm"
-			(at 299.72 204.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project ""
-				(path "/97e7889e-e69b-4dc1-9c2e-5339b74b36d3"
-					(reference "121111111111111111")
 					(unit 1)
 				)
 			)
