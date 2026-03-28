@@ -5856,7 +5856,7 @@
 		(uuid "12598c7a-9594-4ca8-b947-abefdf5712fd")
 	)
 	(junction
-		(at 384.81 212.09)
+		(at 386.08 220.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "167c425f-ecf0-47a6-b9e7-029e22fdba4c")
@@ -5866,6 +5866,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "179119aa-dbc1-4dc9-a4c8-f25e6047a49c")
+	)
+	(junction
+		(at 161.29 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1a85a372-d2c6-4f81-bf4b-518008eceaeb")
 	)
 	(junction
 		(at 62.23 102.87)
@@ -6102,6 +6108,12 @@
 		(uuid "8fdd6f70-8706-4eea-8d6f-c913f751646f")
 	)
 	(junction
+		(at 160.02 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "90d57c99-e8d4-4bdc-b743-44291f66666f")
+	)
+	(junction
 		(at 66.04 172.72)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6318,7 +6330,7 @@
 		(uuid "f4936323-01bf-4cc9-b616-2cca0e562376")
 	)
 	(junction
-		(at 379.73 220.98)
+		(at 381 229.87)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f4f4aeab-b769-4415-b9e5-30606ee26c0c")
@@ -6416,7 +6428,7 @@
 		(uuid "d62363e8-6481-44b0-b517-c361f5898387")
 	)
 	(no_connect
-		(at 328.93 217.17)
+		(at 330.2 226.06)
 		(uuid "d65b523f-4978-4a06-a215-6ab129d97151")
 	)
 	(no_connect
@@ -6509,7 +6521,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 97.79) (xy 147.32 97.79)
+			(xy 140.97 97.79) (xy 161.29 97.79)
 		)
 		(stroke
 			(width 0)
@@ -7049,7 +7061,7 @@
 	)
 	(wire
 		(pts
-			(xy 379.73 214.63) (xy 384.81 214.63)
+			(xy 381 223.52) (xy 386.08 223.52)
 		)
 		(stroke
 			(width 0)
@@ -7239,7 +7251,7 @@
 	)
 	(wire
 		(pts
-			(xy 379.73 220.98) (xy 379.73 228.6)
+			(xy 381 229.87) (xy 381 237.49)
 		)
 		(stroke
 			(width 0)
@@ -7249,7 +7261,7 @@
 	)
 	(wire
 		(pts
-			(xy 379.73 212.09) (xy 384.81 212.09)
+			(xy 381 220.98) (xy 386.08 220.98)
 		)
 		(stroke
 			(width 0)
@@ -7439,7 +7451,7 @@
 	)
 	(wire
 		(pts
-			(xy 379.73 217.17) (xy 379.73 220.98)
+			(xy 381 226.06) (xy 381 229.87)
 		)
 		(stroke
 			(width 0)
@@ -7509,7 +7521,7 @@
 	)
 	(wire
 		(pts
-			(xy 379.73 220.98) (xy 382.27 220.98)
+			(xy 381 229.87) (xy 383.54 229.87)
 		)
 		(stroke
 			(width 0)
@@ -7749,7 +7761,7 @@
 	)
 	(wire
 		(pts
-			(xy 389.89 220.98) (xy 393.7 220.98)
+			(xy 391.16 229.87) (xy 394.97 229.87)
 		)
 		(stroke
 			(width 0)
@@ -8609,7 +8621,7 @@
 	)
 	(wire
 		(pts
-			(xy 325.12 204.47) (xy 328.93 204.47)
+			(xy 326.39 213.36) (xy 330.2 213.36)
 		)
 		(stroke
 			(width 0)
@@ -8779,7 +8791,7 @@
 	)
 	(wire
 		(pts
-			(xy 325.12 209.55) (xy 328.93 209.55)
+			(xy 326.39 218.44) (xy 330.2 218.44)
 		)
 		(stroke
 			(width 0)
@@ -8856,6 +8868,16 @@
 			(type default)
 		)
 		(uuid "94c1fbd2-a933-4de3-8c67-acf0a9042abf")
+	)
+	(wire
+		(pts
+			(xy 161.29 97.79) (xy 165.1 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "952c578a-3e23-467f-9126-716783967a3a")
 	)
 	(wire
 		(pts
@@ -8936,6 +8958,16 @@
 			(type default)
 		)
 		(uuid "9bf591b5-59c6-4ea5-a76c-b326588be5f4")
+	)
+	(wire
+		(pts
+			(xy 160.02 49.53) (xy 162.56 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d31a088-efce-4669-943d-8e55c3e61eb2")
 	)
 	(wire
 		(pts
@@ -9079,7 +9111,7 @@
 	)
 	(wire
 		(pts
-			(xy 384.81 212.09) (xy 384.81 214.63)
+			(xy 386.08 220.98) (xy 386.08 223.52)
 		)
 		(stroke
 			(width 0)
@@ -9089,7 +9121,7 @@
 	)
 	(wire
 		(pts
-			(xy 384.81 212.09) (xy 393.7 212.09)
+			(xy 386.08 220.98) (xy 394.97 220.98)
 		)
 		(stroke
 			(width 0)
@@ -9169,7 +9201,7 @@
 	)
 	(wire
 		(pts
-			(xy 325.12 212.09) (xy 328.93 212.09)
+			(xy 326.39 220.98) (xy 330.2 220.98)
 		)
 		(stroke
 			(width 0)
@@ -9189,7 +9221,7 @@
 	)
 	(wire
 		(pts
-			(xy 325.12 214.63) (xy 328.93 214.63)
+			(xy 326.39 223.52) (xy 330.2 223.52)
 		)
 		(stroke
 			(width 0)
@@ -9799,7 +9831,7 @@
 	)
 	(wire
 		(pts
-			(xy 379.73 209.55) (xy 393.7 209.55)
+			(xy 381 218.44) (xy 394.97 218.44)
 		)
 		(stroke
 			(width 0)
@@ -9929,7 +9961,7 @@
 	)
 	(wire
 		(pts
-			(xy 379.73 204.47) (xy 387.35 204.47)
+			(xy 381 213.36) (xy 388.62 213.36)
 		)
 		(stroke
 			(width 0)
@@ -9969,7 +10001,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 49.53) (xy 146.05 49.53)
+			(xy 139.7 49.53) (xy 160.02 49.53)
 		)
 		(stroke
 			(width 0)
@@ -9999,7 +10031,7 @@
 	)
 	(wire
 		(pts
-			(xy 325.12 207.01) (xy 328.93 207.01)
+			(xy 326.39 215.9) (xy 330.2 215.9)
 		)
 		(stroke
 			(width 0)
@@ -10438,7 +10470,7 @@
 		(uuid "10373b7b-bf9b-4538-83de-db81fb6855ff")
 	)
 	(label "3v3"
-		(at 393.7 209.55 0)
+		(at 394.97 218.44 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10458,7 +10490,7 @@
 		(uuid "1437c2b2-ef41-41a5-829b-f654f9799009")
 	)
 	(label "KX_INT"
-		(at 325.12 214.63 180)
+		(at 326.39 223.52 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10578,7 +10610,7 @@
 		(uuid "27cbfbd1-212a-47b2-968a-179b5825706e")
 	)
 	(label "SDA"
-		(at 325.12 207.01 180)
+		(at 326.39 215.9 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10658,7 +10690,7 @@
 		(uuid "3af65c3f-f61b-4756-911b-f4ebe7927f29")
 	)
 	(label "SCL"
-		(at 387.35 204.47 0)
+		(at 388.62 213.36 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10878,7 +10910,7 @@
 		(uuid "52dbf3a2-f666-4e01-a67e-ff2fafbd0e08")
 	)
 	(label "3v3"
-		(at 379.73 228.6 0)
+		(at 381 237.49 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11068,7 +11100,7 @@
 		(uuid "6ca9d16e-450f-4e14-8c0c-ab65e0d13d61")
 	)
 	(label "ADS_CS_1"
-		(at 146.05 49.53 0)
+		(at 162.56 49.53 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11076,6 +11108,16 @@
 			(justify left bottom)
 		)
 		(uuid "6e5aca2d-7eef-492f-b089-a9d7da0ad60b")
+	)
+	(label "GND"
+		(at 161.29 107.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6f0e58c9-d9bb-4dd8-9276-703aefccc5c3")
 	)
 	(label "GND"
 		(at 223.52 48.26 0)
@@ -11098,7 +11140,7 @@
 		(uuid "762de362-8b1e-4542-a94c-16683fefee0a")
 	)
 	(label "GND"
-		(at 393.7 220.98 0)
+		(at 394.97 229.87 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11198,7 +11240,7 @@
 		(uuid "80bc82b5-39f6-490b-8680-936039269bc1")
 	)
 	(label "3v3"
-		(at 325.12 209.55 180)
+		(at 326.39 218.44 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11308,7 +11350,7 @@
 		(uuid "8ba4bfd4-fb29-4c0b-80ee-3b9ac8193d33")
 	)
 	(label "GND"
-		(at 393.7 212.09 0)
+		(at 394.97 220.98 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11548,7 +11590,7 @@
 		(uuid "a7f6928a-0e52-4bb3-8c84-72b1c36ebeec")
 	)
 	(label "ADS_CS_2"
-		(at 147.32 97.79 0)
+		(at 165.1 97.79 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11628,7 +11670,7 @@
 		(uuid "b3c7ef47-e627-491c-9f8d-22d53a022bd8")
 	)
 	(label "GND"
-		(at 325.12 212.09 180)
+		(at 326.39 220.98 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11957,8 +11999,18 @@
 		)
 		(uuid "da2b2cbd-8e98-465d-8df0-23bf2b5c79a8")
 	)
+	(label "GND"
+		(at 160.02 59.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dc3c9162-6a2c-489c-a9b5-478c6493e60e")
+	)
 	(label "3v3"
-		(at 325.12 204.47 180)
+		(at 326.39 213.36 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12622,7 +12674,7 @@
 	)
 	(symbol
 		(lib_id "kx134:KX134-1211")
-		(at 326.39 204.47 0)
+		(at 327.66 213.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12631,7 +12683,7 @@
 		(fields_autoplaced yes)
 		(uuid "0ff60568-4305-43fc-8d2e-6e38aa8341d6")
 		(property "Reference" "U3"
-			(at 349.6056 195.3514 0)
+			(at 350.8756 204.2414 0)
 			(effects
 				(font
 					(size 2.0828 1.7703)
@@ -12641,7 +12693,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 348.9706 197.8914 0)
+			(at 350.2406 206.7814 0)
 			(effects
 				(font
 					(size 2.0828 1.7703)
@@ -12651,7 +12703,7 @@
 			)
 		)
 		(property "Footprint" "kx134:LGA12_2X2X0P9_ROM"
-			(at 326.39 204.47 0)
+			(at 327.66 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12660,7 +12712,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 326.39 204.47 0)
+			(at 327.66 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12669,7 +12721,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 326.39 204.47 0)
+			(at 327.66 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12854,6 +12906,76 @@
 			(project "Ember_v0.2"
 				(path "/97e7889e-e69b-4dc1-9c2e-5339b74b36d3"
 					(reference "R32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "microbuilder:RESISTOR0603")
+		(at 160.02 54.61 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "165ef47d-aac6-426e-b29e-603334e35652")
+		(property "Reference" "R45"
+			(at 162.56 53.3399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 162.56 55.8799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "microbuilder:0603"
+			(at 160.02 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistors\n\n0402 - 0402 Surface Mount Package\n\n• 22 Ohm 1% 1/16W [Digikey: 311-22.0LRTR-ND]\n• 33 Ohm 5% 1/16W\n• 1.0K 5% 1/16W\n• 1.5K 5% 1/16W\n• 2.0K 1% 1/16W\n• 10.0K 1% 1/16W [Digikey: 311-10.0KLRTR-ND]\n• 10.0K 5% 1/16W [Digikey: RMCF0402JT10K0TR-ND]\n• 12.1K 1% 1/16W [Digikey: 311-22.0LRTR-ND]\n• 100.0K 5% 1/16W\n\n0603 - 0603 Surface Mount Package\n\n• 0 Ohm 1/10 Watt 1% Resistor\n• 15 Ohm 1/10 Watt 1% Resistor\n• 33 Ohm 1/10 Watt 1% Resistor\n• 49.9 Ohm 1/10 Watt 1% Resistor\n• 100 Ohm 1/10 Watt 1% Resistor\n• 150 Ohm 1/10 Watt 1% Resistor\n• 240 Ohm 1/10 Watt 1% Resistor\n• 390 Ohm 1/10 Watt 1% Resistor\n• 560 Ohm 1/10 Watt 1% Resistor\n• 680 Ohm 1/10 Watt 1% Resistor\n• 750 Ohm 1/10 Watt 1% Resistor\n• 1.0K Ohm 1/10 Watt 1% Resistor\n• 1.5K Ohm 1/10 Watt 1% Resistor\n• 2.0K Ohm 1/10 Watt 1% Resistor\n• 2.2K Ohm 1/10 Watt 1% Resistor\n• 3.3K Ohm 1/10 Watt 1% Resistor\n• 4.7K Ohm 1/10 Watt 1% Resistor\n• 10.0K Ohm 1/10 Watt 1% Resistor\n• 12.0K Ohm 1/10 Watt 1% Resistor\n• 12.1K Ohm 1/10 Watt 1% Resistor\n• 20.0K Ohm 1/10 Watt 1% Resistor\n• 33.0K Ohm 1/10 Watt 1% Resistor\n• 100.0K Ohm 1/10 Watt 1% Resistor\n\n0805 - 0805 Surface Mount Package\n\n• 0 Ohm 1/8 Watt 1% Resistor\n• 33 Ohm 1/8 Watt 1% Resistor\n• 100 Ohm 1/8 Watt 1% Resistor\n• 150 Ohm 1/8 Watt 1% Resistor\n• 200 Ohm 1/8 Watt 1% Resistor\n• 240 Ohm 1/8 Watt 1% Resistor\n• 330 Ohm 1/8 Watt 1% Resistor\n• 390 Ohm 1/8 Watt 1% Resistor\n• 470 Ohm 1/8 Watt 1% Resistor\n• 1.0K Ohm 1/8 Watt 1% Resistor\n• 1.5K Ohm 1/8 Watt 1% Resistor\n• 2.0K Ohm 1/8 Watt 1% Resistor\n• 4.7K Ohm 1/8 Watt 1% Resistor\n• 5.1K Ohm 1/8 Watt 1% Resistor\n• 5.6K Ohm 1/8 Watt 1% Resistor\n• 10.0K Ohm 1/8 Watt 1% Resistor\n• 22.0K Ohm 1/8 Watt 1% Resistor\n• 33.0K Ohm 1/8 Watt 1% Resistor\n• 100K Ohm 1/8 Watt 1% Resistor\n\n1206 - 1206 Surface Mount Package  2012 - 2010 Surface Mount Package\n\n• 0.11 Ohm 1/2 Watt 1% Resistor - Digikey: RHM.11UCT-ND"
+			(at 160.02 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d4116695-a9ff-4de6-83c9-5c42f9f50eea")
+		)
+		(pin "2"
+			(uuid "3c8ce6f8-0984-4e32-ba4f-8fb4b3d0be2e")
+		)
+		(instances
+			(project ""
+				(path "/97e7889e-e69b-4dc1-9c2e-5339b74b36d3"
+					(reference "R45")
 					(unit 1)
 				)
 			)
@@ -13568,7 +13690,7 @@
 	)
 	(symbol
 		(lib_id "microbuilder:CAP_CERAMIC0603")
-		(at 384.81 220.98 270)
+		(at 386.08 229.87 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13577,7 +13699,7 @@
 		(fields_autoplaced yes)
 		(uuid "2aade156-1036-4b73-9395-13e185779fb4")
 		(property "Reference" "C13"
-			(at 386.08 214.63 90)
+			(at 387.35 223.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13585,7 +13707,7 @@
 			)
 		)
 		(property "Value" "100 nF"
-			(at 386.08 217.17 90)
+			(at 387.35 226.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13593,7 +13715,7 @@
 			)
 		)
 		(property "Footprint" "microbuilder:0603"
-			(at 384.81 220.98 0)
+			(at 386.08 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13602,7 +13724,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 384.81 220.98 0)
+			(at 386.08 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13611,7 +13733,7 @@
 			)
 		)
 		(property "Description" "Ceramic Capacitors\n\n0402 - 0402 Surface Mount Capacitors\n\n• 16pF 50V 5% [Digikey: 445-4899-2-ND]\n• 18pF 50V 5% [Digikey: 490-1281-2-ND]\n• 22pF 50V 5% [Digikey: 490-1283-2-ND]\n• 68pF 50V 5% [Digikey: 490-1289-2-ND]\n• 0.1uF 10V 10% [Digikey: 490-1318-2-ND]\n• 1.0uF 6.3V 10% [Digikey: 490-1320-2-ND]\n\n0603 - 0603 Surface Mount Capacitors\n\n• 16 pF 50V 5% [Digikey: 445-5051-2-ND]\n• 22 pF 50V [Digikey: PCC220ACVTR-ND]\n• 33 pF 50V 5% [Digikey: 490-1415-1-ND]\n• 56pF 50V 5% [Digikey: 490-1421-1-ND]\n• 220pF 50V 5% [Digikey: 445-1285-1-ND]\n• 680 pF 50V\n• 2200 pF 50V 5% C0G [Digikey: 445-1297-1-ND]\n• 5600 pF 100V 5% X7R [Digikey: 478-3711-1-ND]\n• 0.1 µF 25V 10% [Digikey: PCC2277TR-ND]\n• 0.22 µF 16V 10% X7R [Digikey: 445-1318-1-ND]\n• 1.0 µF 25V 10% [Digikey: 445-5146-2-ND]\n\n0603 - RF Specific\n\n• 3pF 250V +/-0.1pF RF [Digikey: 712-1347-1-ND]\n• 18 pF 250V 5%  [Digikey: 478-3505-1-ND or 712-1322-1-ND]\n• 56 pF 250V 5% C0G RF [Digikey: 490-4867-1-ND]\n• 68 pF 250V RF [Digikey: 490-4868-1-ND]\n\n0805 - 0805 Surface Mount Capacitors\n\n• 220 pF 250V 2% RF Ceramic Capacitor [Digikey: 712-1398-1-ND]\n• 1000 pF 50V 2% NP0 Ceramic Capacitor [Digikey: 478-3760-1-ND]\n• 0.1 µF 25V 10% Ceramic Capacitor [Digikey: PCC1828TR-ND]\n• 1.0 µF 16V 10% Ceramic Capacitor[Digikey: 490-1691-2-ND]\n• 10.0 µF 10V 10% Ceramic Capacitor[Digikey: 709-1228-1-ND]\n• 10.0 uF 16V 10% Ceramic Capacitor [Digikey: 478-5165-2-ND]\n• 47 uF 6.3V 20% Ceramic Capacitor [Digikey: 587-1779-1-ND or 399-5506-1-ND]\n\n1206 - 1206 Surface Mount Capacitors\n\n• 47uF 10V 20% Ceramic Capacitor [Digikey: 490-5528-1-ND or 399-5508-1-ND or 445-6010-1-ND]\n• 100uF 6.3V -20%, +80% Y5V Ceramic Capacitor (Digikey: 490-4512-1-ND, Mouser: 81-GRM31CF50J107ZE1L)"
-			(at 384.81 220.98 0)
+			(at 386.08 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16317,6 +16439,76 @@
 		)
 	)
 	(symbol
+		(lib_id "microbuilder:RESISTOR0603")
+		(at 161.29 102.87 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "95837ba9-392b-477a-8ad5-d1bd30b1d08c")
+		(property "Reference" "R46"
+			(at 163.83 101.5999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 163.83 104.1399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "microbuilder:0603"
+			(at 161.29 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 161.29 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistors\n\n0402 - 0402 Surface Mount Package\n\n• 22 Ohm 1% 1/16W [Digikey: 311-22.0LRTR-ND]\n• 33 Ohm 5% 1/16W\n• 1.0K 5% 1/16W\n• 1.5K 5% 1/16W\n• 2.0K 1% 1/16W\n• 10.0K 1% 1/16W [Digikey: 311-10.0KLRTR-ND]\n• 10.0K 5% 1/16W [Digikey: RMCF0402JT10K0TR-ND]\n• 12.1K 1% 1/16W [Digikey: 311-22.0LRTR-ND]\n• 100.0K 5% 1/16W\n\n0603 - 0603 Surface Mount Package\n\n• 0 Ohm 1/10 Watt 1% Resistor\n• 15 Ohm 1/10 Watt 1% Resistor\n• 33 Ohm 1/10 Watt 1% Resistor\n• 49.9 Ohm 1/10 Watt 1% Resistor\n• 100 Ohm 1/10 Watt 1% Resistor\n• 150 Ohm 1/10 Watt 1% Resistor\n• 240 Ohm 1/10 Watt 1% Resistor\n• 390 Ohm 1/10 Watt 1% Resistor\n• 560 Ohm 1/10 Watt 1% Resistor\n• 680 Ohm 1/10 Watt 1% Resistor\n• 750 Ohm 1/10 Watt 1% Resistor\n• 1.0K Ohm 1/10 Watt 1% Resistor\n• 1.5K Ohm 1/10 Watt 1% Resistor\n• 2.0K Ohm 1/10 Watt 1% Resistor\n• 2.2K Ohm 1/10 Watt 1% Resistor\n• 3.3K Ohm 1/10 Watt 1% Resistor\n• 4.7K Ohm 1/10 Watt 1% Resistor\n• 10.0K Ohm 1/10 Watt 1% Resistor\n• 12.0K Ohm 1/10 Watt 1% Resistor\n• 12.1K Ohm 1/10 Watt 1% Resistor\n• 20.0K Ohm 1/10 Watt 1% Resistor\n• 33.0K Ohm 1/10 Watt 1% Resistor\n• 100.0K Ohm 1/10 Watt 1% Resistor\n\n0805 - 0805 Surface Mount Package\n\n• 0 Ohm 1/8 Watt 1% Resistor\n• 33 Ohm 1/8 Watt 1% Resistor\n• 100 Ohm 1/8 Watt 1% Resistor\n• 150 Ohm 1/8 Watt 1% Resistor\n• 200 Ohm 1/8 Watt 1% Resistor\n• 240 Ohm 1/8 Watt 1% Resistor\n• 330 Ohm 1/8 Watt 1% Resistor\n• 390 Ohm 1/8 Watt 1% Resistor\n• 470 Ohm 1/8 Watt 1% Resistor\n• 1.0K Ohm 1/8 Watt 1% Resistor\n• 1.5K Ohm 1/8 Watt 1% Resistor\n• 2.0K Ohm 1/8 Watt 1% Resistor\n• 4.7K Ohm 1/8 Watt 1% Resistor\n• 5.1K Ohm 1/8 Watt 1% Resistor\n• 5.6K Ohm 1/8 Watt 1% Resistor\n• 10.0K Ohm 1/8 Watt 1% Resistor\n• 22.0K Ohm 1/8 Watt 1% Resistor\n• 33.0K Ohm 1/8 Watt 1% Resistor\n• 100K Ohm 1/8 Watt 1% Resistor\n\n1206 - 1206 Surface Mount Package  2012 - 2010 Surface Mount Package\n\n• 0.11 Ohm 1/2 Watt 1% Resistor - Digikey: RHM.11UCT-ND"
+			(at 161.29 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d4116695-a9ff-4de6-83c9-5c42f9f50eea")
+		)
+		(pin "2"
+			(uuid "3c8ce6f8-0984-4e32-ba4f-8fb4b3d0be2e")
+		)
+		(instances
+			(project ""
+				(path "/97e7889e-e69b-4dc1-9c2e-5339b74b36d3"
+					(reference "R46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SISA96DN-T1-GE3:SISA96DN-T1-GE3")
 		(at 39.37 130.81 0)
 		(unit 1)
@@ -17752,7 +17944,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c9440a98-a7d1-4c81-b72a-37ecbe1f1dd5")
-		(property "Reference" "11111111111111111"
+		(property "Reference" "111111111111111111"
 			(at 295.91 194.31 0)
 			(effects
 				(font
@@ -17800,7 +17992,7 @@
 		(instances
 			(project ""
 				(path "/97e7889e-e69b-4dc1-9c2e-5339b74b36d3"
-					(reference "11111111111111111")
+					(reference "111111111111111111")
 					(unit 1)
 				)
 			)
@@ -18315,7 +18507,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dc305e6e-87a4-429b-9b08-f1aec19fc1f6")
-		(property "Reference" "12111111111111111"
+		(property "Reference" "121111111111111111"
 			(at 299.72 204.47 0)
 			(effects
 				(font
@@ -18363,7 +18555,7 @@
 		(instances
 			(project ""
 				(path "/97e7889e-e69b-4dc1-9c2e-5339b74b36d3"
-					(reference "12111111111111111")
+					(reference "121111111111111111")
 					(unit 1)
 				)
 			)
