@@ -5827,12 +5827,6 @@
 		(uuid "2370bdaa-53a9-460f-995c-870f64789347")
 	)
 	(junction
-		(at 171.45 198.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2fd9b210-daf8-47d5-8578-e40478c3483b")
-	)
-	(junction
 		(at 135.89 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5855,12 +5849,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "40ed6584-93e7-418e-994a-ceb4d31481fa")
-	)
-	(junction
-		(at 171.45 199.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "424df4a2-cf8c-43f1-97e0-654706b57fff")
 	)
 	(junction
 		(at 115.57 83.82)
@@ -5893,18 +5881,6 @@
 		(uuid "49097a4f-3df3-45b6-a8f3-58a232114c69")
 	)
 	(junction
-		(at 139.7 200.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "49234cd5-00ac-4e72-aeff-de61185855ba")
-	)
-	(junction
-		(at 146.05 195.58)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "51d4d4c0-0abb-4da3-abd8-6adb5d195d7b")
-	)
-	(junction
 		(at 62.23 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5915,12 +5891,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "579f9a42-1ea1-45e6-8826-0475153a03de")
-	)
-	(junction
-		(at 127 195.58)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "59ebc9e0-55b6-4492-9cfb-19910f47b3c1")
 	)
 	(junction
 		(at 64.77 137.16)
@@ -6001,18 +5971,6 @@
 		(uuid "8bca4330-0ecd-4b2b-b5aa-3a601f45e3fb")
 	)
 	(junction
-		(at 146.05 205.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8c254a3b-a542-409d-b98f-d29ac9fe51bb")
-	)
-	(junction
-		(at 171.45 195.58)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8c57fa6b-efa9-4e37-95cb-a3cd337988b6")
-	)
-	(junction
 		(at 252.73 237.49)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6059,12 +6017,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9a66e869-78c5-4b4a-b66e-d2b6e70f2bd2")
-	)
-	(junction
-		(at 171.45 200.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9dcfb026-3607-48d1-845d-0fe7c5c8ee7e")
 	)
 	(junction
 		(at 165.1 236.22)
@@ -6241,12 +6193,6 @@
 		(uuid "f343ea52-ea28-4ace-b19c-48f9b98a01a3")
 	)
 	(junction
-		(at 171.45 203.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f4936323-01bf-4cc9-b616-2cca0e562376")
-	)
-	(junction
 		(at 381 229.87)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6341,6 +6287,10 @@
 		(uuid "bd7654ca-8e1d-4a5e-9846-f62e41d1d94f")
 	)
 	(no_connect
+		(at 222.25 140.97)
+		(uuid "d027e711-a64f-4f34-a0e6-7a2b34aa3e72")
+	)
+	(no_connect
 		(at 257.81 146.05)
 		(uuid "d62363e8-6481-44b0-b517-c361f5898387")
 	)
@@ -6395,16 +6345,6 @@
 			(type default)
 		)
 		(uuid "036e079a-5c6d-4e91-9f34-259fdb11eb33")
-	)
-	(wire
-		(pts
-			(xy 171.45 199.39) (xy 171.45 200.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0461023e-b6f8-4b7c-ab8a-6e0a3bacad83")
 	)
 	(wire
 		(pts
@@ -6568,16 +6508,6 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 209.55) (xy 146.05 205.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0bef999d-c60a-44ed-bbe0-2f06b40ae0ae")
-	)
-	(wire
-		(pts
 			(xy 21.59 168.91) (xy 21.59 173.99)
 		)
 		(stroke
@@ -6718,16 +6648,6 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 200.66) (xy 146.05 200.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "16d5ae1d-4ad1-4759-9013-5f9f1844fb64")
-	)
-	(wire
-		(pts
 			(xy 102.87 232.41) (xy 106.68 232.41)
 		)
 		(stroke
@@ -6755,16 +6675,6 @@
 			(type default)
 		)
 		(uuid "1abb8385-2e9e-4d95-bef4-d3b2ad462289")
-	)
-	(wire
-		(pts
-			(xy 171.45 203.2) (xy 171.45 209.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1b8dc09a-54a4-43c2-825f-3c78dddbb52c")
 	)
 	(wire
 		(pts
@@ -6875,16 +6785,6 @@
 			(type default)
 		)
 		(uuid "20114368-22fa-4269-8f7d-1b2689afc239")
-	)
-	(wire
-		(pts
-			(xy 171.45 198.12) (xy 171.45 199.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "20d7ec82-f85f-48c9-83ff-2feb08a62901")
 	)
 	(wire
 		(pts
@@ -7478,26 +7378,6 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 200.66) (xy 137.16 200.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "42f5a3a1-1153-4e63-b533-4fcefe072cc1")
-	)
-	(wire
-		(pts
-			(xy 25.4 116.84) (xy 33.02 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "43406150-8ad2-4362-9a2b-165934afa48a")
-	)
-	(wire
-		(pts
 			(xy 340.36 165.1) (xy 347.98 165.1)
 		)
 		(stroke
@@ -7818,16 +7698,6 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 140.97) (xy 222.25 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "525d216b-c4d8-4cdd-a808-b27452393a89")
-	)
-	(wire
-		(pts
 			(xy 64.77 138.43) (xy 64.77 140.97)
 		)
 		(stroke
@@ -7865,16 +7735,6 @@
 			(type default)
 		)
 		(uuid "557d6d1f-4077-427a-a10c-224f16c4bb82")
-	)
-	(wire
-		(pts
-			(xy 171.45 209.55) (xy 146.05 209.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "55fee22f-7d69-4e5b-8195-c59d1cefdd84")
 	)
 	(wire
 		(pts
@@ -8108,16 +7968,6 @@
 	)
 	(wire
 		(pts
-			(xy 127 195.58) (xy 127 200.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6785972c-6105-4617-98dc-dcbef79623c8")
-	)
-	(wire
-		(pts
 			(xy 189.23 57.15) (xy 194.31 57.15)
 		)
 		(stroke
@@ -8268,16 +8118,6 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 195.58) (xy 146.05 198.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "786c6340-79ee-4cd9-a5af-82acdba16269")
-	)
-	(wire
-		(pts
 			(xy 62.23 52.07) (xy 62.23 55.88)
 		)
 		(stroke
@@ -8365,16 +8205,6 @@
 			(type default)
 		)
 		(uuid "7dcf4477-49ea-4bee-af1f-5218e93360ad")
-	)
-	(wire
-		(pts
-			(xy 25.4 114.3) (xy 33.02 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7e312ab8-cfcd-4c9d-a567-51a66d866c8e")
 	)
 	(wire
 		(pts
@@ -8508,16 +8338,6 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 195.58) (xy 171.45 198.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8582d63c-1c54-4145-bf50-6151a0642fef")
-	)
-	(wire
-		(pts
 			(xy 321.31 58.42) (xy 330.2 58.42)
 		)
 		(stroke
@@ -8555,16 +8375,6 @@
 			(type default)
 		)
 		(uuid "8788c146-8692-4374-9395-eb9505b209bb")
-	)
-	(wire
-		(pts
-			(xy 171.45 200.66) (xy 171.45 203.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "87c83d90-ab28-45df-87d8-a6123bf637b7")
 	)
 	(wire
 		(pts
@@ -8615,16 +8425,6 @@
 			(type default)
 		)
 		(uuid "89e1d1d8-e04e-42f1-9e99-c52ece78ce9c")
-	)
-	(wire
-		(pts
-			(xy 171.45 193.04) (xy 171.45 195.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8a1e84fc-8f73-49a8-a83a-6dd28b75ca8c")
 	)
 	(wire
 		(pts
@@ -8938,16 +8738,6 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 193.04) (xy 146.05 195.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a111c274-0b2b-4a76-aa83-6ab7838e5ae6")
-	)
-	(wire
-		(pts
 			(xy 135.89 137.16) (xy 135.89 138.43)
 		)
 		(stroke
@@ -9085,16 +8875,6 @@
 			(type default)
 		)
 		(uuid "af7219b2-a25e-4699-b6eb-b6507ca39412")
-	)
-	(wire
-		(pts
-			(xy 171.45 199.39) (xy 185.42 199.39)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "b1578a34-e122-4ca0-8ee6-547f50c9e737")
 	)
 	(wire
 		(pts
@@ -9405,16 +9185,6 @@
 			(type default)
 		)
 		(uuid "c6d3352c-c87f-4eb0-85af-55bbcc8ace31")
-	)
-	(wire
-		(pts
-			(xy 127 195.58) (xy 146.05 195.58)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "c7231787-d353-463c-81d3-d217da539edf")
 	)
 	(wire
 		(pts
@@ -9738,16 +9508,6 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 200.66) (xy 139.7 204.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dbf8ffb0-b448-4b8a-ba3b-fbc97e5c3383")
-	)
-	(wire
-		(pts
 			(xy 381 218.44) (xy 394.97 218.44)
 		)
 		(stroke
@@ -9855,16 +9615,6 @@
 			(type default)
 		)
 		(uuid "e3f26851-87aa-4f90-937c-271f83bedc64")
-	)
-	(wire
-		(pts
-			(xy 127 195.58) (xy 124.46 195.58)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "e408bccc-24c8-463a-a102-67c10ef74b97")
 	)
 	(wire
 		(pts
@@ -10165,16 +9915,6 @@
 			(type default)
 		)
 		(uuid "f3e232c1-c91b-47f0-bb9b-6f2a4397c2cc")
-	)
-	(wire
-		(pts
-			(xy 146.05 203.2) (xy 146.05 205.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f4a59756-348d-4f01-bcfe-4f8ce2253016")
 	)
 	(wire
 		(pts
@@ -10886,16 +10626,6 @@
 		)
 		(uuid "5822b48d-b0c8-436f-b8ea-900640768e7f")
 	)
-	(label "CAM"
-		(at 139.7 214.63 0)
-		(effects
-			(font
-				(size 0.889 0.889)
-			)
-			(justify left bottom)
-		)
-		(uuid "5a0e15e1-7b9a-44fb-9556-dda5fd677984")
-	)
 	(label "GND"
 		(at 121.92 66.04 0)
 		(effects
@@ -10965,16 +10695,6 @@
 			(justify right bottom)
 		)
 		(uuid "66241908-16f9-4f35-9edf-99418add5682")
-	)
-	(label "CAM_OUT"
-		(at 185.42 199.39 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6771fcc0-cd86-4352-8bd9-16816190fa5b")
 	)
 	(label "SG12"
 		(at 73.66 39.37 0)
@@ -11316,16 +11036,6 @@
 		)
 		(uuid "930a5cba-86c7-4937-8be5-4a5b606ed788")
 	)
-	(label "V_BATT"
-		(at 33.02 114.3 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "93f14e66-6778-4d47-aa0f-d0d7bfae59be")
-	)
 	(label "GND"
 		(at 177.8 111.76 180)
 		(effects
@@ -11485,16 +11195,6 @@
 			(justify left bottom)
 		)
 		(uuid "a42b9fbc-d49c-49be-9478-c409fcdf2dbf")
-	)
-	(label "CAM"
-		(at 217.17 140.97 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a567a030-f55c-46d2-9e8b-e7a7d95a259d")
 	)
 	(label "3v3"
 		(at 252.73 255.27 0)
@@ -11845,16 +11545,6 @@
 			(justify left bottom)
 		)
 		(uuid "d5181bea-4e64-4e55-af9a-ff86407976a1")
-	)
-	(label "GND"
-		(at 124.46 195.58 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d523ab2d-7d04-4547-b245-1002c6330284")
 	)
 	(label "MAIN"
 		(at 33.02 152.4 0)
@@ -12235,16 +11925,6 @@
 			(justify left bottom)
 		)
 		(uuid "ff45aa39-a7ed-4037-b478-caa2dafb70ba")
-	)
-	(label "CAM_OUT"
-		(at 33.02 116.84 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ffafeaf2-b489-4bab-9396-418db7df52c9")
 	)
 	(symbol
 		(lib_id "microbuilder:CAP_CERAMIC0603")
@@ -14651,169 +14331,6 @@
 			(project ""
 				(path "/97e7889e-e69b-4dc1-9c2e-5339b74b36d3"
 					(reference "R9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SISA96DN-T1-GE3:SISA96DN-T1-GE3")
-		(at 146.05 193.04 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5c38d462-8a37-4f77-9d27-50b248a5d268")
-		(property "Reference" "Q6"
-			(at 158.75 184.15 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-			)
-		)
-		(property "Value" "SISA96DN-T1"
-			(at 158.75 187.96 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-			)
-		)
-		(property "Footprint" "SISA96DN-T1-GE3:SIS862DNT1GE3"
-			(at 146.05 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 146.05 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "VISHAY - SISA96DN-T1-GE3 - MOSFET, N-CH, 30V, 16A, POWERPAK 1212\n\nSource: https://componentsearchengine.com/Datasheets/2/SISS10ADN-T1-GE3.pdf  Datasheet"
-			(at 146.05 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "11"
-			(uuid "2239bb15-d23b-45c1-abfa-cbaef09d5298")
-		)
-		(pin "5"
-			(uuid "c824af17-1194-416b-a09a-77191cfd10ab")
-		)
-		(pin "1"
-			(uuid "d12b3fcc-cb5f-47c1-bf1b-f3063f3fe27d")
-		)
-		(pin "6"
-			(uuid "32b8c7aa-c312-4903-abe0-591e987bbb53")
-		)
-		(pin "7"
-			(uuid "ef28c4de-52c2-45cd-a310-77c978e2f02a")
-		)
-		(pin "8"
-			(uuid "977930e9-36ea-4494-b2d8-8f0abb3ec5e4")
-		)
-		(pin "9"
-			(uuid "df48b05e-6bd8-4ef2-9279-45b5d2d7ca3d")
-		)
-		(pin "10"
-			(uuid "b3651431-9d98-423c-861a-4186a64bcae9")
-		)
-		(pin "4"
-			(uuid "1bf3edaa-0e4a-47b3-a41a-cd99fcb4a94b")
-		)
-		(pin "3"
-			(uuid "314eac81-5915-47ee-9604-340c6e52a833")
-		)
-		(pin "2"
-			(uuid "cb0e4a44-5b3d-4e7b-b43c-2a93df9c6ed6")
-		)
-		(instances
-			(project "Ember_v0.2"
-				(path "/97e7889e-e69b-4dc1-9c2e-5339b74b36d3"
-					(reference "Q6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "microbuilder:HEADER-1X2")
-		(at 22.86 114.3 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "636dfba9-99dd-4740-98af-463f539f0020")
-		(property "Reference" "JP6"
-			(at 25.4 105.41 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 25.4 109.22 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-			)
-		)
-		(property "Footprint" "microbuilder:1X02_OVAL"
-			(at 22.86 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 22.86 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "PIN HEADER"
-			(at 22.86 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0a0637a2-b781-470e-b391-4f985403b579")
-		)
-		(pin "2"
-			(uuid "c510c4b5-3e90-46df-99e1-6a7c3974b4b9")
-		)
-		(instances
-			(project ""
-				(path "/97e7889e-e69b-4dc1-9c2e-5339b74b36d3"
-					(reference "JP6")
 					(unit 1)
 				)
 			)
@@ -17579,75 +17096,6 @@
 	)
 	(symbol
 		(lib_id "microbuilder:RESISTOR0603")
-		(at 132.08 200.66 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c0e4dc4d-3554-439e-8296-09e780ced6cb")
-		(property "Reference" "R23"
-			(at 132.08 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "33k"
-			(at 132.08 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "microbuilder:0603"
-			(at 132.08 200.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 132.08 200.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistors\n\n0402 - 0402 Surface Mount Package\n\n• 22 Ohm 1% 1/16W [Digikey: 311-22.0LRTR-ND]\n• 33 Ohm 5% 1/16W\n• 1.0K 5% 1/16W\n• 1.5K 5% 1/16W\n• 2.0K 1% 1/16W\n• 10.0K 1% 1/16W [Digikey: 311-10.0KLRTR-ND]\n• 10.0K 5% 1/16W [Digikey: RMCF0402JT10K0TR-ND]\n• 12.1K 1% 1/16W [Digikey: 311-22.0LRTR-ND]\n• 100.0K 5% 1/16W\n\n0603 - 0603 Surface Mount Package\n\n• 0 Ohm 1/10 Watt 1% Resistor\n• 15 Ohm 1/10 Watt 1% Resistor\n• 33 Ohm 1/10 Watt 1% Resistor\n• 49.9 Ohm 1/10 Watt 1% Resistor\n• 100 Ohm 1/10 Watt 1% Resistor\n• 150 Ohm 1/10 Watt 1% Resistor\n• 240 Ohm 1/10 Watt 1% Resistor\n• 390 Ohm 1/10 Watt 1% Resistor\n• 560 Ohm 1/10 Watt 1% Resistor\n• 680 Ohm 1/10 Watt 1% Resistor\n• 750 Ohm 1/10 Watt 1% Resistor\n• 1.0K Ohm 1/10 Watt 1% Resistor\n• 1.5K Ohm 1/10 Watt 1% Resistor\n• 2.0K Ohm 1/10 Watt 1% Resistor\n• 2.2K Ohm 1/10 Watt 1% Resistor\n• 3.3K Ohm 1/10 Watt 1% Resistor\n• 4.7K Ohm 1/10 Watt 1% Resistor\n• 10.0K Ohm 1/10 Watt 1% Resistor\n• 12.0K Ohm 1/10 Watt 1% Resistor\n• 12.1K Ohm 1/10 Watt 1% Resistor\n• 20.0K Ohm 1/10 Watt 1% Resistor\n• 33.0K Ohm 1/10 Watt 1% Resistor\n• 100.0K Ohm 1/10 Watt 1% Resistor\n\n0805 - 0805 Surface Mount Package\n\n• 0 Ohm 1/8 Watt 1% Resistor\n• 33 Ohm 1/8 Watt 1% Resistor\n• 100 Ohm 1/8 Watt 1% Resistor\n• 150 Ohm 1/8 Watt 1% Resistor\n• 200 Ohm 1/8 Watt 1% Resistor\n• 240 Ohm 1/8 Watt 1% Resistor\n• 330 Ohm 1/8 Watt 1% Resistor\n• 390 Ohm 1/8 Watt 1% Resistor\n• 470 Ohm 1/8 Watt 1% Resistor\n• 1.0K Ohm 1/8 Watt 1% Resistor\n• 1.5K Ohm 1/8 Watt 1% Resistor\n• 2.0K Ohm 1/8 Watt 1% Resistor\n• 4.7K Ohm 1/8 Watt 1% Resistor\n• 5.1K Ohm 1/8 Watt 1% Resistor\n• 5.6K Ohm 1/8 Watt 1% Resistor\n• 10.0K Ohm 1/8 Watt 1% Resistor\n• 22.0K Ohm 1/8 Watt 1% Resistor\n• 33.0K Ohm 1/8 Watt 1% Resistor\n• 100K Ohm 1/8 Watt 1% Resistor\n\n1206 - 1206 Surface Mount Package  2012 - 2010 Surface Mount Package\n\n• 0.11 Ohm 1/2 Watt 1% Resistor - Digikey: RHM.11UCT-ND"
-			(at 132.08 200.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3edfb6a3-4669-4729-9e6a-302e0d230470")
-		)
-		(pin "2"
-			(uuid "70a2028f-9bd5-441c-b7a3-4fbec11fe4cf")
-		)
-		(instances
-			(project "Ember_v0.2"
-				(path "/97e7889e-e69b-4dc1-9c2e-5339b74b36d3"
-					(reference "R23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "microbuilder:RESISTOR0603")
 		(at 298.45 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17775,77 +17223,6 @@
 			(project "Ember_v0.2"
 				(path "/97e7889e-e69b-4dc1-9c2e-5339b74b36d3"
 					(reference "R8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "microbuilder:RESISTOR0603")
-		(at 139.7 209.55 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c7576258-0d49-4cf6-a5fd-adcfc5357fc4")
-		(property "Reference" "R24"
-			(at 137.16 208.2799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1k"
-			(at 137.16 210.8199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "microbuilder:0603"
-			(at 139.7 209.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 139.7 209.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistors\n\n0402 - 0402 Surface Mount Package\n\n• 22 Ohm 1% 1/16W [Digikey: 311-22.0LRTR-ND]\n• 33 Ohm 5% 1/16W\n• 1.0K 5% 1/16W\n• 1.5K 5% 1/16W\n• 2.0K 1% 1/16W\n• 10.0K 1% 1/16W [Digikey: 311-10.0KLRTR-ND]\n• 10.0K 5% 1/16W [Digikey: RMCF0402JT10K0TR-ND]\n• 12.1K 1% 1/16W [Digikey: 311-22.0LRTR-ND]\n• 100.0K 5% 1/16W\n\n0603 - 0603 Surface Mount Package\n\n• 0 Ohm 1/10 Watt 1% Resistor\n• 15 Ohm 1/10 Watt 1% Resistor\n• 33 Ohm 1/10 Watt 1% Resistor\n• 49.9 Ohm 1/10 Watt 1% Resistor\n• 100 Ohm 1/10 Watt 1% Resistor\n• 150 Ohm 1/10 Watt 1% Resistor\n• 240 Ohm 1/10 Watt 1% Resistor\n• 390 Ohm 1/10 Watt 1% Resistor\n• 560 Ohm 1/10 Watt 1% Resistor\n• 680 Ohm 1/10 Watt 1% Resistor\n• 750 Ohm 1/10 Watt 1% Resistor\n• 1.0K Ohm 1/10 Watt 1% Resistor\n• 1.5K Ohm 1/10 Watt 1% Resistor\n• 2.0K Ohm 1/10 Watt 1% Resistor\n• 2.2K Ohm 1/10 Watt 1% Resistor\n• 3.3K Ohm 1/10 Watt 1% Resistor\n• 4.7K Ohm 1/10 Watt 1% Resistor\n• 10.0K Ohm 1/10 Watt 1% Resistor\n• 12.0K Ohm 1/10 Watt 1% Resistor\n• 12.1K Ohm 1/10 Watt 1% Resistor\n• 20.0K Ohm 1/10 Watt 1% Resistor\n• 33.0K Ohm 1/10 Watt 1% Resistor\n• 100.0K Ohm 1/10 Watt 1% Resistor\n\n0805 - 0805 Surface Mount Package\n\n• 0 Ohm 1/8 Watt 1% Resistor\n• 33 Ohm 1/8 Watt 1% Resistor\n• 100 Ohm 1/8 Watt 1% Resistor\n• 150 Ohm 1/8 Watt 1% Resistor\n• 200 Ohm 1/8 Watt 1% Resistor\n• 240 Ohm 1/8 Watt 1% Resistor\n• 330 Ohm 1/8 Watt 1% Resistor\n• 390 Ohm 1/8 Watt 1% Resistor\n• 470 Ohm 1/8 Watt 1% Resistor\n• 1.0K Ohm 1/8 Watt 1% Resistor\n• 1.5K Ohm 1/8 Watt 1% Resistor\n• 2.0K Ohm 1/8 Watt 1% Resistor\n• 4.7K Ohm 1/8 Watt 1% Resistor\n• 5.1K Ohm 1/8 Watt 1% Resistor\n• 5.6K Ohm 1/8 Watt 1% Resistor\n• 10.0K Ohm 1/8 Watt 1% Resistor\n• 22.0K Ohm 1/8 Watt 1% Resistor\n• 33.0K Ohm 1/8 Watt 1% Resistor\n• 100K Ohm 1/8 Watt 1% Resistor\n\n1206 - 1206 Surface Mount Package  2012 - 2010 Surface Mount Package\n\n• 0.11 Ohm 1/2 Watt 1% Resistor - Digikey: RHM.11UCT-ND"
-			(at 139.7 209.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "28066530-eaf0-4aa5-8196-7617f8ba4602")
-		)
-		(pin "2"
-			(uuid "f8596d1a-3553-4631-883a-e992a3f570ff")
-		)
-		(instances
-			(project "Ember_v0.2"
-				(path "/97e7889e-e69b-4dc1-9c2e-5339b74b36d3"
-					(reference "R24")
 					(unit 1)
 				)
 			)

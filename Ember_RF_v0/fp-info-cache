@@ -1,4 +1,4 @@
-27140407942539046
+27147507556112891
 1N4007
 DIOAD1060W80L520D270
 
@@ -96474,6 +96474,13 @@ ARM_label
 0
 0
 RT_Graphics
+CAM_PWR_label
+
+
+0
+0
+0
+RT_Graphics
 Ember_logo
 
 
@@ -96482,6 +96489,13 @@ Ember_logo
 0
 RT_Graphics
 FCU_label
+
+
+0
+0
+0
+RT_Graphics
+RTN_label
 
 
 0
@@ -96510,6 +96524,20 @@ TDU_label
 0
 RT_Graphics
 Untitled
+
+
+0
+0
+0
+RT_Graphics
+iitb_logo
+
+
+0
+0
+0
+RT_Graphics
+strain_gauge_label
 
 
 0
