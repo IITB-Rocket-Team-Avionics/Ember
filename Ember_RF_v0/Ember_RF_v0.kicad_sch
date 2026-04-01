@@ -1629,6 +1629,325 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "RSX501LAM20TR:RSX501LAM20TR"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 1.7 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "RSX501LAM20TR"
+				(at 1.7 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "RSX501LAM20TR:DIOM4725X105N"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "DigiKey_Part_Number" "RSX501LAM20CT-ND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER_NAME" "ROHM Semiconductor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/RSX501LAM20TR/Rohm/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MOUSER_PRICE-STOCK" "https://www.mouser.co.uk/ProductDetail/ROHM-Semiconductor/RSX501LAM20TR/?qs=gt1LBUVyoHmI1j7Jcf5%252B1g%3D%3D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "DESCRIPTION" "Schottky Diodes & Rectifiers 20V Vr 5A IR Schottky Br Diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MOUSER_PART_NUMBER" "755-RSX501LAM20TR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "SOD-128 Rohm Semiconductor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/RSX501LAM20TR/Rohm/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "HEIGHT" "1.05mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MF" "Rohm Semiconductor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "RSX501LAM20TR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "Diode Schottky 20 V 5A Surface Mount PMDTM"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER_PART_NUMBER" "RSX501LAM20TR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "RSX501LAM20TR_0_0"
+				(polyline
+					(pts
+						(xy -5.92 0) (xy -3.38 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.396 -1.524) (xy -4.396 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.38 2.54) (xy -3.38 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.38 2.54) (xy -2.364 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.38 0) (xy 1.7 2.54) (xy 1.7 -2.54) (xy -3.38 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.38 -2.54) (xy -4.396 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.364 1.524) (xy -2.364 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.7 0) (xy 4.24 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin bidirectional line
+					(at -8.46 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 6.78 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "RpiPico:RASPBERRY_PICOSMD"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4240,10 +4559,10 @@
 		(uuid "3cf6fccb-a79e-4279-a1d5-20851adbd19d")
 	)
 	(junction
-		(at 191.77 134.62)
+		(at 95.25 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "59f53cb4-c43d-455d-a33a-48aabc535317")
+		(uuid "5edf53e4-4fc3-4621-9fd7-6a50c27158e6")
 	)
 	(junction
 		(at 86.36 135.89)
@@ -4270,12 +4589,6 @@
 		(uuid "75d8a8e2-0003-4fb7-a58b-a444693ef52d")
 	)
 	(junction
-		(at 196.85 134.62)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7e4de9c6-6c20-4f6c-bc0c-f17c493b7d07")
-	)
-	(junction
 		(at 151.13 171.45)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4292,6 +4605,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8fc57812-94cc-4013-bb8e-182d70081703")
+	)
+	(junction
+		(at 82.55 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "90065406-7cfc-474e-af27-9a88c0e9e3cc")
 	)
 	(junction
 		(at 262.89 137.16)
@@ -4324,16 +4643,34 @@
 		(uuid "b38011d9-1ecd-465f-b8d2-f13ec75da31a")
 	)
 	(junction
-		(at 187.96 134.62)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b8ac56af-69e4-4b5c-b9c2-f17a8e8e7dc9")
-	)
-	(junction
 		(at 151.13 168.91)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bbb47332-c095-42b5-9504-99c202c57c53")
+	)
+	(junction
+		(at 170.766 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d5d12cb3-47c1-49bf-88ab-c84431ed3352")
+	)
+	(junction
+		(at 186.006 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e2dc4e64-c2d0-4479-90f7-290734ab4677")
+	)
+	(junction
+		(at 196.85 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e54627a1-01f3-4a49-a37c-ce52082fd222")
+	)
+	(junction
+		(at 86.36 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ff4fb67f-4a20-4844-bd7d-5669f089868e")
 	)
 	(no_connect
 		(at 130.81 116.84)
@@ -4471,16 +4808,6 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 134.62) (xy 196.85 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "100d1be8-00ee-47d0-b140-9d7b1ab4726e")
-	)
-	(wire
-		(pts
 			(xy 266.7 137.16) (xy 262.89 137.16)
 		)
 		(stroke
@@ -4501,7 +4828,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 147.32) (xy 176.53 147.32)
+			(xy 160.02 147.32) (xy 163.83 147.32)
 		)
 		(stroke
 			(width 0)
@@ -4528,6 +4855,16 @@
 			(type default)
 		)
 		(uuid "1c800b7f-ff76-49a0-8c10-9dd8ebf05ea6")
+	)
+	(wire
+		(pts
+			(xy 185.42 134.62) (xy 185.42 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c83bb2a-ed66-4525-a7d7-def068dabf10")
 	)
 	(wire
 		(pts
@@ -4711,6 +5048,16 @@
 	)
 	(wire
 		(pts
+			(xy 196.85 134.62) (xy 196.85 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f62bbb1-21be-4031-80f3-edbbcab60cbf")
+	)
+	(wire
+		(pts
 			(xy 34.29 151.13) (xy 46.99 151.13)
 		)
 		(stroke
@@ -4758,6 +5105,16 @@
 			(type default)
 		)
 		(uuid "5adb6450-1856-4d23-8a8c-cc59afd68048")
+	)
+	(wire
+		(pts
+			(xy 163.83 134.62) (xy 170.766 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5af1000b-c7f2-4a6c-9ab9-e1c7711c3aca")
 	)
 	(wire
 		(pts
@@ -4821,7 +5178,17 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 134.62) (xy 196.85 134.62)
+			(xy 95.25 54.61) (xy 101.6 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "655d9883-46a1-4a0c-a72f-8e1614ce40e3")
+	)
+	(wire
+		(pts
+			(xy 185.42 134.62) (xy 186.006 134.62)
 		)
 		(stroke
 			(width 0)
@@ -4931,16 +5298,6 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 134.62) (xy 191.77 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "819a3f85-2ad2-40c0-a787-dc247305df06")
-	)
-	(wire
-		(pts
 			(xy 34.29 177.8) (xy 40.64 177.8)
 		)
 		(stroke
@@ -4958,6 +5315,16 @@
 			(type default)
 		)
 		(uuid "861824e4-6f95-4755-9535-8e94152a1cd7")
+	)
+	(wire
+		(pts
+			(xy 170.766 134.62) (xy 171.45 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8636fa8e-ba39-4c7c-b53e-fbec23750786")
 	)
 	(wire
 		(pts
@@ -5081,16 +5448,6 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 134.62) (xy 187.96 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a56e5e55-771d-4a6f-9a35-430a6d54795d")
-	)
-	(wire
-		(pts
 			(xy 82.55 161.29) (xy 88.9 161.29)
 		)
 		(stroke
@@ -5211,13 +5568,23 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 54.61) (xy 101.6 54.61)
+			(xy 83.82 54.61) (xy 95.25 54.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "bb210dbd-1ac2-4b33-bfdd-adadae72ddcd")
+	)
+	(wire
+		(pts
+			(xy 171.45 134.62) (xy 171.45 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc6961d9-3141-4ed0-b9c8-8aa06b1fd4ee")
 	)
 	(wire
 		(pts
@@ -5241,13 +5608,13 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 134.62) (xy 187.96 147.32)
+			(xy 95.25 62.23) (xy 95.25 64.77)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c45e2b18-7d88-4e4a-ba43-162ab1fadba6")
+		(uuid "cad758f2-6fc0-4369-b4d1-cb2b4f5d9e44")
 	)
 	(wire
 		(pts
@@ -5301,7 +5668,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 147.32) (xy 162.56 147.32)
+			(xy 144.78 147.32) (xy 149.86 147.32)
 		)
 		(stroke
 			(width 0)
@@ -5318,16 +5685,6 @@
 			(type default)
 		)
 		(uuid "e544c7f5-5f9d-4c80-81e8-b790c34c9776")
-	)
-	(wire
-		(pts
-			(xy 184.15 147.32) (xy 187.96 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e6ab2098-0870-4fef-be89-3eab4ebf73eb")
 	)
 	(wire
 		(pts
@@ -5361,7 +5718,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 142.24) (xy 191.77 147.32)
+			(xy 185.42 144.78) (xy 185.42 147.32)
 		)
 		(stroke
 			(width 0)
@@ -5421,6 +5778,16 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 128.27) (xy 86.36 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3bc36bc-0beb-47a1-a555-fa764ddbd17f")
+	)
+	(wire
+		(pts
 			(xy 40.64 146.05) (xy 46.99 146.05)
 		)
 		(stroke
@@ -5468,6 +5835,16 @@
 			(type default)
 		)
 		(uuid "fbdbab51-1cf3-4c78-888f-e308ff87518c")
+	)
+	(wire
+		(pts
+			(xy 186.006 134.62) (xy 196.85 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe7161cf-a32c-4603-b9aa-41baea5ece78")
 	)
 	(label "GND"
 		(at 104.14 163.83 180)
@@ -5740,6 +6117,16 @@
 		(uuid "6153f70e-d712-4805-b2c0-22a70f79d709")
 	)
 	(label "GND"
+		(at 95.25 64.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "627a81b4-bb00-4644-9a09-9e1895bfcb37")
+	)
+	(label "GND"
 		(at 172.72 116.84 0)
 		(effects
 			(font
@@ -5770,7 +6157,7 @@
 		(uuid "68f32370-fb7c-4da0-8f2b-ff3f47328dd3")
 	)
 	(label "GND"
-		(at 191.77 147.32 0)
+		(at 185.42 147.32 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5920,7 +6307,7 @@
 		(uuid "9a3486b7-920d-4d01-95e0-f3db3831036a")
 	)
 	(label "V_BATT"
-		(at 186.69 134.62 180)
+		(at 163.83 134.62 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6100,7 +6487,7 @@
 		(uuid "e46e3dbf-3318-4091-9775-53610b7212a5")
 	)
 	(label "GND"
-		(at 157.48 147.32 180)
+		(at 144.78 147.32 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6211,7 +6598,7 @@
 	)
 	(symbol
 		(lib_id "microbuilder:RESISTOR0603")
-		(at 167.64 147.32 0)
+		(at 154.94 147.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6220,7 +6607,7 @@
 		(fields_autoplaced yes)
 		(uuid "1125c18a-2524-4b56-95a4-7ab9505ecf88")
 		(property "Reference" "R17"
-			(at 167.64 140.97 0)
+			(at 154.94 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6228,7 +6615,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 167.64 143.51 0)
+			(at 154.94 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6236,7 +6623,7 @@
 			)
 		)
 		(property "Footprint" "microbuilder:0603"
-			(at 167.64 147.32 0)
+			(at 154.94 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6245,7 +6632,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 167.64 147.32 0)
+			(at 154.94 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6254,7 +6641,7 @@
 			)
 		)
 		(property "Description" "Resistors\n\n0402 - 0402 Surface Mount Package\n\n• 22 Ohm 1% 1/16W [Digikey: 311-22.0LRTR-ND]\n• 33 Ohm 5% 1/16W\n• 1.0K 5% 1/16W\n• 1.5K 5% 1/16W\n• 2.0K 1% 1/16W\n• 10.0K 1% 1/16W [Digikey: 311-10.0KLRTR-ND]\n• 10.0K 5% 1/16W [Digikey: RMCF0402JT10K0TR-ND]\n• 12.1K 1% 1/16W [Digikey: 311-22.0LRTR-ND]\n• 100.0K 5% 1/16W\n\n0603 - 0603 Surface Mount Package\n\n• 0 Ohm 1/10 Watt 1% Resistor\n• 15 Ohm 1/10 Watt 1% Resistor\n• 33 Ohm 1/10 Watt 1% Resistor\n• 49.9 Ohm 1/10 Watt 1% Resistor\n• 100 Ohm 1/10 Watt 1% Resistor\n• 150 Ohm 1/10 Watt 1% Resistor\n• 240 Ohm 1/10 Watt 1% Resistor\n• 390 Ohm 1/10 Watt 1% Resistor\n• 560 Ohm 1/10 Watt 1% Resistor\n• 680 Ohm 1/10 Watt 1% Resistor\n• 750 Ohm 1/10 Watt 1% Resistor\n• 1.0K Ohm 1/10 Watt 1% Resistor\n• 1.5K Ohm 1/10 Watt 1% Resistor\n• 2.0K Ohm 1/10 Watt 1% Resistor\n• 2.2K Ohm 1/10 Watt 1% Resistor\n• 3.3K Ohm 1/10 Watt 1% Resistor\n• 4.7K Ohm 1/10 Watt 1% Resistor\n• 10.0K Ohm 1/10 Watt 1% Resistor\n• 12.0K Ohm 1/10 Watt 1% Resistor\n• 12.1K Ohm 1/10 Watt 1% Resistor\n• 20.0K Ohm 1/10 Watt 1% Resistor\n• 33.0K Ohm 1/10 Watt 1% Resistor\n• 100.0K Ohm 1/10 Watt 1% Resistor\n\n0805 - 0805 Surface Mount Package\n\n• 0 Ohm 1/8 Watt 1% Resistor\n• 33 Ohm 1/8 Watt 1% Resistor\n• 100 Ohm 1/8 Watt 1% Resistor\n• 150 Ohm 1/8 Watt 1% Resistor\n• 200 Ohm 1/8 Watt 1% Resistor\n• 240 Ohm 1/8 Watt 1% Resistor\n• 330 Ohm 1/8 Watt 1% Resistor\n• 390 Ohm 1/8 Watt 1% Resistor\n• 470 Ohm 1/8 Watt 1% Resistor\n• 1.0K Ohm 1/8 Watt 1% Resistor\n• 1.5K Ohm 1/8 Watt 1% Resistor\n• 2.0K Ohm 1/8 Watt 1% Resistor\n• 4.7K Ohm 1/8 Watt 1% Resistor\n• 5.1K Ohm 1/8 Watt 1% Resistor\n• 5.6K Ohm 1/8 Watt 1% Resistor\n• 10.0K Ohm 1/8 Watt 1% Resistor\n• 22.0K Ohm 1/8 Watt 1% Resistor\n• 33.0K Ohm 1/8 Watt 1% Resistor\n• 100K Ohm 1/8 Watt 1% Resistor\n\n1206 - 1206 Surface Mount Package  2012 - 2010 Surface Mount Package\n\n• 0.11 Ohm 1/2 Watt 1% Resistor - Digikey: RHM.11UCT-ND"
-			(at 167.64 147.32 0)
+			(at 154.94 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6444,6 +6831,76 @@
 	)
 	(symbol
 		(lib_id "microbuilder:CAP_CERAMIC0603")
+		(at 95.25 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2ada7a4a-0037-4417-aecf-80d73c8458ab")
+		(property "Reference" "C6"
+			(at 97.79 57.1499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 97.79 59.6899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "microbuilder:0603"
+			(at 95.25 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ceramic Capacitors\n\n0402 - 0402 Surface Mount Capacitors\n\n• 16pF 50V 5% [Digikey: 445-4899-2-ND]\n• 18pF 50V 5% [Digikey: 490-1281-2-ND]\n• 22pF 50V 5% [Digikey: 490-1283-2-ND]\n• 68pF 50V 5% [Digikey: 490-1289-2-ND]\n• 0.1uF 10V 10% [Digikey: 490-1318-2-ND]\n• 1.0uF 6.3V 10% [Digikey: 490-1320-2-ND]\n\n0603 - 0603 Surface Mount Capacitors\n\n• 16 pF 50V 5% [Digikey: 445-5051-2-ND]\n• 22 pF 50V [Digikey: PCC220ACVTR-ND]\n• 33 pF 50V 5% [Digikey: 490-1415-1-ND]\n• 56pF 50V 5% [Digikey: 490-1421-1-ND]\n• 220pF 50V 5% [Digikey: 445-1285-1-ND]\n• 680 pF 50V\n• 2200 pF 50V 5% C0G [Digikey: 445-1297-1-ND]\n• 5600 pF 100V 5% X7R [Digikey: 478-3711-1-ND]\n• 0.1 µF 25V 10% [Digikey: PCC2277TR-ND]\n• 0.22 µF 16V 10% X7R [Digikey: 445-1318-1-ND]\n• 1.0 µF 25V 10% [Digikey: 445-5146-2-ND]\n\n0603 - RF Specific\n\n• 3pF 250V +/-0.1pF RF [Digikey: 712-1347-1-ND]\n• 18 pF 250V 5%  [Digikey: 478-3505-1-ND or 712-1322-1-ND]\n• 56 pF 250V 5% C0G RF [Digikey: 490-4867-1-ND]\n• 68 pF 250V RF [Digikey: 490-4868-1-ND]\n\n0805 - 0805 Surface Mount Capacitors\n\n• 220 pF 250V 2% RF Ceramic Capacitor [Digikey: 712-1398-1-ND]\n• 1000 pF 50V 2% NP0 Ceramic Capacitor [Digikey: 478-3760-1-ND]\n• 0.1 µF 25V 10% Ceramic Capacitor [Digikey: PCC1828TR-ND]\n• 1.0 µF 16V 10% Ceramic Capacitor[Digikey: 490-1691-2-ND]\n• 10.0 µF 10V 10% Ceramic Capacitor[Digikey: 709-1228-1-ND]\n• 10.0 uF 16V 10% Ceramic Capacitor [Digikey: 478-5165-2-ND]\n• 47 uF 6.3V 20% Ceramic Capacitor [Digikey: 587-1779-1-ND or 399-5506-1-ND]\n\n1206 - 1206 Surface Mount Capacitors\n\n• 47uF 10V 20% Ceramic Capacitor [Digikey: 490-5528-1-ND or 399-5508-1-ND or 445-6010-1-ND]\n• 100uF 6.3V -20%, +80% Y5V Ceramic Capacitor (Digikey: 490-4512-1-ND, Mouser: 81-GRM31CF50J107ZE1L)"
+			(at 95.25 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2981b5a2-488a-4b11-b064-98319d8808d3")
+		)
+		(pin "1"
+			(uuid "5a890c7c-7981-411a-8507-5f84262b8b78")
+		)
+		(instances
+			(project ""
+				(path "/91b73e6e-49f7-490a-90c7-77aec19a56f5"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "microbuilder:CAP_CERAMIC0603")
 		(at 86.36 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6461,7 +6918,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "10uF"
 			(at 88.9 133.3499 0)
 			(effects
 				(font
@@ -6507,6 +6964,205 @@
 			(project ""
 				(path "/91b73e6e-49f7-490a-90c7-77aec19a56f5"
 					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "RSX501LAM20TR:RSX501LAM20TR")
+		(at 177.546 134.62 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3f345f3a-0e90-4172-9292-ba6ef000b391")
+		(property "Reference" "D1"
+			(at 178.386 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RSX501LAM20TR"
+			(at 178.386 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "RSX501LAM20TR:DIOM4725X105N"
+			(at 177.546 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.546 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 177.546 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" "RSX501LAM20CT-ND"
+			(at 177.546 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_NAME" "ROHM Semiconductor"
+			(at 177.546 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/RSX501LAM20TR/Rohm/view-part/?ref=snap"
+			(at 177.546 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUSER_PRICE-STOCK" "https://www.mouser.co.uk/ProductDetail/ROHM-Semiconductor/RSX501LAM20TR/?qs=gt1LBUVyoHmI1j7Jcf5%252B1g%3D%3D"
+			(at 177.546 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" "Schottky Diodes & Rectifiers 20V Vr 5A IR Schottky Br Diode"
+			(at 177.546 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUSER_PART_NUMBER" "755-RSX501LAM20TR"
+			(at 177.546 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "SOD-128 Rohm Semiconductor"
+			(at 177.546 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/RSX501LAM20TR/Rohm/view-part/?ref=eda"
+			(at 177.546 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "HEIGHT" "1.05mm"
+			(at 177.546 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MF" "Rohm Semiconductor"
+			(at 177.546 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "RSX501LAM20TR"
+			(at 177.546 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Diode Schottky 20 V 5A Surface Mount PMDTM"
+			(at 177.546 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "RSX501LAM20TR"
+			(at 177.546 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7f1afaab-4693-44e8-8794-d416d72243a3")
+		)
+		(pin "2"
+			(uuid "8dfc6801-8e51-4e5d-b2e2-b3c7c7c9b1de")
+		)
+		(instances
+			(project ""
+				(path "/91b73e6e-49f7-490a-90c7-77aec19a56f5"
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -6732,7 +7388,7 @@
 	)
 	(symbol
 		(lib_id "microbuilder:LED0603")
-		(at 179.07 147.32 180)
+		(at 166.37 147.32 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6741,7 +7397,7 @@
 		(fields_autoplaced yes)
 		(uuid "6754a3d8-ad38-45d5-9cbb-f067ba46d9ad")
 		(property "Reference" "LED1"
-			(at 179.705 140.97 0)
+			(at 167.005 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -6749,7 +7405,7 @@
 			)
 		)
 		(property "Value" "BATT_CONN"
-			(at 179.705 143.51 0)
+			(at 167.005 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -6757,7 +7413,7 @@
 			)
 		)
 		(property "Footprint" "microbuilder:CHIPLED_0603"
-			(at 179.07 147.32 0)
+			(at 166.37 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6766,7 +7422,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 179.07 147.32 0)
+			(at 166.37 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6775,7 +7431,7 @@
 			)
 		)
 		(property "Description" "LED\n\n0603 - 0603 Surface Mount Package\n\n2mA:\n\n• Green LED - Low Power (3.9mcd, 2ma, 1.7Vf) - Digikey: 475-2709-2-ND\n• Orange LED - Low Power (9.8mcd, 2ma, 1.8Vf) - Digikey: 475-1194-2-ND\n• Red LED - Low Power (5mcd, 2ma, 1.8Vf) - Digikey: 475-1195-2-ND\n• Yellow LED - Low Power (7mcd, 2ma, 1.8Vf) - Digikey: 475-1196-2-ND\n\n5mA:\n\n• Blue LED - Low Power (17mcd, 5ma, 2.9Vf) - Digikey: LNJ937W8CRACT-ND\n\n0805 - 0805 Surface Mount Package\n\n2mA:\n\n• Red LED (8.8mcd, 2mA, 1.8Vf, Clear) - Low Power [Digikey: 475-2510-1-ND]\n• Green LED (5mcd, 2mA, 1.8Vf, Clear) - Low Power [Digikey: 475-2730-1-ND]\n• Yellow LED (11.3mcd, 2mA, 1.8Vf, Clear) - Low Power [Digikey: 475-2555-1-ND]\n\n20mA:\n\n• Red LED (104mcd, 20mA, Diffused) - LS R976 [Digikey: 475-1278-6-ND]\n• Red LED (12mcd, 20mA, 2.0Vf, Clear) - APT2012EC [Digikey: 754-1128-1-ND]\n• Green LED (15mcd, 20mA, 2.2Vf, Clear) - APT2012GC [Digikey: 754-1131-1-ND]\n• Orange LED (160mcd, 20mA, 2.1Vf, Clear) - APT2012SECK [Digikey: 754-1130-1-ND]\n\n• 1206 - 1206 Surface Mount Package\n\n• Green LED (26mcd, 20mA, Diffused) - LG N971  [Digikey: 475-1407-6-ND]\n• Red LED (15mcd, 20mA, Diffused) - LH N974 [Digikey: 475-1416-6-ND]"
-			(at 179.07 147.32 0)
+			(at 166.37 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7305,7 +7961,7 @@
 	)
 	(symbol
 		(lib_id "microbuilder:CAP_CERAMIC0603")
-		(at 191.77 139.7 0)
+		(at 185.42 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7314,7 +7970,7 @@
 		(fields_autoplaced yes)
 		(uuid "aea18fe5-5655-4584-a4ab-b511d78bcdad")
 		(property "Reference" "C4"
-			(at 194.31 137.1599 0)
+			(at 187.96 139.6999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7323,7 +7979,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 194.31 139.6999 0)
+			(at 187.96 142.2399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7332,7 +7988,7 @@
 			)
 		)
 		(property "Footprint" "microbuilder:0603"
-			(at 191.77 139.7 0)
+			(at 185.42 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7341,7 +7997,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 191.77 139.7 0)
+			(at 185.42 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7350,7 +8006,7 @@
 			)
 		)
 		(property "Description" "Ceramic Capacitors\n\n0402 - 0402 Surface Mount Capacitors\n\n• 16pF 50V 5% [Digikey: 445-4899-2-ND]\n• 18pF 50V 5% [Digikey: 490-1281-2-ND]\n• 22pF 50V 5% [Digikey: 490-1283-2-ND]\n• 68pF 50V 5% [Digikey: 490-1289-2-ND]\n• 0.1uF 10V 10% [Digikey: 490-1318-2-ND]\n• 1.0uF 6.3V 10% [Digikey: 490-1320-2-ND]\n\n0603 - 0603 Surface Mount Capacitors\n\n• 16 pF 50V 5% [Digikey: 445-5051-2-ND]\n• 22 pF 50V [Digikey: PCC220ACVTR-ND]\n• 33 pF 50V 5% [Digikey: 490-1415-1-ND]\n• 56pF 50V 5% [Digikey: 490-1421-1-ND]\n• 220pF 50V 5% [Digikey: 445-1285-1-ND]\n• 680 pF 50V\n• 2200 pF 50V 5% C0G [Digikey: 445-1297-1-ND]\n• 5600 pF 100V 5% X7R [Digikey: 478-3711-1-ND]\n• 0.1 µF 25V 10% [Digikey: PCC2277TR-ND]\n• 0.22 µF 16V 10% X7R [Digikey: 445-1318-1-ND]\n• 1.0 µF 25V 10% [Digikey: 445-5146-2-ND]\n\n0603 - RF Specific\n\n• 3pF 250V +/-0.1pF RF [Digikey: 712-1347-1-ND]\n• 18 pF 250V 5%  [Digikey: 478-3505-1-ND or 712-1322-1-ND]\n• 56 pF 250V 5% C0G RF [Digikey: 490-4867-1-ND]\n• 68 pF 250V RF [Digikey: 490-4868-1-ND]\n\n0805 - 0805 Surface Mount Capacitors\n\n• 220 pF 250V 2% RF Ceramic Capacitor [Digikey: 712-1398-1-ND]\n• 1000 pF 50V 2% NP0 Ceramic Capacitor [Digikey: 478-3760-1-ND]\n• 0.1 µF 25V 10% Ceramic Capacitor [Digikey: PCC1828TR-ND]\n• 1.0 µF 16V 10% Ceramic Capacitor[Digikey: 490-1691-2-ND]\n• 10.0 µF 10V 10% Ceramic Capacitor[Digikey: 709-1228-1-ND]\n• 10.0 uF 16V 10% Ceramic Capacitor [Digikey: 478-5165-2-ND]\n• 47 uF 6.3V 20% Ceramic Capacitor [Digikey: 587-1779-1-ND or 399-5506-1-ND]\n\n1206 - 1206 Surface Mount Capacitors\n\n• 47uF 10V 20% Ceramic Capacitor [Digikey: 490-5528-1-ND or 399-5508-1-ND or 445-6010-1-ND]\n• 100uF 6.3V -20%, +80% Y5V Ceramic Capacitor (Digikey: 490-4512-1-ND, Mouser: 81-GRM31CF50J107ZE1L)"
-			(at 191.77 139.7 0)
+			(at 185.42 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8212,6 +8868,76 @@
 			(project "Ember_RF_v0"
 				(path "/91b73e6e-49f7-490a-90c7-77aec19a56f5"
 					(reference "R31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "microbuilder:CAP_CERAMIC0603")
+		(at 82.55 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f94a43e7-6ec2-4ab5-b2f5-0f514b16e1e1")
+		(property "Reference" "C7"
+			(at 85.09 130.8099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 85.09 133.3499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "microbuilder:0603"
+			(at 82.55 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 82.55 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ceramic Capacitors\n\n0402 - 0402 Surface Mount Capacitors\n\n• 16pF 50V 5% [Digikey: 445-4899-2-ND]\n• 18pF 50V 5% [Digikey: 490-1281-2-ND]\n• 22pF 50V 5% [Digikey: 490-1283-2-ND]\n• 68pF 50V 5% [Digikey: 490-1289-2-ND]\n• 0.1uF 10V 10% [Digikey: 490-1318-2-ND]\n• 1.0uF 6.3V 10% [Digikey: 490-1320-2-ND]\n\n0603 - 0603 Surface Mount Capacitors\n\n• 16 pF 50V 5% [Digikey: 445-5051-2-ND]\n• 22 pF 50V [Digikey: PCC220ACVTR-ND]\n• 33 pF 50V 5% [Digikey: 490-1415-1-ND]\n• 56pF 50V 5% [Digikey: 490-1421-1-ND]\n• 220pF 50V 5% [Digikey: 445-1285-1-ND]\n• 680 pF 50V\n• 2200 pF 50V 5% C0G [Digikey: 445-1297-1-ND]\n• 5600 pF 100V 5% X7R [Digikey: 478-3711-1-ND]\n• 0.1 µF 25V 10% [Digikey: PCC2277TR-ND]\n• 0.22 µF 16V 10% X7R [Digikey: 445-1318-1-ND]\n• 1.0 µF 25V 10% [Digikey: 445-5146-2-ND]\n\n0603 - RF Specific\n\n• 3pF 250V +/-0.1pF RF [Digikey: 712-1347-1-ND]\n• 18 pF 250V 5%  [Digikey: 478-3505-1-ND or 712-1322-1-ND]\n• 56 pF 250V 5% C0G RF [Digikey: 490-4867-1-ND]\n• 68 pF 250V RF [Digikey: 490-4868-1-ND]\n\n0805 - 0805 Surface Mount Capacitors\n\n• 220 pF 250V 2% RF Ceramic Capacitor [Digikey: 712-1398-1-ND]\n• 1000 pF 50V 2% NP0 Ceramic Capacitor [Digikey: 478-3760-1-ND]\n• 0.1 µF 25V 10% Ceramic Capacitor [Digikey: PCC1828TR-ND]\n• 1.0 µF 16V 10% Ceramic Capacitor[Digikey: 490-1691-2-ND]\n• 10.0 µF 10V 10% Ceramic Capacitor[Digikey: 709-1228-1-ND]\n• 10.0 uF 16V 10% Ceramic Capacitor [Digikey: 478-5165-2-ND]\n• 47 uF 6.3V 20% Ceramic Capacitor [Digikey: 587-1779-1-ND or 399-5506-1-ND]\n\n1206 - 1206 Surface Mount Capacitors\n\n• 47uF 10V 20% Ceramic Capacitor [Digikey: 490-5528-1-ND or 399-5508-1-ND or 445-6010-1-ND]\n• 100uF 6.3V -20%, +80% Y5V Ceramic Capacitor (Digikey: 490-4512-1-ND, Mouser: 81-GRM31CF50J107ZE1L)"
+			(at 82.55 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "35e91650-1ae2-49d2-944a-538822d43926")
+		)
+		(pin "1"
+			(uuid "ff670789-2c80-4827-93a5-0cf6c4abd2eb")
+		)
+		(instances
+			(project "Ember_RF_v0"
+				(path "/91b73e6e-49f7-490a-90c7-77aec19a56f5"
+					(reference "C7")
 					(unit 1)
 				)
 			)
