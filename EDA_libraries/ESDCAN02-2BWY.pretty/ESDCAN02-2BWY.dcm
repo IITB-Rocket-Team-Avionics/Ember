@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ESDCAN02-2BWY
+D ESD Suppressors / TVS Diodes Automotive dual-line Transil, Transient voltage suppressor (TVS) for CAN bus
+K
+F https://www.st.com/resource/en/datasheet/esdcan03-2bwy.pdf
+$ENDCMP
+#
+#End Doc Library

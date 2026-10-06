@@ -1,0 +1,245 @@
+(footprint "SMPWCCKM"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "SMPW-CC-K-M-5")
+	(tags "Connector")
+	(property "Reference" "J**"
+		(at 0.43 4 0)
+		(layer "F.SilkS")
+		(uuid "cc0bee74-9dad-4179-aa3f-953e46198c95")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "SMPWCCKM"
+		(at 0.43 4 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "d6a8b139-fa86-43ad-8824-fce64284fe28")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d2dd435d-b6d2-41cc-9e45-076293e4f56b")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e9b4626b-2cf9-4d9d-9ebe-840af602e1ed")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -4.2 0)
+		(end -4.2 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a2af0b45-5718-4abc-b306-1ace50df8abf")
+	)
+	(fp_line
+		(start -4.1 0)
+		(end -4.1 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "187e5456-3cdd-4888-b634-d3dacb7759fe")
+	)
+	(fp_line
+		(start -3.57 -4.5)
+		(end 4.43 -4.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d997fba0-f374-4ea0-995f-94c279e541f6")
+	)
+	(fp_line
+		(start -3.57 12.5)
+		(end -3.57 -4.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "eba1b8d6-048a-437a-a45c-1761f1099a49")
+	)
+	(fp_line
+		(start 4.43 -4.5)
+		(end 4.43 12.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3084a817-f726-40aa-993c-b735d49c5bd4")
+	)
+	(fp_line
+		(start 4.43 12.5)
+		(end -3.57 12.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a329a731-1dda-4c12-8eef-a92f0c8c485f")
+	)
+	(fp_arc
+		(start -4.2 0)
+		(mid -4.15 -0.05)
+		(end -4.1 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "06ecf2a9-8f8d-4959-9665-2249b3a49177")
+	)
+	(fp_arc
+		(start -4.1 0)
+		(mid -4.15 0.05)
+		(end -4.2 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cda9a9b3-38db-4516-abe6-2e2fec614e92")
+	)
+	(fp_line
+		(start -4.57 -5.5)
+		(end 5.43 -5.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "41e46ac5-7443-42c2-81c3-0d0f70127479")
+	)
+	(fp_line
+		(start -4.57 13.5)
+		(end -4.57 -5.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "35893d87-ac3a-4b7c-96d7-805e093e0499")
+	)
+	(fp_line
+		(start 5.43 -5.5)
+		(end 5.43 13.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "92baa522-59e6-4518-b5bd-e8254520da0b")
+	)
+	(fp_line
+		(start 5.43 13.5)
+		(end -4.57 13.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9e12530d-1e59-4082-b4ce-ace7e737e65f")
+	)
+	(fp_line
+		(start -3.57 -4.5)
+		(end 4.43 -4.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9ac93cf6-7880-4ea1-844f-bacd804d499b")
+	)
+	(fp_line
+		(start -3.57 12.5)
+		(end -3.57 -4.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "77cda1ae-fbc9-46f8-acf2-585cbe582664")
+	)
+	(fp_line
+		(start 4.43 -4.5)
+		(end 4.43 12.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fbcbe620-283d-4f8d-9042-01438cc931df")
+	)
+	(fp_line
+		(start 4.43 12.5)
+		(end -3.57 12.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "69a89888-ad0f-4b59-b185-ea3d1623257f")
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 4.095 4.095)
+		(drill 2.73)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "831b068c-91d8-49db-9091-4889c55e4bb1")
+	)
+	(pad "2" thru_hole circle
+		(at 0 8)
+		(size 5.205 5.205)
+		(drill 3.47)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "8add6b12-5c32-415e-bb93-54c41766fc4a")
+	)
+	(embedded_fonts no)
+	(model "SMPW-CC-K-M.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

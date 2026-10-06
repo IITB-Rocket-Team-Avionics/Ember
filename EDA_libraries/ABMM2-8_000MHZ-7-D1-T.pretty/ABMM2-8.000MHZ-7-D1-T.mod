@@ -1,0 +1,50 @@
+PCBNEW-LibModule-V1  2026-09-14 00:41:18
+# encoding utf-8
+Units mm
+$INDEX
+ABMM2
+$EndINDEX
+$MODULE ABMM2
+Po 0 0 0 15 6aa7349e 00000000 ~~
+Li ABMM2
+Cd ABMM2
+Kw Crystal or Oscillator
+Sc 0
+At SMD
+AR 
+Op 0 0 0
+T0 -0.309 -0.065 1.27 1.27 0 0.254 N V 21 N "Y**"
+T1 -0.309 -0.065 1.27 1.27 0 0.254 N I 21 N "ABMM2"
+DS -3 -1.8 3 -1.8 0.2 24
+DS 3 -1.8 3 1.8 0.2 24
+DS 3 1.8 -3 1.8 0.2 24
+DS -3 1.8 -3 -1.8 0.2 24
+DS -0.938 -1.8 0.938 -1.8 0.2 21
+DS -0.938 1.8 0.938 1.8 0.2 21
+DC -2.252 2.475 -2.29867 2.475 0.254 21
+$PAD
+Po -2.2 1.2
+Sh "1" R 1.4 1.8 0 0 900
+At SMD N 00888000
+Ne 0 ""
+$EndPAD
+$PAD
+Po 2.2 1.2
+Sh "2" R 1.4 1.8 0 0 900
+At SMD N 00888000
+Ne 0 ""
+$EndPAD
+$PAD
+Po 2.2 -1.2
+Sh "3" R 1.4 1.8 0 0 900
+At SMD N 00888000
+Ne 0 ""
+$EndPAD
+$PAD
+Po -2.2 -1.2
+Sh "4" R 1.4 1.8 0 0 900
+At SMD N 00888000
+Ne 0 ""
+$EndPAD
+$EndMODULE ABMM2
+$EndLIBRARY

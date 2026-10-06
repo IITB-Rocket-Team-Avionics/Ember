@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ABMM2-8.000MHZ-7-D1-T
+D CERAMIC SMD CRYSTAL
+K
+F https://abracon.com/Resonators/ABMM2.pdf
+$ENDCMP
+#
+#End Doc Library
