@@ -13512,6 +13512,10 @@
 		(uuid "8b5115a9-593d-4a12-a6bd-d0c642414a2a")
 	)
 	(no_connect
+		(at 128.27 238.76)
+		(uuid "8c90b3f2-2b1a-468e-a284-60b4e737f151")
+	)
+	(no_connect
 		(at 441.96 358.14)
 		(uuid "930a69cc-2e5b-4bc9-a19c-3bf966f32d0f")
 	)
@@ -22603,6 +22607,16 @@
 		)
 		(uuid "3c3fb9b0-95dd-41a9-8205-8b20d5ee1934")
 	)
+	(label "USB_D+"
+		(at 302.26 365.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3c840f4e-4cb1-478e-91b0-cc1c45b4fe01")
+	)
 	(label "SPI2_SCK"
 		(at 128.27 228.6 0)
 		(effects
@@ -23519,6 +23533,16 @@
 		)
 		(uuid "a564f2f6-a881-49ff-b1c5-9d5ad30b3b4f")
 	)
+	(label "USB_D-"
+		(at 300.99 370.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a7af17cd-db62-4fea-9408-5ab59b1fb22d")
+	)
 	(label "3v3"
 		(at 184.15 20.32 0)
 		(effects
@@ -23704,16 +23728,6 @@
 			(justify left bottom)
 		)
 		(uuid "c045db71-3c8b-43c7-acdf-4d1c171092c2")
-	)
-	(label "BATTERY_MON"
-		(at 128.27 238.76 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c11a3f9c-4a80-47d3-ae0d-dcbf30f0c14c")
 	)
 	(label "HX711_SCK"
 		(at 464.82 228.6 0)
