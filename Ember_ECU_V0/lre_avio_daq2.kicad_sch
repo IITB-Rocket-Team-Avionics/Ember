@@ -35231,7 +35231,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 199.39 306.07 0)
+		(at 199.39 306.07 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -35249,7 +35249,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "0.1 muF"
@@ -35260,11 +35260,11 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 200.3552 309.88 0)
+			(at 198.4248 302.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
